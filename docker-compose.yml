@@ -1,0 +1,16 @@
+version: '3' 
+services:
+  docker-nebteans:
+    image: openkbs/eclipse-oxygen-docker
+    build:
+      context: ./Dockerfile
+    container_name: docker-eclipse-oxygen-docker
+    environment:
+      - USER_ID=${USER_ID:-1100}
+      - GROUP_ID=${GROUP_ID:-1100}
+    env_file:
+      - ./docker.env
+    volumes:
+      - ./.eclipse-oxygen-docker:/home/developer/.eclipse-oxygen-docker
+      - ./workspace:/home/developer/workspace
+

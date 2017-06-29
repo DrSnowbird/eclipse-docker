@@ -1,2 +1,2 @@
-# eclipse-neon-docker
-eclipse-neon-docker
+# eclipse-oxygen-docker
+eclipse-oxygen-docker
