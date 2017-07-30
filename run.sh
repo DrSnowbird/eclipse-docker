@@ -30,9 +30,9 @@ imageTag=${1:-"openkbs/eclipse-oxygen-docker"}
 PACKAGE=`echo ${imageTag##*/}|tr "/\-: " "_"`
 
 docker_volume_data1=/home/developer/.eclipse
-docker_volume_data2=/home/developer/workspace
+docker_volume_data2=/home/developer/eclipse-workspace
 local_docker_data1=${baseDataFolder}/${PACKAGE}/.eclipse
-local_docker_data2=${baseDataFolder}/${PACKAGE}/workspace
+local_docker_data2=${baseDataFolder}/${PACKAGE}/eclipse-workspace
 
 #### ---- local data folders on the host ----
 mkdir -p ${local_docker_data1}
@@ -64,7 +64,7 @@ docker run -ti --rm \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v ${local_docker_data1}:${docker_volume_data1} \
     -v ${local_docker_data2}:${docker_volume_data2} \
-    ${imageTag} /home/developer/eclipse/eclipse
+    ${imageTag}
     
 echo ">>> Docker Status"
 docker ps -a | grep "${instanceName}"
