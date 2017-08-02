@@ -8,9 +8,11 @@ services:
     environment:
       - USER_ID=${USER_ID:-1100}
       - GROUP_ID=${GROUP_ID:-1100}
+      - DISPLAY=$DISPLAY
     env_file:
       - ./docker.env
     volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
       - ./.eclipse-oxygen-docker:/home/developer/.eclipse-oxygen-docker
       - ./workspace:/home/developer/workspace
 
