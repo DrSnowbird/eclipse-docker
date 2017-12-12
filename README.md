@@ -17,3 +17,8 @@ The above approach will ensure all your projects created in the container's "/wo
 ```
 ./run.sh
 ```
+
+## Other docker-based IDE
+* [openkbs/intellij-docker](https://hub.docker.com/r/openkbs/intellij-docker/)
+* [openkbs/netbeans](https://hub.docker.com/r/openkbs/netbeans/)
+* [openkbs/scala-ide-docker](https://hub.docker.com/r/openkbs/scala-ide-docker/)
