@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 if [ $# -lt 1 ]; then
     echo "Usage: "
@@ -58,7 +58,7 @@ echo "---------------------------------------------"
 echo "---- Starting a Container for ${imageTag}"
 echo "---------------------------------------------"
 # DISPLAY=${MY_IP}:0
-export DISPLAY=:0
+export DISPLAY=:0.0
 docker run -ti --rm \
     --name=${instanceName} \
     -e DISPLAY=$DISPLAY \

@@ -21,7 +21,7 @@ The above approach will ensure all your projects created in the container's "/wo
 # Display X11 Issue
 More resource in X11 display of Eclipse on your host machine's OS, please see
 * [X11 Display problem](https://askubuntu.com/questions/871092/failed-to-connect-to-mir-failed-to-connect-to-server-socket-no-such-file-or-di)
-
+* [X11 Display with Xhost] (http://www.ethicalhackx.com/fix-gtk-warning-cannot-open-display/)
 ## Other docker-based IDE
 * [openkbs/intellij-docker](https://hub.docker.com/r/openkbs/intellij-docker/)
 * [openkbs/netbeans](https://hub.docker.com/r/openkbs/netbeans/)
