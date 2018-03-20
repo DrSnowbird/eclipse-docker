@@ -15,4 +15,5 @@ services:
       - /tmp/.X11-unix:/tmp/.X11-unix
       - ./.eclipse-oxygen-docker:/home/developer/.eclipse-oxygen-docker
       - ./workspace:/home/developer/workspace
+      - ./.eclipse:/home/developer/.eclipse
 

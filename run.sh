@@ -57,7 +57,8 @@ echo "docker run -d --name ${instanceName} -v ${docker_data}:/${docker_volume_da
 echo "---------------------------------------------"
 echo "---- Starting a Container for ${imageTag}"
 echo "---------------------------------------------"
-DISPLAY=${MY_IP}:0 \
+# DISPLAY=${MY_IP}:0
+export DISPLAY=:0
 docker run -ti --rm \
     --name=${instanceName} \
     -e DISPLAY=$DISPLAY \
