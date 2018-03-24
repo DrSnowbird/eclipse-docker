@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+	<extension point="org.eclipse.ui.views">
+		<category id="org.eclipse.recommenders.rcp.views.root"
+			name="%views.root.name"/>
+	</extension>
+	<extension point="org.eclipse.ui.preferencePages">
+		<page id="org.eclipse.recommenders.rcp.preferencePages.root"
+			class="org.eclipse.recommenders.injection.ExtensionFactory:org.eclipse.recommenders.internal.rcp.RootPreferencePage"
+			name="%preferencePages.root.name"/>
+	</extension>
+	<extension point="org.eclipse.ui.intro.configExtension">
+		<configExtension
+			configId="org.eclipse.ui.intro.universalConfig"
+			content="intro/overview.xml"/>
+	</extension>
+	<extension point="org.eclipse.recommenders.injection.modules">
+		<module class="org.eclipse.recommenders.internal.rcp.RcpModule"/>
+	</extension>
+	<extension point="org.eclipse.recommenders.utils.rcp.linkContribution">
+		<linkContribution
+			commandId="org.eclipse.recommenders.utils.rcp.commands.openBrowser"
+			label="%linkContribution.homepage.label"
+			icon="icons/obj16/homepage.png"
+			preferencePageId="org.eclipse.recommenders.rcp.preferencePages.root"
+			priority="0"/>
+		<linkContribution
+			commandId="org.eclipse.recommenders.utils.rcp.commands.openBrowser"
+			label="%linkContribution.manual.label"
+			icon="icons/obj16/manual.gif"
+			preferencePageId="org.eclipse.recommenders.rcp.preferencePages.root"
+			priority="10"/>
+		<linkContribution
+			commandId="org.eclipse.recommenders.utils.rcp.commands.openBrowser"
+			label="%linkContribution.marketplace.label"
+			icon="icons/obj16/favorite_star.png"
+			preferencePageId="org.eclipse.recommenders.rcp.preferencePages.root"
+			priority="20"/>
+		<linkContribution
+			commandId="org.eclipse.recommenders.utils.rcp.commands.openBrowser"
+			label="%linkContribution.twitter.label"
+			icon="icons/obj16/bird_blue_16.png"
+			preferencePageId="org.eclipse.recommenders.rcp.preferencePages.root"
+			priority="30"/>
+		<linkContribution
+			commandId="org.eclipse.recommenders.rcp.commands.extensionDiscovery"
+			label="%linkContribution.extensionDiscovery.label"
+			icon="icons/obj16/lightbulb.png"
+			preferencePageId="org.eclipse.recommenders.rcp.preferencePages.root"
+			priority="40"/>
+		<linkContribution
+			commandId="org.eclipse.recommenders.utils.rcp.commands.openBrowser"
+			label="%linkContribution.forum.label"
+			icon="icons/obj16/forum.png"
+			preferencePageId="org.eclipse.recommenders.rcp.preferencePages.root"
+			priority="50"/>
+	</extension>
+	<extension point="org.eclipse.ui.commands">
+		<command id="org.eclipse.recommenders.rcp.commands.extensionDiscovery"
+			defaultHandler="org.eclipse.recommenders.internal.rcp.preferences.ExtensionDiscoveryHandler"
+			name="%commands.extensionDiscovery.name">
+			<commandParameter id="org.eclipse.recommenders.utils.rcp.linkContribution.href"
+				name="%commandParameter.uri.name"
+				optional="false">
+			</commandParameter>
+		</command>
+	</extension>
+	<extension point="org.eclipse.mylyn.tasks.bugs.support">
+		<product id="org.eclipse.recommenders"
+			providerId="org.eclipse"
+			icon="icons/about/32x32.png"
+			name="%support.recommenders.name"
+			description="%support.recommenders.description"
+			url="https://www.eclipse.org/recommenders/community/"/>
+		<mapping namespace="org.eclipse.recommenders" productId="org.eclipse.recommenders">
+			<property name="product" value="Recommenders"/>
+			<property name="component" value="Core"/>
+		</mapping>
+		<mapping namespace="org.eclipse.recommenders.apidocs" productId="org.eclipse.recommenders">
+			<property name="component" value="Extdoc"/>
+		</mapping>
+		<mapping namespace="org.eclipse.recommenders.calls" productId="org.eclipse.recommenders">
+			<property name="component" value="Completion"/>
+		</mapping>
+		<mapping namespace="org.eclipse.recommenders.chain" productId="org.eclipse.recommenders">
+			<property name="component" value="Completion"/>
+		</mapping>
+		<mapping namespace="org.eclipse.recommenders.completion" productId="org.eclipse.recommenders">
+			<property name="component" value="Completion"/>
+		</mapping>
+		<mapping namespace="org.eclipse.recommenders.constructors" productId="org.eclipse.recommenders">
+			<property name="component" value="Completion"/>
+		</mapping>
+		<mapping namespace="org.eclipse.recommenders.overrides" productId="org.eclipse.recommenders">
+			<property name="component" value="Completion"/>
+		</mapping>
+	</extension>
+</plugin>
