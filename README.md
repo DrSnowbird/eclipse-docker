@@ -21,10 +21,10 @@ If you run "./run.sh" instead of "docker-compose up", you don't have to do anyth
 ```
 $HOME/data_docker/eclipse-oxygen-docker/workspace
 ```
-
 The above configuration will ensure all your projects created in the container's "/workspace" being "persistent" in your local folder, "$HOME/data_docker/eclipse-oxygen-docker/workspace", for your repetitive restart docker container.
 
 # Display X11 Issue
+
 More resource in X11 display of Eclipse on your host machine's OS, please see
 * [X11 Display problem](https://askubuntu.com/questions/871092/failed-to-connect-to-mir-failed-to-connect-to-server-socket-no-such-file-or-di)
 * [X11 Display with Xhost](http://www.ethicalhackx.com/fix-gtk-warning-cannot-open-display/)
@@ -32,3 +32,12 @@ More resource in X11 display of Eclipse on your host machine's OS, please see
 * [openkbs/intellij-docker](https://hub.docker.com/r/openkbs/intellij-docker/)
 * [openkbs/netbeans](https://hub.docker.com/r/openkbs/netbeans/)
 * [openkbs/scala-ide-docker](https://hub.docker.com/r/openkbs/scala-ide-docker/)
+
+# Other possible Issues
+You might see the warning message in the launching xterm console like below, you can just ignore it. I googles around and some blogs just suggested to ignore since the Eclipse IDE still functional ok.
+```
+** (eclipse:1): WARNING **: Couldn't connect to accessibility bus: Failed to connect to socket /tmp/dbus-wrKH8o5rny: Connection refused
+
+** (java:7): WARNING **: Couldn't connect to accessibility bus: Failed to connect to socket /tmp/dbus-wrKH8o5rny: Connection refused
+
+```
