@@ -1,22 +1,28 @@
 # eclipse-oxygen-docker
-
+[![](https://images.microbadger.com/badges/image/openkbs/eclipse-oxygen-docker.svg)](https://microbadger.com/images/openkbs/eclipse-oxygen-docker "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/openkbs/eclipse-oxygen-docker.svg)](https://microbadger.com/images/openkbs/eclipse-oxygen-docker "Get your own version badge on microbadger.com")
 * Eclipse-Oxygen + Java 8 (1.8.0_162) JDK + Maven 3.5.0 + Python 3.5.2 + X11 (display GUI)
 
-# Configuration
-The docker container will assume there is a default /workspace folder. So, it is suggested to mount host <some_path>/workspace to map to the container's internal workspace folder. The default, './run.sh', will use/create the local folder, "$HOME/data_docker/eclipse-oxygen-docker/workspace" to map into the docker's internal "/workspace" folder.
+# Run
+Image is pulling from openkbs/eclipse-oxygen-docker
+```
+./run.sh
+```
 
-The above approach will ensure all your projects created in the container's "/workspace" folder is "persistent" in your local folder, i.e., "$HOME/data_docker/eclipse-oxygen-docker/workspace"
-
-
-# Build (if you want build your local docker image instead of pulling from openkbs/eclipse-oxygen-docker)
+# Build
+You can build your own image locally.
 ```
 ./build.sh
 ```
 
-# Run
+# Configurations (Optional)
+If you run "./run.sh" instead of "docker-compose up", you don't have to do anything as below.
+* The container uses a default "/workspace" folder. 
+* The script "./run.sh" will re-use or create the local folder in your $HOME directory with the path below to map into the docker's internal "/workspace" folder.
 ```
-./run.sh
+$HOME/data_docker/eclipse-oxygen-docker/workspace
 ```
+
+The above configuration will ensure all your projects created in the container's "/workspace" being "persistent" in your local folder, "$HOME/data_docker/eclipse-oxygen-docker/workspace", for your repetitive restart docker container.
 
 # Display X11 Issue
 More resource in X11 display of Eclipse on your host machine's OS, please see
