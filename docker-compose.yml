@@ -14,5 +14,5 @@ services:
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
       - ./eclipse-workspace:/home/developer/eclipse-workspace
-      - ./.eclipse:/home/developer/.eclipse
+      - ./eclipse:/home/developer/.eclipse
 

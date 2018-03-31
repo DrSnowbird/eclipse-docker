@@ -1,0 +1,1572 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.ui.intro.universal;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: genie.releng
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.6.0,4.0.0)
+ ",org.eclipse.help;bundle-version="[3.5.0,4.0.0)",org.eclipse.ui;bund
+ le-version="[3.6.0,4.0.0)",org.eclipse.ui.intro;bundle-version="[3.4.
+ 0,4.0.0)",org.eclipse.ui.intro.quicklinks;bundle-version="1.0.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy;exclude:="org.eclipse.ui.internal.intro.
+ universal.contentdetect"
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/platfo
+ rm/eclipse.platform.ua.git;path="org.eclipse.ui.intro.universal";tag=
+ "I20170515-2000";commitId=7b863843e66c10cbe71b2fc2ad73bdddffc3c32b
+Bundle-Vendor: %provider_name
+Import-Package: javax.xml.parsers,org.w3c.dom,org.xml.sax
+Eclipse-LazyStart: true; exceptions="org.eclipse.ui.internal.intro.uni
+ versal.contentdetect"
+Export-Package: org.eclipse.ui.internal.intro.universal;x-friends:="or
+ g.eclipse.ua.tests",org.eclipse.ui.internal.intro.universal.contentde
+ tect;x-friends:="org.eclipse.ua.tests",org.eclipse.ui.internal.intro.
+ universal.util;x-internal:=true,org.eclipse.ui.intro.universal
+Bundle-Name: %plugin_name
+Bundle-Version: 3.3.100.v20170515-1335
+Bundle-Localization: plugin
+Bundle-ClassPath: .
+Bundle-Activator: org.eclipse.ui.internal.intro.universal.UniversalInt
+ roPlugin
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_121
+
+Name: org/eclipse/ui/internal/intro/universal/UniversalIntroPlugin.cla
+ ss
+SHA-256-Digest: plJ3eUGHBOKHbuuzyuFJoL+PFlAwktTOqvQ8x1u1Moc=
+
+Name: themes/slate/graphics/rootpage/tutorials48_hov.png
+SHA-256-Digest: uWst88T92CmqHVPXyMO2QB5E31z+l8TAibPia7swizk=
+
+Name: themes/circles/html/rtl.css
+SHA-256-Digest: I1O5Ock4AAlHh90VyzHHiXAwIjZUF4IpMwkoGeoGdEw=
+
+Name: themes/solstice/graphics/icons/ctool/wr_nav.png
+SHA-256-Digest: ueEtMo6y1dEfKVuQS4Kpf0xbaE4QPHg/G6PqAMLNwLk=
+
+Name: themes/circles/graphics/icons/ctool/sa_onesample48.gif
+SHA-256-Digest: McnxdoGS/lZZR0SnWd11BVt/4Tp3vor2Qs/PhVWxsIc=
+
+Name: themes/circles/graphics/icons/ctool/wn_nav_hover.gif
+SHA-256-Digest: gDJ6Nppb2iZuQtOROLjE8yz3Ns2PmUQ+GTg8h0P4c4w=
+
+Name: themes/slate/graphics/icons/ctool/firststeps-select.gif
+SHA-256-Digest: flRIVf9RkHr7bbIA7mhd9wiLza2Mhk2eviQi6MKu03o=
+
+Name: themes/slate/graphics/standby/sa_standbyhov.gif
+SHA-256-Digest: w1qqiCEY3b7k6qWXVxCqvrgQzrlLmgwitmZdQmqLrEM=
+
+Name: themes/slate/graphics/standby/fs_standbyhov.gif
+SHA-256-Digest: 8JMtf0IXKkmOB5bYuGHA+HTA/H93JdydzSGctJg27l0=
+
+Name: themes/slate/graphics/icons/ctool/workbench.png
+SHA-256-Digest: gzHyGiCmV3N1fn4CIhss69u3sgFpsRDbq/+ND0bGxX8=
+
+Name: icons/full/obj16/ilow_obj@2x.png
+SHA-256-Digest: 4VYapzjKpRL5M4S4H3a4q0cQiZJiVHI5NLC8y0L6Uys=
+
+Name: themes/circles/graphics/icons/ctool/workbench_tophov.gif
+SHA-256-Digest: 2zf+wb8CuAwUudLqwikut+5U3UkaU+gXjRrk9mjLujE=
+
+Name: themes/purpleMesh/graphics/launchbar/webresources16.png
+SHA-256-Digest: TJKRXp+38sWizrrWQjOelIeXZ5mecNte3m2JkzOMPuI=
+
+Name: themes/circles/graphics/icons/ctool/tu_nav.png
+SHA-256-Digest: WvVHzf/OWnrTDGHYqkdfM95HLa99eZPmq2Ee39CcVgw=
+
+Name: themes/slate/graphics/rootpage/whatsnew48.png
+SHA-256-Digest: KeWpj6gexCHF9ZaknFOkBvG1aNJxNRXUhTKzQbmgRrA=
+
+Name: themes/purpleMesh/graphics/icons/etool/tutorials48.gif
+SHA-256-Digest: RCKsRyhqXlRwGkyrKgzjZTH8EBDmMn9CP35BXoNHXJg=
+
+Name: themes/circles/graphics/icons/ctool/webresources_tophov.gif
+SHA-256-Digest: wd4nXsMrXCVHc+j1JvYtiZue8fD3BPZmWKd4RqVsTcM=
+
+Name: themes/purpleMesh/graphics/icons/etool/wb48.gif
+SHA-256-Digest: Odsq5BDQXEhChqakba9cJVeByyRjgkNnuGHKVRkiF+w=
+
+Name: themes/circles/graphics/launchbar/webresources16.png
+SHA-256-Digest: TJKRXp+38sWizrrWQjOelIeXZ5mecNte3m2JkzOMPuI=
+
+Name: themes/slate/html/ltr.css
+SHA-256-Digest: Ce2IXSLQy9Vd7FG79Lc9NamkbKeHMJeLU3icoYj6kzQ=
+
+Name: themes/circles/graphics/icons/ctool/wr_nav_64.gif
+SHA-256-Digest: IdBoUHKLeLwCLPqHIZzsKSxar/7f1fDFFMQMMSS3lxs=
+
+Name: themes/circles/graphics/icons/ctool/nav_midhov.gif
+SHA-256-Digest: jLge8B9Hv3mp9vsXHkekgzsIZgjT03aOMqhZ9OTmvqk=
+
+Name: themes/solstice/graphics/icons/ctool/new-project.png
+SHA-256-Digest: hgibIxJO9OGbjaStORjRqgsLsWQom3m3dWGi7JF2e7I=
+
+Name: themes/slate/swt/webresources.properties
+SHA-256-Digest: tEDcCqzmA1MKyxnyHqf867uS3baCVjkUr//NK3WQLaQ=
+
+Name: themes/purpleMesh/graphics/icons/etool/tutorials72.gif
+SHA-256-Digest: w+4CiUgh36pSgXFxTzU1UjwLRy4z9JK7zo7N4jKbJTc=
+
+Name: themes/purpleMesh/graphics/icons/ctool/webrsrc16.png
+SHA-256-Digest: TJKRXp+38sWizrrWQjOelIeXZ5mecNte3m2JkzOMPuI=
+
+Name: themes/purpleMesh/graphics/swt/form_banner.gif
+SHA-256-Digest: q07DTHnAatErgxMNpokGb21anbBdvTEwRPDe6O6y/as=
+
+Name: themes/solstice/html/rtl.css
+SHA-256-Digest: LTH9nRTA556H2axM6yoWNcUQ8bIsaP05T5DBTwjkeeM=
+
+Name: themes/circles/graphics/contentpage/wn_banner.jpg
+SHA-256-Digest: Xg9L5ETwoh7RoeX/ubfnWCCLTXCZwC5fkPz3ufudPqY=
+
+Name: themes/slate/graphics/icons/ctool/samples.png
+SHA-256-Digest: S8OE9CrWD9lqFDmdJryrY1xzAYb7bhfPq31C1aE4uPs=
+
+Name: org/eclipse/ui/internal/intro/universal/BaseData.class
+SHA-256-Digest: zTMGSNRBOzGkNfIRjw/IyVxKf/mOJmm1f/8odS43z1g=
+
+Name: themes/slate/graphics/standby/tu_standby.gif
+SHA-256-Digest: NKbsyzplKfJCnjOMW75Pj0kSNGIR0DwfA7KZcpbVrFo=
+
+Name: themes/circles/graphics/icons/ctool/arrow_rtl.gif
+SHA-256-Digest: oA6dsWBurOhmy0m9aUWrORZhSEKqYaMoxdlrwYsCK2s=
+
+Name: themes/circles/graphics/contentpage/fs_banner.jpg
+SHA-256-Digest: d+YzPy3HTO9MJPwby3DaBNPaFBcXIg6QPD7FTO3kegE=
+
+Name: themes/circles/graphics/icons/ctool/wr_nav_32.gif
+SHA-256-Digest: oUI5KR+cy3fIvKm6AUROavLmAt7w8j3ZKyg81SmMfpI=
+
+Name: themes/purpleMesh/graphics/icons/ctool/whatsnew72.gif
+SHA-256-Digest: MX6qR+d0hgcHCGrl6c7FhQHIbHzH/V4z3S0A53vqFKA=
+
+Name: themes/slate/graphics/icons/ctool/fs_nav_32.gif
+SHA-256-Digest: EzlDJ1qnWZwsYFKFdYbTt0uN9k7IeRFEw1xJkHjOAPE=
+
+Name: themes/purpleMesh/graphics/icons/ctool/whatsnew48.gif
+SHA-256-Digest: reQ76GRiY6Hb04fNiUZ3B2avoZmLtVWIC4azXYklfeU=
+
+Name: icons/full/obj16/icallout_obj@2x.png
+SHA-256-Digest: KqWGxGlUV/ATQZ+11B0AHybP2ApXagImDIRJh4zm0Ps=
+
+Name: themes/slate/graphics/rootpage/samples48.gif
+SHA-256-Digest: FqNCmV+56hOoAUFJJSl38UNZ8pyCmoZ1BzFp2WA21fQ=
+
+Name: themes/circles/html/samples.css
+SHA-256-Digest: 86rayhtlpPCV37CmmX+ddL20ANpcW+Qx7E21C1PiLiQ=
+
+Name: themes/solstice/graphics/icons/ctool/wb_nav.png
+SHA-256-Digest: QR1FVK/3BTdiNt4goNfRsx0kk15AW8VES07yAbkFaYo=
+
+Name: themes/slate/graphics/rootpage/overview48_hov.gif
+SHA-256-Digest: DmB2cLi63c/4Bvni/N2MDl5i/0eSZRxQM6kL4anzw4k=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a$7.class
+SHA-256-Digest: SdiYlzQEFRZ53IqD+4sviqxTMma9QZx4+ssG6d/CE0o=
+
+Name: themes/purpleMesh/graphics/root/dots.gif
+SHA-256-Digest: qgR0BUOD0oc/tw202JkBsPXFQ4474u5h+021ivRfWpQ=
+
+Name: themes/circles/graphics/icons/ctool/tutorials.png
+SHA-256-Digest: 5JvAV0l1QV8NAEX63Oox7VKiJsaB4xG8ccDJTRnUN0o=
+
+Name: themes/slate/graphics/icons/ctool/wn_nav_32.gif
+SHA-256-Digest: wHMzDnKv6fFTtl4P/ICo8mjhveaBzYGKodrCl6wJgeE=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a$TableLabelProvider.class
+SHA-256-Digest: 3pYM8K9YxLYfaSGxAVmNzBQaw1PkHiO4Mkeq5hJ68hk=
+
+Name: themes/circles/graphics/icons/ctool/overview.gif
+SHA-256-Digest: uR8NtdSjQxWq7wvtXKBBIU45fh//meepnC6iPsdJZAQ=
+
+Name: themes/solstice/html/migrate.css
+SHA-256-Digest: +yiEsTKHNbc83R3E8Z32ofSLd4cGL2Im6QTePvCu70k=
+
+Name: themes/circles/graphics/launchbar/tutorials16.png
+SHA-256-Digest: hIuMh8Fz1173aDn3jMJUOx2BPnQz+Ec3WPX1sLLFTI0=
+
+Name: themes/slate/graphics/contentpage/sa_banner.jpg
+SHA-256-Digest: TcFjrR9jXm8jixf5IyW6vrusmBEbxDt0wyKhgCG0atQ=
+
+Name: themes/purpleMesh/swt/firststeps.properties
+SHA-256-Digest: Ibw8LqCSZfjGYJW5YPljuzePEsfPbFTyE2oqf03LUVE=
+
+Name: themes/purpleMesh/graphics/icons/ctool/firsteps48sel.gif
+SHA-256-Digest: cyT5eahdZwZXm7Ourjwu7Lu95eV23HK8cnnZo2gFRqA=
+
+Name: themes/solstice/graphics/icons/ctool/overview.png
+SHA-256-Digest: GE8FaqIT1rTMIdNgH6L8JLCtM/Qn2pQsGUYnH2vXs/Q=
+
+Name: themes/solstice/graphics/launchbar/whatsnew16.png
+SHA-256-Digest: Xgt7LyqjUe1FVNEhNoKzIW6YKHwg8b6CL+St29/JAbw=
+
+Name: org/eclipse/ui/internal/intro/universal/WelcomeCustomizationPref
+ erencePage.class
+SHA-256-Digest: kMnsBFx8syycozkRSzd7ZusVxXibc3wIpAJTHXC+Ggo=
+
+Name: themes/circles/swt/root.properties
+SHA-256-Digest: +I+jDMSmdS/zS6DJmS1udhRDskeGe6vQD0OlD5HSSSY=
+
+Name: themes/slate/graphics/rootpage/workbench48_hov.gif
+SHA-256-Digest: FqNM+2XDVIgwwdF6I/BPlkR6Ea6NC167YYjQeiJ8HEo=
+
+Name: themes/circles/graphics/launchbar/firststeps16.png
+SHA-256-Digest: 9LoIME2d0RLc1NnwJxfSPQETCTan094r3k9xcIX64Q0=
+
+Name: themes/purpleMesh/graphics/icons/ctool/firsteps48.gif
+SHA-256-Digest: 38NLE9g1qgWMvaccOMgGjfngQf5TL8mytP+zxHVb/6M=
+
+Name: themes/circles/graphics/icons/ctool/sa_nav_32.gif
+SHA-256-Digest: kK/uoFvMKOqjBFZr1va5f1qPlZBZAKNTiKl+Cm4uxmw=
+
+Name: themes/slate/graphics/rootpage/webresources48.png
+SHA-256-Digest: OyqBzWays9Uta3iCUa8DAC3dxsUbJQj7aR4aoFHC0jM=
+
+Name: themes/circles/graphics/contentpage/tu_banner.jpg
+SHA-256-Digest: MMewR2RskmgExGViwhvYIxT7ZTr7wylsWuTNLhpF+s4=
+
+Name: themes/slate/graphics/icons/ctool/whatsnew.png
+SHA-256-Digest: DesgJPIP4z5mITW/DMb1XJKqM/vqOL4FTaJATfSQGzc=
+
+Name: themes/circles/graphics/standby/wn_standby.gif
+SHA-256-Digest: x2S5f4pMuEPHTdFPctQyxMDZVuGZK+m89kZRelk2VZc=
+
+Name: themes/solstice/graphics/icons/ctool/open-file.png
+SHA-256-Digest: y90IYn9Fn0Gk0D1kVluxZ3tsh0HulpP6vCBPs0CyOVU=
+
+Name: themes/slate/graphics/rootpage/migrate48_hov.gif
+SHA-256-Digest: TANT4INzkJqUrdDOwS7XASpJerpcLXKb3+OQBDdryJ4=
+
+Name: themes/purpleMesh/graphics/icons/ctool/overview48sel.gif
+SHA-256-Digest: uCef00s84lr4aXGF+kDfx7QdwwezSaMH5nWafKdmy5s=
+
+Name: themes/slate/graphics/standby/wr_standby.gif
+SHA-256-Digest: 5lRGUvRyIQJ7hK2gfbQo4HQ8tuxTkv2cnGub9v3g7Bs=
+
+Name: themes/purpleMesh/graphics/launchbar/overview.gif
+SHA-256-Digest: Yp5JOKApx0aQsPiTAXOwDZ/JEhNs5nRLYp8dmeMvZa8=
+
+Name: themes/purpleMesh/html/webresources.css
+SHA-256-Digest: F3MpYUZ2oTOm0plhOHSzUjAmUWsLTzFB6CV3HCHoPSM=
+
+Name: themes/shared/graphics/contentpage/tu-sa_high.gif
+SHA-256-Digest: gRY3BtSUiydAXRINQPFvSejgvEczSgZ2FNv4Ftt9ERM=
+
+Name: themes/purpleMesh/graphics/launchbar/tutorials.gif
+SHA-256-Digest: Z7kt2y1CwcmTNT04SruyEwel9kn9xSrKH11YOHTVWuM=
+
+Name: themes/circles/preview.png
+SHA-256-Digest: SBIY1MJnpxbSiBwevsBy5zXJyMhIjojsDewxaL+iFnU=
+
+Name: themes/slate/graphics/standby/tu_standbyhov.gif
+SHA-256-Digest: 9fPUWxkhBw4+zw/vupIpozUf5MqYBc2RkbcSA8b11Ec=
+
+Name: themes/shared/html/shared.css
+SHA-256-Digest: 4lUokx3qN6aRJcUZ1DLPU8qf0ozDKhygJrSTfPT3PiE=
+
+Name: themes/circles/graphics/contentpage/mi_banner.jpg
+SHA-256-Digest: EY9sz+bl5mfApFiStn+fYWgti/xXhjMMZuNKPSKEXPE=
+
+Name: themes/slate/graphics/icons/ctool/sa_nav.png
+SHA-256-Digest: kJyOgqd4blU/R57mjRbbnZoaAVjGqqfXffUDv7xBkD4=
+
+Name: themes/purpleMesh/graphics/contentpage/background.jpg
+SHA-256-Digest: lf9mEkKxWxkf4eSSu1P+y0ZfXO4D+IswDG2nYtXy/kE=
+
+Name: themes/shared/graphics/contentpage/wr-mi_med.gif
+SHA-256-Digest: dsSNxVxUFv0QAgeO7Hxyrs1tiN6KZU9cOxtLFFpzBUo=
+
+Name: themes/circles/graphics/standby/wb_standbyhov.gif
+SHA-256-Digest: sxhJyQOnYgqrXcJLyL+cwpcjVi3ovSFVAXWcnWnQmC4=
+
+Name: themes/slate/graphics/standby/wb_standby.gif
+SHA-256-Digest: mewAWbMOkxLHT7aZCyIsXtsIlOV4QoDGFwkcFCoGX0k=
+
+Name: themes/solstice/graphics/icons/ctool/settings.png
+SHA-256-Digest: SDqEqcLSbbiZ+IsQu65o1BPvSSDI6Pehdpoz09/IUgU=
+
+Name: themes/purpleMesh/graphics/icons/etool/tutorials48sel.gif
+SHA-256-Digest: Caks2ot5vENBn5AiCm1Fpm1aI6D4lssgfQ96mYO0Mjs=
+
+Name: themes/solstice/graphics/icons/ctool/firststeps.png
+SHA-256-Digest: T7+3Mm5meRB0Lr4S9Lezyu3XO5yPK9/X1oNJ8QNvaMw=
+
+Name: themes/slate/graphics/rootpage/background.jpg
+SHA-256-Digest: MXyyO2s3dgFfZOXw5ffzhcoT7dURBezsSyOUviuWO0A=
+
+Name: themes/circles/graphics/icons/ctool/migrate.gif
+SHA-256-Digest: LW/Kk1iBszTLkKIjDwIA6xulaH+A1NH5nm8JYa7H1QI=
+
+Name: themes/slate/graphics/standby/fs_standby.gif
+SHA-256-Digest: 8Xi8Jy/uCGavrAaAqgCQkuQeyMrL2A5izDq7bFh8vUo=
+
+Name: themes/circles/swt/firststeps.properties
+SHA-256-Digest: a6P8HzRJIhiyc7rJ7lppN+tEJ3cSOufTeg/pn6ERhlw=
+
+Name: themes/purpleMesh/graphics/launchbar/migrate16.png
+SHA-256-Digest: VZFlYmcrUlgP+63x2fxvfoT7JrAXcRkE2DHFp/jDkfg=
+
+Name: themes/solstice/html/font-relative.css
+SHA-256-Digest: kqW6CB6RHBy5AR6sRgvwhRNVDR4HugDSCBRpmkoJY/o=
+
+Name: org/eclipse/ui/internal/intro/universal/PageData.class
+SHA-256-Digest: Mrmkm9l3GDuCYnvgIRv98/VfIpb19rCzcciWJwy/w/8=
+
+Name: themes/slate/graphics/icons/ctool/tu_nav_32.gif
+SHA-256-Digest: VnBVnCBQCTTKIeaZwLAt1gKm4K5+0WyiN/mJTVmWVsM=
+
+Name: themes/purpleMesh/graphics/contentpage/section2.gif
+SHA-256-Digest: Ga7T/lodDUtCOlVOErI5xumz6qpyAbRq2W3ucO1MLgQ=
+
+Name: themes/circles/graphics/standby/wr_standby.gif
+SHA-256-Digest: 5lRGUvRyIQJ7hK2gfbQo4HQ8tuxTkv2cnGub9v3g7Bs=
+
+Name: org/eclipse/ui/internal/intro/universal/GroupData.class
+SHA-256-Digest: ucZ4oqYIG9WIqAKSlP0CYLuuDWYRFwv8tOSk2fQE/9k=
+
+Name: themes/solstice/graphics/icons/ctool/migrate.png
+SHA-256-Digest: A+tbWnbfhzHbEniQPBhv1X/5WpRpGuOD2bRVwoWaHTM=
+
+Name: themes/circles/graphics/icons/ctool/whatsnew.png
+SHA-256-Digest: DesgJPIP4z5mITW/DMb1XJKqM/vqOL4FTaJATfSQGzc=
+
+Name: icons/full/elcl16/configure.png
+SHA-256-Digest: Kl5o+eMePAaWKQQXu11Fb3lYyLbdzgms7ybNrFxqRFs=
+
+Name: org/eclipse/ui/internal/intro/universal/IntroData.class
+SHA-256-Digest: pH/mD1hRZdqa4tB70qohgfGC+LZIlzW+dztZCBICwrs=
+
+Name: themes/solstice/graphics/icons/ctool/ov_nav.png
+SHA-256-Digest: MejetPa2gHI3ORhMNDjmjBToxOpClc945It0g1m4hcI=
+
+Name: themes/slate/graphics/icons/ctool/mi_nav.png
+SHA-256-Digest: dT+lWLJ/aEXaqAGrCeXdq4R15jpBuypRiEy6+ieOlIU=
+
+Name: themes/shared/graphics/icons/ctool/arrow.gif
+SHA-256-Digest: z5CFoB326O0U6AJfyJWKfeQddRFEAMab8s7dIMmHxtY=
+
+Name: themes/purpleMesh/graphics/contentpage/section3.gif
+SHA-256-Digest: NChlJSTvdOpGSjzeaeKdMFeT4u5gZHM2uh/W4XoVcKs=
+
+Name: themes/circles/graphics/icons/ctool/wn_nav.png
+SHA-256-Digest: QkxelyZjPHoXNSzTeK/3mRmbWeLzm2YKmOFybK/kHjQ=
+
+Name: themes/slate/swt/tutorials.properties
+SHA-256-Digest: wLvuPlORGT1vkyvd95HpUSHqopZ9YhPrZ8wT3SuF+QE=
+
+Name: themes/circles/graphics/icons/ctool/ov_nav_rightedgehov.gif
+SHA-256-Digest: GBMu8Syy02EBDhMSSdGEzciRkMWB6oQ2y46ZTPa5cp0=
+
+Name: themes/purpleMesh/graphics/icons/etool/forward.gif
+SHA-256-Digest: Dtgjgz9PgPdx1ETsfg7w+1OUytg/Z10C1woRoVwumI0=
+
+Name: themes/purpleMesh/graphics/icons/ctool/webrsrc48sel.gif
+SHA-256-Digest: CYW2D3I4aRKDQGOmZHz/mgYrkIJagVSJ+Cl6IgNzezo=
+
+Name: themes/slate/graphics/icons/ctool/mi_nav_32.gif
+SHA-256-Digest: raSgkp1gRc6uIrc6ljv4OrswtIh/MAYnAuWDNn9BU+g=
+
+Name: themes/solstice/html/standby.css
+SHA-256-Digest: OnX10+GBf7Yf0Oh3zPl3d3Hcdk3gkTHwTi/aOGq++RY=
+
+Name: themes/solstice/html/whatsnew.css
+SHA-256-Digest: gTltQ7qOBmCN+G535g3fRiUCKbe2rkLrH3h8gDFlOpo=
+
+Name: themes/purpleMesh/graphics/icons/etool/samples48.gif
+SHA-256-Digest: cdZEpfPFLrUoK022fr4tOXAsNmIJMD5kNdeWhB8KsEc=
+
+Name: themes/circles/html/overview.css
+SHA-256-Digest: oh+yU9si1NClq/F7TCSsWMYhXbkgV8jKwLSdCD6k8xU=
+
+Name: themes/circles/graphics/icons/ctool/samples.png
+SHA-256-Digest: S8OE9CrWD9lqFDmdJryrY1xzAYb7bhfPq31C1aE4uPs=
+
+Name: themes/slate/graphics/standby/wn_standby.gif
+SHA-256-Digest: x2S5f4pMuEPHTdFPctQyxMDZVuGZK+m89kZRelk2VZc=
+
+Name: themes/circles/graphics/icons/ctool/sa_nav.png
+SHA-256-Digest: kJyOgqd4blU/R57mjRbbnZoaAVjGqqfXffUDv7xBkD4=
+
+Name: themes/purpleMesh/html/firststeps.css
+SHA-256-Digest: sjriF7453m6edG4XyoShRFTODZGOEurTqOk9yOGyX+M=
+
+Name: themes/purpleMesh/graphics/icons/ctool/firsteps16.png
+SHA-256-Digest: 9LoIME2d0RLc1NnwJxfSPQETCTan094r3k9xcIX64Q0=
+
+Name: themes/circles/graphics/icons/ctool/tu_nav_64.gif
+SHA-256-Digest: EXGf4nhBRj7E7ZYeyEtLaAFJb0t/n2x/BWxUGuukC8Y=
+
+Name: themes/slate/graphics/icons/ctool/firststeps.png
+SHA-256-Digest: qzs172NknNbbnLX59i0Me7c/IyXyRyX3BiKAi6WuudM=
+
+Name: themes/purpleMesh/graphics/icons/ctool/samples72.gif
+SHA-256-Digest: SGtIvNgGbTUI6tq7srZKhP5mc8HQcYvoxF7MK6kfAWQ=
+
+Name: themes/solstice/graphics/icons/ctool/start-cheatsheet.png
+SHA-256-Digest: 05lUnOChvFjRsopelwQC40Cv3uQZP3lfVIJY2WcTVHc=
+
+Name: themes/circles/graphics/standby/mi_standby.gif
+SHA-256-Digest: 7cQzUdWY5KLlONoUF1/Xnkzh2C88xScCoc82o7N1PHE=
+
+Name: themes/purpleMesh/graphics/icons/etool/samples48sel.gif
+SHA-256-Digest: 1KgD+YK79l1to/jn61UWlrlUEdPRGiC25BQpvorNlnU=
+
+Name: themes/purpleMesh/graphics/icons/etool/migrate72.gif
+SHA-256-Digest: hO/pQlMzFRr1svp9A609uWpCyzdC+esV06SUyQos1/E=
+
+Name: themes/purpleMesh/html/font-relative.css
+SHA-256-Digest: WdQq5echDrogCyB+DcKLZEAsMRyFQjzyK6H6JswZ3Og=
+
+Name: themes/circles/graphics/icons/ctool/mi_nav_hover.gif
+SHA-256-Digest: eYKjgt7fOOojVydRaOmhXx80TyMHzcPzQNRmkpnuSVE=
+
+Name: themes/slate/graphics/launchbar/samples16.png
+SHA-256-Digest: rV7HtpJKqgSFV09X1gtf71iQTWdAu+0REtUYDn13+ZA=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a$9.class
+SHA-256-Digest: 3xQdEvBogwKntD7bT+jqS25h+L1tNRAZe+dMVYpBMw4=
+
+Name: themes/solstice/graphics/icons/ctool/wn_nav.png
+SHA-256-Digest: TXXuj0RN7C4MJXLJD0lFAEFDnaO/YTpIupuCpQ9b1Jw=
+
+Name: themes/solstice/graphics/icons/eclipse-800x188.png
+SHA-256-Digest: W6oS35KEiJhI0YxtepSEhYwN1jl1VhF4+0Pu7slLZ+I=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a$TableDropTargetListener.class
+SHA-256-Digest: pCCPKFOl6GlwlgVEb42wKB53KqWg1naT7OD6fskauDA=
+
+Name: org/eclipse/ui/internal/intro/universal/util/ImageUtil.class
+SHA-256-Digest: FXbkt6FOWRTvIBuHI1uTQuoFX0idGPVx2+NmkRTgqKY=
+
+Name: themes/purpleMesh/graphics/icons/etool/overview48.gif
+SHA-256-Digest: 4x/0zt2TiSUMDkib98ukQjKGpksHaPJgrXX7YatLi/g=
+
+Name: themes/purpleMesh/graphics/contentpage/section1.gif
+SHA-256-Digest: MK4tFItCVaUyj886tHL9oAjUbiipyoGVpShPXJSimfo=
+
+Name: themes/circles/graphics/icons/ctool/overview_midhov.gif
+SHA-256-Digest: 9+bt4V6zDJTcX7zIlEzk1eeFq7sjHGybnfqelRdyMpA=
+
+Name: themes/slate/swt/standby.properties
+SHA-256-Digest: WeAxa3ruRf4NXrNtyHW+hRYE5qUhHLmT++VPZHQEh70=
+
+Name: themes/slate/html/shared.css
+SHA-256-Digest: PmpCGBbVkCO0t00q+5e/jmYngYO1YS0B0QDbK5OQ+uU=
+
+Name: themes/purpleMesh/graphics/contentpage/whatsnew_wtr.jpg
+SHA-256-Digest: RXnDGLC9QfCaGsujRQbWS/y8K3MaJ1QzP4uTFbrBO6U=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a$TableDragSourceListener.class
+SHA-256-Digest: CtoHYiyZCInG3AzreQYMD72q/Y8ueocwmPPDm/MUhso=
+
+Name: themes/solstice/html/tutorials.css
+SHA-256-Digest: DL+qYkhtFiPM6BSj0vIyhXqh0COiMjmYeL7zXamO+A8=
+
+Name: themes/slate/graphics/standby/ov_standbyhov.gif
+SHA-256-Digest: B4D2xmIHxKfMltoYCKtVZ/ZldSAylaHjHczJ61ASxnE=
+
+Name: themes/solstice/html/overview.css
+SHA-256-Digest: sxbjueZUqU3IVWU7yJF9Dd0ZXuoiQ/pSesUPe5dfxtA=
+
+Name: themes/slate/graphics/icons/ctool/tu_nav.png
+SHA-256-Digest: WvVHzf/OWnrTDGHYqkdfM95HLa99eZPmq2Ee39CcVgw=
+
+Name: themes/purpleMesh/graphics/icons/ctool/samples48sel.gif
+SHA-256-Digest: nsHbS4xpr2TkybPe6eo51HhGzhD+rfS4Hov/EPItdHE=
+
+Name: themes/circles/graphics/icons/ctool/fs_nav_hover.gif
+SHA-256-Digest: 6zzdnqyPtSQzGdq/MIA72OupW+xZovbmHCV0ATbopQ8=
+
+Name: introContent.xml
+SHA-256-Digest: ly1RezbFyZ6f+fSEqfW8r9Ed2u6JykSjUpZ4ZFZiSoE=
+
+Name: themes/slate/graphics/rootpage/tutorials48.gif
+SHA-256-Digest: EN7lNOVcNk4Kh2a9NAG/gEMNL+nILwRlbqHdApYYmOY=
+
+Name: themes/purpleMesh/graphics/icons/ctool/tutorials16.png
+SHA-256-Digest: hIuMh8Fz1173aDn3jMJUOx2BPnQz+Ec3WPX1sLLFTI0=
+
+Name: themes/solstice/html/shared.css
+SHA-256-Digest: 5ocsyICYcMdX/+kNb27ioGWDaJP6eOcYsJIM/3C6HWI=
+
+Name: themes/circles/graphics/icons/ctool/mi_nav.png
+SHA-256-Digest: dT+lWLJ/aEXaqAGrCeXdq4R15jpBuypRiEy6+ieOlIU=
+
+Name: themes/slate/graphics/rootpage/webresources48_hov.gif
+SHA-256-Digest: 4DYN+8OCn5Vh/j6O2s06qf6iKKRzleA8StjCUNY2nMM=
+
+Name: themes/circles/graphics/icons/ctool/migrate.png
+SHA-256-Digest: Uav5cC8suOllK1+ESfxFZuZn2/vcmqiS9f2qG+E/3BY=
+
+Name: themes/slate/graphics/icons/ctool/whatsnew-select.png
+SHA-256-Digest: UTRdUj5sOhFIHmUa0urmSAjD7DWMd+gAA8aZ4gpZh6U=
+
+Name: themes/purpleMesh/graphics/icons/etool/home.gif
+SHA-256-Digest: Xilw0xCbE/J5rK+hmTabfuR+JHmEwAnjrLkGuAhIchY=
+
+Name: themes/solstice/graphics/icons/ctool/whatsnew.png
+SHA-256-Digest: NQdtJ9hIgGM8I5NI37JRDm6IDV+WmNERhHdW8FIvY0A=
+
+Name: themes/shared/graphics/icons/ctool/widget_closed_rtl.gif
+SHA-256-Digest: UIbvCVAnTFp4fOiQ2thtcc1VA034TKEewaemu1+lgzY=
+
+Name: icons/full/obj16/ihigh_obj@2x.png
+SHA-256-Digest: uiAxT7DFxahP0OTFqhHbffNCltcJktdhCn15rvGjDKI=
+
+Name: themes/purpleMesh/graphics/icons/etool/whatsnew48.gif
+SHA-256-Digest: 6v3RgE+JMmOwXw8ZDty6sdpvlUVRsRGXKdsBIPOqBrI=
+
+Name: .options
+SHA-256-Digest: zkxv8GU8yfW1gLMiVbuCM1DylnDXOhZiKJNsKo3Mv6s=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a$TableContentProvider.class
+SHA-256-Digest: uGh8kCIb6ynKLKlHSRK2EOOZGiNJRD8Pj27WrmPtUPU=
+
+Name: themes/purpleMesh/graphics/icons/ctool/webrsrc48.gif
+SHA-256-Digest: FbnNWK4U1zE6CPLlV4CNvODj92U6Q1jWFe3w2bPaE+M=
+
+Name: themes/slate/graphics/rootpage/firststeps48.gif
+SHA-256-Digest: MseksYPetVPkhhMyX7h0vfd/e2x+NRY5pYQLfmR58gQ=
+
+Name: themes/purpleMesh/graphics/icons/ctool/migrate72.gif
+SHA-256-Digest: T+xPiQH1z8aTNHxct1RVkvhFPyqjFZFShXtWSCB+Um0=
+
+Name: themes/purpleMesh/preview.png
+SHA-256-Digest: QyWO5HOCBI5lJGLrw8bMzF5GiFJcimJyUjjGA6I8dbY=
+
+Name: themes/solstice/graphics/icons/eclipse-426x100.png
+SHA-256-Digest: oycSoHTBiZXEBJSBj6eeLMy3ZD0LRCZZ1x9iq5kXSYs=
+
+Name: themes/slate/graphics/icons/ctool/migrate-select.png
+SHA-256-Digest: hDvC3g8Bp4u/LXr3w1RDcHFGHel0kMBFDNqu4eILNcQ=
+
+Name: themes/circles/graphics/icons/ctool/fs_nav.png
+SHA-256-Digest: aAryVtSBeAjaZdMmM4QdFzljFPTIbTpvUoyVlKWRpF4=
+
+Name: themes/solstice/graphics/icons/ctool/import-existing-project.png
+SHA-256-Digest: 943Ejrx1nN5oxXXmhxbpBEBlZseeciDmUJx307qzEh4=
+
+Name: themes/slate/graphics/icons/ctool/samples-select.png
+SHA-256-Digest: QpCqxX3ePAPBx112vh5q4XyvE6k5ki3YmSWjPhULDXs=
+
+Name: themes/slate/graphics/launchbar/firststeps16.png
+SHA-256-Digest: 9LoIME2d0RLc1NnwJxfSPQETCTan094r3k9xcIX64Q0=
+
+Name: themes/purpleMesh/graphics/contentpage/migrate_wtr.jpg
+SHA-256-Digest: ZofhDa3yhxljFEj6Vf7lIVk+x2gKg6IFDcDRbvdjP4w=
+
+Name: themes/slate/html/firststeps.css
+SHA-256-Digest: DLMD04Vr5hdpoplMgTGhvIQYRkjHS8I83poS/jCGeFo=
+
+Name: themes/purpleMesh/html/ltr.css
+SHA-256-Digest: Ce2IXSLQy9Vd7FG79Lc9NamkbKeHMJeLU3icoYj6kzQ=
+
+Name: themes/circles/graphics/standby/wb_standby.gif
+SHA-256-Digest: mewAWbMOkxLHT7aZCyIsXtsIlOV4QoDGFwkcFCoGX0k=
+
+Name: themes/solstice/swt/migrate.properties
+SHA-256-Digest: XfRU1ki0sqTA5u+lmSJm9gxTilRlOAXNeuW5K6335wU=
+
+Name: themes/shared/graphics/contentpage/ov_med.gif
+SHA-256-Digest: OhpDkUpBTnDsgQGA6Ph2NhmZCVInJV44sHLmD+CZOAw=
+
+Name: themes/solstice/graphics/rootpage/background.jpg
+SHA-256-Digest: nOOgJNq4XdcT96Y8GUZusxMBOGxrDdFtgz2pcYMrs0A=
+
+Name: themes/purpleMesh/graphics/icons/ctool/forward.gif
+SHA-256-Digest: NLO+kb1u31r7bNeTQpfJhw4e61C40PaHxkI/EB0EsZU=
+
+Name: themes/circles/graphics/icons/ctool/wn_nav_64.gif
+SHA-256-Digest: MZ3CXh/i2CoWGEjrjA7McS8hDHhJUP8a4+dTEqFuQAA=
+
+Name: themes/circles/graphics/icons/ctool/cpt_bottomhov.gif
+SHA-256-Digest: uQ+hycSo9pJ9AOIDao8tPTT3cEM1whSUmJKcGLqVMe8=
+
+Name: themes/solstice/graphics/icons/eclipse-logo-bw-332x78.png
+SHA-256-Digest: Rdk3n6qhuYCV0t/dIA2IdQLoZZQwLO4mCU3U7MK6PQY=
+
+Name: themes/circles/graphics/icons/ctool/samples_tophov.gif
+SHA-256-Digest: s94FR72EDzlx9+5mEorirjPTwN/jCYBwB0fhHT4AoEU=
+
+Name: themes/slate/graphics/rootpage/workbench48.gif
+SHA-256-Digest: YN8ObCNqhjKtQfgIdS7nxKHOB0i+2pWlFUVBwgcPaEc=
+
+Name: themes/slate/graphics/icons/ctool/tutorials-select.png
+SHA-256-Digest: m+iHHSr7UvlPWbqoy3NBMPcehekXhYOtTeA++KYm2KU=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a$5.class
+SHA-256-Digest: RRz23ri/xG3h+2yGLyosCGs4nyR5geZSGBNUke8W8/Y=
+
+Name: themes/purpleMesh/html/shared.css
+SHA-256-Digest: e0UrmIbIGcEjmyGR74Y/jxEYGZsWQ1Do8xyxlln8ZW4=
+
+Name: themes/purpleMesh/graphics/icons/etool/whatsnew48sel.gif
+SHA-256-Digest: 2rKiBXnWDiwUojMaKCB8J541SIRJ/Tv/a4gCgNAghuo=
+
+Name: themes/solstice/graphics/icons/ctool/fs_nav.png
+SHA-256-Digest: ZWgi5CUI6iNhL5uRl/h6vs9qT3yqOQeDMg9/m7r4Lug=
+
+Name: themes/slate/graphics/rootpage/overview48.png
+SHA-256-Digest: LMl1WCdfL6H9muw2r6VE6sRloeGXsky6mOLF/zqt8j0=
+
+Name: themes/slate/graphics/icons/ctool/ov_nav.png
+SHA-256-Digest: 7RUmvMx2qsLtidUq/0NZ0btFzyOP7bPl7Dw4Fs/PUZ0=
+
+Name: icons/full/obj16/inew_obj@2x.png
+SHA-256-Digest: eqq1n//jmm52bkzE8nDC22htwGmLJeOYrQf8Y5GtSis=
+
+Name: themes/circles/graphics/launchbar/samples16.png
+SHA-256-Digest: rV7HtpJKqgSFV09X1gtf71iQTWdAu+0REtUYDn13+ZA=
+
+Name: themes/slate/swt/root.properties
+SHA-256-Digest: O9lZNFN1svXIjf269OXxERNleSzrfTcssZJp79lZ0Aw=
+
+Name: themes/slate/graphics/contentpage/wr_banner.jpg
+SHA-256-Digest: dRjB73lc0bkb4aQpuwdtKEq3VGamM3+Vg0dv4tDOEOM=
+
+Name: themes/solstice/swt/firststeps.properties
+SHA-256-Digest: JdmzFO2YPwK4ICoXQpPVWKu/VibZN4BgMS+k9KkPDc0=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a$2.class
+SHA-256-Digest: jQSDO43QJmqH2956Sgspm3iIRWTCT6Nh6LzxdF/nnXU=
+
+Name: themes/purpleMesh/graphics/icons/etool/webrsrc72.gif
+SHA-256-Digest: 9+2JhOQzBiyckCIMDBix3UcsN3p9Jne8amMEAtuNkjc=
+
+Name: themes/slate/graphics/contentpage/mi_banner.jpg
+SHA-256-Digest: 7kCvOfC0mKR8eWmpq7zxrVbkpztTYR0PG0S7CEy3gSY=
+
+Name: themes/shared/graphics/contentpage/wn-fs_high.gif
+SHA-256-Digest: YC8GBUCjVd8LN7Pmn7krpPfb9dejMetXbdTwstMjY9g=
+
+Name: themes/shared/graphics/contentpage/tu-sa_med.gif
+SHA-256-Digest: wZ7nwVFk1vb0aqutkds1Z1T9t4MVxOF5lHgmf2R435Q=
+
+Name: themes/circles/html/firststeps.css
+SHA-256-Digest: mBjleeDbFD/S1mJS21qL3XYCmgdA/m0on/LMKTh1seo=
+
+Name: themes/slate/graphics/contentpage/tu_banner.jpg
+SHA-256-Digest: gBendQfut4fiA+A7rLNKGGnJkrMQ74CLPJJtXscdZAU=
+
+Name: themes/purpleMesh/graphics/icons/etool/migrate48sel.gif
+SHA-256-Digest: mjyW86GDBXQuZ4v5VqK5H3Cq1SvheaiKA7prT8MUa04=
+
+Name: themes/purpleMesh/swt/webresources.properties
+SHA-256-Digest: ZQtgKYa9L+GY72xdwzf+RNp9sPH4tBE3Zc1m0NMO5Qo=
+
+Name: org/eclipse/ui/internal/intro/universal/Messages.properties
+SHA-256-Digest: V32DBwtabfFwuk1adJk4BKeM0L9v2dDIr638+Q0zAxE=
+
+Name: themes/solstice/html/root.css
+SHA-256-Digest: AlY7a6Zo0AW6RbbyWXDBJ2R0NaMYpGs8qvw1486VWjI=
+
+Name: icons/full/elcl16/configure@2x.png
+SHA-256-Digest: CI0M6iV99XlNnVVwEN7HYnhlnfQLhkavCwfi5kmCCiw=
+
+Name: themes/slate/graphics/standby/sa_standby.gif
+SHA-256-Digest: pWa3jVUNnJzbDq+w3y8ydB90LmhhdWmwDgkdomUQgp0=
+
+Name: themes/purpleMesh/graphics/icons/ctool/overview48.gif
+SHA-256-Digest: zBZ77FBONBlIM+tYTgYPavkJeEfK/TOS5xmvO27EqPY=
+
+Name: themes/circles/graphics/standby/tu_standbyhov.gif
+SHA-256-Digest: 9fPUWxkhBw4+zw/vupIpozUf5MqYBc2RkbcSA8b11Ec=
+
+Name: themes/circles/graphics/standby/mi_standbyhov.gif
+SHA-256-Digest: afPvMJ3PjsRkSZj9S1xDUY0YpuWduL0ad0H8iA1Z5x0=
+
+Name: themes/solstice/html/ltr.css
+SHA-256-Digest: sCoC197oHVJtSXYwoco4hnJrU6quR3pgi+6ZOB30zRM=
+
+Name: themes/slate/graphics/rootpage/migrate48.gif
+SHA-256-Digest: fzNtSdc33flYUjq/0icQF5mFs49vMEZ1W5N781m33ow=
+
+Name: themes/circles/html/whatsnew.css
+SHA-256-Digest: XL34N2BLmau/cnlOG2/fsRowGl0L9y+83bEm3XzF/PU=
+
+Name: themes/circles/html/root.css
+SHA-256-Digest: qBTfeTZrIJ+exbjueRxT3ZibzJjai57NP+fuowsUHqE=
+
+Name: themes/circles/graphics/icons/ctool/workbench.gif
+SHA-256-Digest: gWrntfehYzY1GhUGTtBlJnP8e6AXRASD6me01Lhkfn8=
+
+Name: themes/slate/graphics/icons/ctool/overview-select.png
+SHA-256-Digest: 3CgEYtonIbkA3X1CXRZrURxzd0JdEBHabrpDJxLqj/E=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationDialog.clas
+ s
+SHA-256-Digest: S42l3HrBBbgflGQzRdfFENmqRRz4oijYr33d/MF4Bg0=
+
+Name: themes/circles/graphics/rootpage/welcomebckgrd.jpg
+SHA-256-Digest: YPtjWtzV+oBvyyJF31cwwNOFgfHaI10o4O7RGW+Fu48=
+
+Name: themes/slate/graphics/contentpage/ov_banner.jpg
+SHA-256-Digest: y1u62jsGKT3f8ed2krdet1He8AAZCXdfWC1dqlp6ctw=
+
+Name: themes/circles/html/tutorials.css
+SHA-256-Digest: M68t4dZKCoILbvI4jwqkyS7a2nFSb08g4JXEkDjWyyY=
+
+Name: themes/slate/graphics/rootpage/firststeps48_hov.png
+SHA-256-Digest: XVfpsAdt73Ehe0s+b//q5X82sWtYAfHArh91TusY1lY=
+
+Name: themes/slate/graphics/launchbar/overview16.png
+SHA-256-Digest: ancSJJK0WxOnVgXcMaWv60nSErOH6VeCsyrbDY20zsM=
+
+Name: themes/circles/graphics/icons/ctool/ov_nav_midhov.gif
+SHA-256-Digest: qZ2VvASCqKX5WgoSDSEilR6SuBjBtZ9XkfM+lWm3cfg=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizeAction.class
+SHA-256-Digest: PpDyeGpqDUOLKC2jxvoUuU2yYf4YDdthKQlUbHCipok=
+
+Name: themes/slate/html/whatsnew.css
+SHA-256-Digest: hyELCJ7mbLkRVmcW8dPhNY8v+7qhfXk6NQeOlnw1QtU=
+
+Name: themes/circles/graphics/standby/wn_standbyhov.gif
+SHA-256-Digest: /3JNpaLI7V56w4x+JY3R74eO7pv7wwmLhD0+FBqJ0B8=
+
+Name: themes/circles/graphics/icons/ctool/webresources.png
+SHA-256-Digest: aD6UaNi/1BD2oPtkCcaURH3K+zB76xoviDqW4GnFvJc=
+
+Name: themes/purpleMesh/swt/tutorials.properties
+SHA-256-Digest: cU4M5mF02Ta3NGnvbxCLuJyDGEedo+/08phlHNf+UJc=
+
+Name: themes/circles/html/migrate.css
+SHA-256-Digest: EcUoETAI/myt2eIe+m2Wv+F8p7JchFXCZI+TlP9I4yA=
+
+Name: themes/shared/graphics/contentpage/wn-fs_med.gif
+SHA-256-Digest: hmBMEOhhUNpJ7TtdvOUdPBPZDdinETlCjsK/7VRa9Fc=
+
+Name: themes/purpleMesh/html/samples.css
+SHA-256-Digest: AUGmlqrTNcy8SAVfX++sv7DeQ55fzq1jOhNg0jHOjXY=
+
+Name: themes/solstice/html/qroot.css
+SHA-256-Digest: dMFHIlFA4IKHVhQ3sUnzdVJoCpoTZxAkPvT21/L7JL8=
+
+Name: themes/circles/graphics/icons/ctool/firststeps.gif
+SHA-256-Digest: ackb0wLiQkzMl97KZ1a6L1HKEwDnY8aOJTntNWnr83Y=
+
+Name: themes/slate/graphics/rootpage/samples48_hov.png
+SHA-256-Digest: U+MSy8QEkUVgzSz9sVgbl7Y2E3aPgro6F586lqaF1a0=
+
+Name: themes/circles/graphics/icons/ctool/ov_nav_64.gif
+SHA-256-Digest: 5MAy1Yl2T4+Ix8ekht/RhCfZ9E2IKSwT169sZpLylEM=
+
+Name: themes/purpleMesh/graphics/icons/ctool/overview16.png
+SHA-256-Digest: ancSJJK0WxOnVgXcMaWv60nSErOH6VeCsyrbDY20zsM=
+
+Name: icons/full/obj16/icallout_obj.png
+SHA-256-Digest: Cuzb+bYvDwS01S7d74i20deqna+UHWlIkde9SqTgSa0=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a$4.class
+SHA-256-Digest: zSoDMAh26U9m5LSNg491FrOxPx70v2OIvi4zUx7iiHo=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a$RootPage.class
+SHA-256-Digest: hhV3G4nuTcvgnaBtehMm44BVY+Gp6clkgQ3R6zIuksc=
+
+Name: themes/circles/graphics/icons/ctool/wb_nav.png
+SHA-256-Digest: oxAhaWZH/NSWyuf8oqmdl+/z4j6H7E/JdcK76weyXy0=
+
+Name: themes/slate/graphics/icons/ctool/migrate.png
+SHA-256-Digest: Uav5cC8suOllK1+ESfxFZuZn2/vcmqiS9f2qG+E/3BY=
+
+Name: themes/purpleMesh/html/rtl.css
+SHA-256-Digest: YaoBSntC5VY+FahYB5bqCGhnDQ19KT/LJdP07N1AIWU=
+
+Name: themes/solstice/graphics/icons/ctool/tutorials.png
+SHA-256-Digest: NNbL30F+HUz3jpAtp+q9XsVQ8EEQO/QiuylX8WKB40s=
+
+Name: themes/purpleMesh/graphics/root/brandmark.gif
+SHA-256-Digest: EiAtPvogOdEWqtuQnINkS/NuL9xCCS2MQw+Ic/ILayw=
+
+Name: themes/slate/html/font-absolute.css
+SHA-256-Digest: CZ5YoIdPa2ud9R+26rSHxIvVmX0qqcBaedg7gC0KAcI=
+
+Name: themes/circles/graphics/icons/ctool/cpt_midhov.gif
+SHA-256-Digest: 8PZ2HWS1C8aM27eqpYBqQQQizDGR3/3napE8o/SWKnE=
+
+Name: themes/circles/graphics/icons/ctool/mi_nav_64.gif
+SHA-256-Digest: qDDqyHSrwvOEL2FkSMH1OM1nZjdaqOnvadAIhvBQVGI=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a$3.class
+SHA-256-Digest: KE9ah70DPqQ3zbzXBeD2ay7N4Yt/8YpZg+xZ6G+PY7c=
+
+Name: themes/circles/graphics/icons/ctool/ov_nav_hover.gif
+SHA-256-Digest: kFGMSnNSTOfPHrR7KHZdJ9ErJRTzgr2gXIF40xUrgv0=
+
+Name: org/eclipse/ui/internal/intro/universal/util/BundleUtil.class
+SHA-256-Digest: jyMfKxg/K5gEdSmqY7g6PbzfMjSUONwduigkzyb843g=
+
+Name: plugin.xml
+SHA-256-Digest: a8Ic8rx2iHiCL3Kp1ZAwvDsn9Wmu6IhRje+vMpFaw3o=
+
+Name: themes/slate/graphics/rootpage/root_banner_logo.jpg
+SHA-256-Digest: pwkdNhfB6/tWdNVXK5q3ENdY8QUPn7nHpePbYOMOD/Y=
+
+Name: icons/full/elcl16/configure.gif
+SHA-256-Digest: 5kpqTPZhPE97AVic0WPlBnRbQGu9VDQkrH6dAK/sagQ=
+
+Name: themes/slate/graphics/rootpage/root_banner.jpg
+SHA-256-Digest: go+sPCdKIOvrcgNOV1SvhBtSHZxhZECHTUgNyQgO3hc=
+
+Name: icons/full/obj16/extension_obj.png
+SHA-256-Digest: UJeVoRi2FJAsMeZthEHv4SmC3DFBRpY43/WOEl7uz0A=
+
+Name: themes/shared/graphics/contentpage/grey_callout.gif
+SHA-256-Digest: iLeHS9Yq8n529KO0qWdRujPk8OtjLLSzthIR7SBDoxU=
+
+Name: themes/slate/graphics/rootpage/migrate48.png
+SHA-256-Digest: IVPgcLEPIkck1QpA6GFuuallH+bQ4m20Hr8FH8Gnp+k=
+
+Name: themes/circles/graphics/contentpage/sa_banner.jpg
+SHA-256-Digest: 5ezpGVxd7uXvHYidUG9h2lt+X2iDdmqpxNJKugNk3iA=
+
+Name: themes/shared/graphics/icons/ctool/widget_closed_hov_rtl.gif
+SHA-256-Digest: P565MzGA7++xMVYIJnfP9wblm4jxEgJkfK5KpXv4bDc=
+
+Name: themes/circles/graphics/standby/sa_standbyhov.gif
+SHA-256-Digest: w1qqiCEY3b7k6qWXVxCqvrgQzrlLmgwitmZdQmqLrEM=
+
+Name: themes/circles/graphics/standby/fs_standbyhov.gif
+SHA-256-Digest: 8JMtf0IXKkmOB5bYuGHA+HTA/H93JdydzSGctJg27l0=
+
+Name: themes/purpleMesh/graphics/icons/etool/firsteps48sel.gif
+SHA-256-Digest: EW7tj7ZyKzGXH/cR+xC64Cxiy/09D/Sdc0o4rQc5X8k=
+
+Name: themes/slate/html/overview.css
+SHA-256-Digest: KKCVXkljObA0VNLlrvoyLxzHu6x1QSfsjDaC0HlJn/4=
+
+Name: themes/slate/graphics/rootpage/workbench48_hov.png
+SHA-256-Digest: VE0GWRa9dedgIt/7cB0GPe+lOr67RPTrYmQOtxvmX9E=
+
+Name: themes/purpleMesh/swt/root.properties
+SHA-256-Digest: VhF9UwaDio1rEez8EwAfov5gswDYyZTRCf6O4SG1VEI=
+
+Name: themes/circles/graphics/icons/ctool/whatsnew.gif
+SHA-256-Digest: 44Qn0auNcRWtsjpNI1q33Hn/btUuVcUPhu9uPwOkbW8=
+
+Name: themes/circles/graphics/icons/ctool/firststeps_tophov.gif
+SHA-256-Digest: DzrnDAj01bf3S/LmcjQI7VnS5zheyAwYOQtuEpBDWek=
+
+Name: org/eclipse/ui/internal/intro/universal/util/Log.class
+SHA-256-Digest: UWxnPVp63ed2495a/IChvaOxUz93tUMv30u06R4YYFs=
+
+Name: themes/circles/graphics/icons/ctool/overview.png
+SHA-256-Digest: xHI/UAygdpaT2tlsPn80Mjur6qFhBmxQ0riQDD4UzbI=
+
+Name: themes/slate/graphics/icons/ctool/tutorials-select.gif
+SHA-256-Digest: fZyXypoHWy85gyUHc8h9FjnopSjV/NQVp0f54px5g1g=
+
+Name: themes/circles/graphics/icons/ctool/workbench_bottomhov.gif
+SHA-256-Digest: YqChAYx705j1smHarGDyEqFaUPp32N5Y3Xg8TjYIVA4=
+
+Name: themes/solstice/graphics/icons/ctool/sa_nav.png
+SHA-256-Digest: kutQf/T0e87obR2t/Lxbqi+/FyE/J5tec7JSxAWHasY=
+
+Name: themes/slate/preview.png
+SHA-256-Digest: UdoAtQoeDvJKDC6dAp1R6N9dR4AUft1XnO1AmVtL9Gw=
+
+Name: themes/purpleMesh/graphics/icons/etool/back.gif
+SHA-256-Digest: 6cnsiNxKaVIb+5j4RNbs0H1f+Mr0yZ2eoaPziqmoJ6k=
+
+Name: org/eclipse/ui/internal/intro/universal/util/StringUtil.class
+SHA-256-Digest: VMIIllq1UxIF08P92zrOux2oPrIPPHx1yF7k3c2bqfw=
+
+Name: themes/circles/swt/migrate.properties
+SHA-256-Digest: 4PvUUEdqAxBHPqpEqbDlSPcZClu1jUt4DzLafqD5TVA=
+
+Name: .api_description
+SHA-256-Digest: knooyujld1YU6CwkRT0yoMzbT1LIYrA2+x6nPoDSFmQ=
+
+Name: themes/solstice/graphics/icons/ctool/webresources.png
+SHA-256-Digest: 3yQFavgA1+UzuVuTFc8vEg34WagyWoIX2wXTzB6QSsk=
+
+Name: themes/purpleMesh/html/standby.css
+SHA-256-Digest: TZIKAeLLD4PNePgZeCRaS73cHN358el5t2qCiDI3qsA=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a$1.class
+SHA-256-Digest: ttTgDvyDSYOqQ+VwYadjpxLNjU413E/eISfoPRheS1Q=
+
+Name: themes/slate/html/tutorials.css
+SHA-256-Digest: som9At4PQylExLDIXq1dcjaGPYQqKrV8AWUq3/ejcqY=
+
+Name: themes/slate/graphics/contentpage/wn_banner.jpg
+SHA-256-Digest: JKM68SfY5OqdSkjlFDgpFOBlxXCwqDYy23d10yaOUj0=
+
+Name: themes/purpleMesh/graphics/icons/dtool/back.gif
+SHA-256-Digest: 6cnsiNxKaVIb+5j4RNbs0H1f+Mr0yZ2eoaPziqmoJ6k=
+
+Name: icons/welcome16@2x.png
+SHA-256-Digest: rNhZyGeHVBK9POS9duDukSVtUJ5auhbVpHXfIINnt98=
+
+Name: themes/circles/html/font-absolute.css
+SHA-256-Digest: vXLrHMdvokxnY1ujg2fozlVRBPjAjlAjOKHKesirLXE=
+
+Name: themes/purpleMesh/graphics/icons/dtool/forward.gif
+SHA-256-Digest: Dtgjgz9PgPdx1ETsfg7w+1OUytg/Z10C1woRoVwumI0=
+
+Name: themes/circles/swt/overview.properties
+SHA-256-Digest: 93JMXrJH8b9hdMSC5YLg6yBTVxtoRrdEhkoirorW4sI=
+
+Name: themes/slate/graphics/rootpage/overview48_hov.png
+SHA-256-Digest: mVq1n7xlekg5hfj1fhC/ehrUI+nAOaYi8z+O1Evk7Iw=
+
+Name: themes/slate/graphics/rootpage/samples48.png
+SHA-256-Digest: AME28HTYS39YLtk6bBy+NugABbZF7twt1n2fNQP9JYk=
+
+Name: themes/circles/graphics/icons/ctool/wr_nav.png
+SHA-256-Digest: ZvNqUcUT457DL4PDERiRsW8/0BEl+qTd4Pa4ozFRNRM=
+
+Name: themes/circles/graphics/icons/ctool/workbench_midhov.gif
+SHA-256-Digest: fwEMto95nwFhdqMZNOLc20XwOdzS+jlrblzsotCzT/U=
+
+Name: icons/full/obj16/ilow_obj.png
+SHA-256-Digest: qL0dPJRo7CoOdcbRr6FtBzHK8W71P3cxYWtgk0Rr4b8=
+
+Name: themes/slate/graphics/standby/wb_standbyhov.gif
+SHA-256-Digest: sxhJyQOnYgqrXcJLyL+cwpcjVi3ovSFVAXWcnWnQmC4=
+
+Name: themes/circles/swt/whatsnew.properties
+SHA-256-Digest: HiXyz8jVYuUCmo8jCyWFbQWtu7e7dp1PYUCD/RFWzC0=
+
+Name: themes/slate/graphics/rootpage/whatsnew48_hov.gif
+SHA-256-Digest: 6gOkcvtXdMWeWOA9FPfyJABc4DHUqxU4LmS8ZSEYKCE=
+
+Name: themes/circles/graphics/icons/ctool/samples.gif
+SHA-256-Digest: QxoFIHkT66s4KHJQSbZGIT0HqlJme+BzFTLfkNH49k4=
+
+Name: themes/purpleMesh/graphics/launchbar/whatsnew.gif
+SHA-256-Digest: p9X2XwXK8JuVT9sJxTzykVfgzHjbHBaRFnk6xfFZjds=
+
+Name: org/eclipse/ui/intro/universal/ExtensionFactory.class
+SHA-256-Digest: 82eoUUEbKvNABujJ/I/UIRw2kKywJgq7SV84Swtnye4=
+
+Name: themes/circles/graphics/icons/ctool/fs_nav_64.gif
+SHA-256-Digest: rjDINKoYptGfEWx2pbLbBR/WVH7tpaBtAsYy3q7+54w=
+
+Name: themes/solstice/swt/overview.properties
+SHA-256-Digest: 7f5HGHJn1mxQfHdCkNYOTJ68A5Ams3jVbNqhnYcAzKs=
+
+Name: themes/shared/graphics/contentpage/wr-mi_high.gif
+SHA-256-Digest: 8UeCYZnO0tTJBOpH7oJbJkTz+bEVxgBcXBmLPNl5RnQ=
+
+Name: themes/circles/graphics/icons/ctool/workbench.png
+SHA-256-Digest: gzHyGiCmV3N1fn4CIhss69u3sgFpsRDbq/+ND0bGxX8=
+
+Name: org/eclipse/ui/internal/intro/universal/ExtensionData.class
+SHA-256-Digest: RYfmd0QUEECgeu5I2l3Yml5qGNc+f9CNcTPGWb1k8iY=
+
+Name: themes/slate/html/root.css
+SHA-256-Digest: NAras7+quRCQpZMw15Y1kIyM/prHFFsygNg3tCMNcO4=
+
+Name: themes/purpleMesh/swt/samples.properties
+SHA-256-Digest: 61RRECqVK/JZ0iiz4Ow+JXjZF+pD/P7ykRB7pvvD8+8=
+
+Name: themes/slate/graphics/contentpage/fs_banner.jpg
+SHA-256-Digest: zn2miLUabLu1nwmJyYRB1rejHZklkQLdocgwyblC+5Q=
+
+Name: themes/slate/graphics/rootpage/migrate48_hov.png
+SHA-256-Digest: 14CvUL45FU8gEwStfmM/2OVqS263STRIwbzx508+jDY=
+
+Name: themes/solstice/swt/whatsnew.properties
+SHA-256-Digest: cSl0blxEzaBkU1uYUpNL+8fHC5Wqb1ZGpOdoG19+dcw=
+
+Name: themes/circles/graphics/icons/ctool/fs_nav_32.gif
+SHA-256-Digest: EzlDJ1qnWZwsYFKFdYbTt0uN9k7IeRFEw1xJkHjOAPE=
+
+Name: themes/purpleMesh/graphics/icons/ctool/tutorials48sel.gif
+SHA-256-Digest: 2EW+KvOwEw7FgWLzF4mrY8jIcbRGnfZbKPyCp5dqLeI=
+
+Name: themes/circles/graphics/icons/ctool/nav_rightedgehov.gif
+SHA-256-Digest: 3fAeFKYaeRJMdbSuQQOIigNCO88jQjDx4Z6weo87j0s=
+
+Name: themes/purpleMesh/graphics/icons/ctool/tutorials48.gif
+SHA-256-Digest: sSfLZbQJXcN0hgFeMli1GLhFJh6FyqFZm8cj1gHIwEY=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a$6.class
+SHA-256-Digest: jIIo0qepP8T+jnWVHxFJAPoOoPzoSZZi4RJ7DUJyI64=
+
+Name: themes/circles/graphics/icons/ctool/sa_nav_hover.gif
+SHA-256-Digest: gDR751wUHCvtd98vOh0D2JURjj3kB9mS2sbhRg7vV08=
+
+Name: themes/solstice/graphics/icons/ctool/tu_nav.png
+SHA-256-Digest: kpSvFeIhKyMF57s3fOKiugh53zstHUfo/OCl4H0uAno=
+
+Name: themes/solstice/html/firststeps.css
+SHA-256-Digest: WPLSSPqCIoScUQitw4FeYfqo4JCYyXPAgY5grGLuql8=
+
+Name: themes/circles/html/standby.css
+SHA-256-Digest: zwieWkAIXVKDLFofplkz/QG0TZZIKu1bd7Z5W1aRpc8=
+
+Name: themes/slate/graphics/icons/ctool/wn_nav.png
+SHA-256-Digest: QkxelyZjPHoXNSzTeK/3mRmbWeLzm2YKmOFybK/kHjQ=
+
+Name: themes/slate/graphics/icons/ctool/sa_nav_32.gif
+SHA-256-Digest: kK/uoFvMKOqjBFZr1va5f1qPlZBZAKNTiKl+Cm4uxmw=
+
+Name: themes/circles/html/font-relative.css
+SHA-256-Digest: qECfSleVQJIJQhNsv2staIbIgX/Ew+t5A8V8NjiDC78=
+
+Name: themes/purpleMesh/graphics/icons/etool/firsteps48.gif
+SHA-256-Digest: F5YFlZ66MX7IIswK4WOTsEd9QXmIg6rwPF3NTuusprQ=
+
+Name: themes/circles/swt/samples.properties
+SHA-256-Digest: OHCBClo0GC1S7vGi5gKcIzMaeXiiTRfIgMon6bGhO08=
+
+Name: themes/solstice/graphics/launchbar/samples16.png
+SHA-256-Digest: kfpQcJDdFJmXxSVNvmCjr6prDYa3ydVwYO6Uv1UkVaM=
+
+Name: themes/purpleMesh/graphics/icons/ctool/samples16.png
+SHA-256-Digest: rV7HtpJKqgSFV09X1gtf71iQTWdAu+0REtUYDn13+ZA=
+
+Name: themes/purpleMesh/graphics/icons/obj48/newhov_obj.gif
+SHA-256-Digest: 5iJugPhHJamctb0JgIlR3mAM42pg3nBC2x2X9CAejJg=
+
+Name: themes/slate/graphics/launchbar/tutorials16.png
+SHA-256-Digest: hIuMh8Fz1173aDn3jMJUOx2BPnQz+Ec3WPX1sLLFTI0=
+
+Name: themes/circles/graphics/standby/sa_standby.gif
+SHA-256-Digest: pWa3jVUNnJzbDq+w3y8ydB90LmhhdWmwDgkdomUQgp0=
+
+Name: themes/purpleMesh/graphics/icons/ctool/migrate16.png
+SHA-256-Digest: VZFlYmcrUlgP+63x2fxvfoT7JrAXcRkE2DHFp/jDkfg=
+
+Name: themes/slate/graphics/rootpage/whatsnew48.gif
+SHA-256-Digest: o7ZMj5Q7msVTOZJntUfOZ1+nzf75hXwf4dF0AUFmlEE=
+
+Name: themes/circles/graphics/icons/ctool/overview_bottomhov.gif
+SHA-256-Digest: 7QoBGS6u4ZT54V7D82cbinw3yAGfmvvXL3dSr32Qgfo=
+
+Name: themes/slate/html/standby.css
+SHA-256-Digest: Z3DXv3MdqRGhjABUSTpfcBM0z7SODkw+aG1Pvj/TBPs=
+
+Name: themes/shared/graphics/icons/ctool/widget_open_hov.gif
+SHA-256-Digest: YFkOpq8LJpBgqnzBbwNjUBC5j5nFzezjJszZJBjVctM=
+
+Name: themes/circles/graphics/icons/ctool/wr_nav_hover.gif
+SHA-256-Digest: Ah/Bg70xmIvxKCtECwUdNEJFeKre68LpP4xDZt3z78s=
+
+Name: themes/slate/graphics/standby/mi_standbyhov.gif
+SHA-256-Digest: afPvMJ3PjsRkSZj9S1xDUY0YpuWduL0ad0H8iA1Z5x0=
+
+Name: themes/purpleMesh/graphics/icons/ctool/migrate48sel.gif
+SHA-256-Digest: 36aDJJv91WRjgF8OnXkEbIC+F6oXuicdGedXVTC27TA=
+
+Name: themes/circles/graphics/launchbar/whatsnew16.png
+SHA-256-Digest: rx+bPee3YQPAErxPSvB8mj93OnxQ3IdXzbOl2rJoUs8=
+
+Name: themes/circles/graphics/icons/ctool/wn_nav_32.gif
+SHA-256-Digest: wHMzDnKv6fFTtl4P/ICo8mjhveaBzYGKodrCl6wJgeE=
+
+Name: themes/slate/swt/firststeps.properties
+SHA-256-Digest: JdmzFO2YPwK4ICoXQpPVWKu/VibZN4BgMS+k9KkPDc0=
+
+Name: themes/slate/graphics/icons/ctool/wr_nav_32.gif
+SHA-256-Digest: oUI5KR+cy3fIvKm6AUROavLmAt7w8j3ZKyg81SmMfpI=
+
+Name: themes/circles/graphics/contentpage/wr_banner.jpg
+SHA-256-Digest: 3G5c1EOsiuqFGNB5Z2wd15/LqI4SV1aAQRzGoNINSc0=
+
+Name: themes/solstice/graphics/rootpage/footer-bg.jpg
+SHA-256-Digest: AYuoxe6XIr7JXZl0O3gwlRpvDoinXxIlmXZsIMsP+c8=
+
+Name: themes/circles/graphics/icons/ctool/wb_nav_32.gif
+SHA-256-Digest: nim5zF0brfrZS+Y6wsYny3O44fMXobHp3GtE14hGZ5E=
+
+Name: themes/slate/html/rtl.css
+SHA-256-Digest: XSKModAtQY4h7gzolIR4HfAhCXnvTNTfcUv5KzZbUGI=
+
+Name: themes/slate/graphics/rootpage/tutorials48_hov.gif
+SHA-256-Digest: eqt2Bd5eFNABe9tHmRBHopHDgxnuxW7CdlXdB1WlPRM=
+
+Name: icons/full/obj16/extension_obj@2x.png
+SHA-256-Digest: C2Y6mCZCGm97GHqHSQ2z/UI6oJSY2jb2Qo3b5CsBcdY=
+
+Name: themes/purpleMesh/html/migrate.css
+SHA-256-Digest: PvY2q5g9UF07JgK5m6zE7YAz9X19AD8FKNc+icQuMHo=
+
+Name: org/eclipse/ui/internal/intro/universal/contentdetect/ContentDet
+ ector.class
+SHA-256-Digest: zvmVnInGE/3OrjBqsuiYz+N50boVriggJ59RWdNHbYg=
+
+Name: themes/slate/graphics/icons/ctool/tutorials.png
+SHA-256-Digest: 5JvAV0l1QV8NAEX63Oox7VKiJsaB4xG8ccDJTRnUN0o=
+
+Name: themes/purpleMesh/html/font-absolute.css
+SHA-256-Digest: NygsFz0y5O3D91q873KEa63HG8h2csO3+YlSLEXszag=
+
+Name: themes/slate/graphics/standby/wr_standbyhov.gif
+SHA-256-Digest: 92eR+OgX7zoEYT5Q3cdA/w5JcoDtn9ACJFfKlSOZdT8=
+
+Name: themes/purpleMesh/graphics/icons/ctool/back.gif
+SHA-256-Digest: 1MEkAKotO6y/cf71gA7MCU3l6CL9gZYhTbcxkdJz64o=
+
+Name: themes/slate/graphics/icons/ctool/webresources-select.png
+SHA-256-Digest: 7L1QKGpUJUQKtP5MALchh0yUYAGz0v6wdo0SMeySMKk=
+
+Name: themes/circles/html/ltr.css
+SHA-256-Digest: Ce2IXSLQy9Vd7FG79Lc9NamkbKeHMJeLU3icoYj6kzQ=
+
+Name: themes/circles/html/shared.css
+SHA-256-Digest: PlWdhepahQhp+QnrdmBKatWRGGIMHO05MOUs7McnJKI=
+
+Name: themes/solstice/swt/webresources.properties
+SHA-256-Digest: tEDcCqzmA1MKyxnyHqf867uS3baCVjkUr//NK3WQLaQ=
+
+Name: themes/slate/graphics/standby/ov_standby.gif
+SHA-256-Digest: yqI1Sl2TUcHpyKQdad59szStDNdomC9S5k+JsvRXetU=
+
+Name: themes/slate/graphics/icons/ctool/firststeps-select.png
+SHA-256-Digest: J365CCDWZPewuOcmtR/VxQNudOW0TApEgk3LQDxnP/s=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a$8.class
+SHA-256-Digest: FkkwOD8im6Pda3qOkoIss7B3wuaxsu9OaHcdE/lpcO4=
+
+Name: themes/slate/graphics/rootpage/firststeps48.png
+SHA-256-Digest: hOrmK1tjW9thdI7B01wum+kA1sP1EG6dBDJigxdGeJ4=
+
+Name: themes/slate/graphics/launchbar/whatsnew16.png
+SHA-256-Digest: rx+bPee3YQPAErxPSvB8mj93OnxQ3IdXzbOl2rJoUs8=
+
+Name: themes/purpleMesh/graphics/icons/ctool/webrsrc72.gif
+SHA-256-Digest: IgTyjxFedNfDcPgXhfMMoeiqW+rX4jB+x4mloNpVc5w=
+
+Name: themes/circles/graphics/icons/ctool/tu_nav_hover.gif
+SHA-256-Digest: bYa3YuW/NPGgjBz2oux4Ca9tQSeVbZp4YXjN9kTbxhk=
+
+Name: themes/circles/graphics/icons/ctool/root_midhov.gif
+SHA-256-Digest: iUiSXfiyj7Z459j/USjjwJdPTj8FLHuIFO4HRINtxI8=
+
+Name: themes/slate/swt/samples.properties
+SHA-256-Digest: 22DRDF6hMcl4DyIIXdZ8tGlmWVjDWGSOeXczkbkkuLo=
+
+Name: themes/purpleMesh/swt/migrate.properties
+SHA-256-Digest: rY5k+dBpj4DcmLB1ufoVoINhc9jj6OmEwd3uYSLGyS8=
+
+Name: themes/circles/graphics/icons/ctool/root_bottomhov.gif
+SHA-256-Digest: NIk3HHD6FtpkK9Di0qFQPBEP1+oFAyjCg168v3kBOy8=
+
+Name: themes/circles/graphics/launchbar/migrate16.png
+SHA-256-Digest: VZFlYmcrUlgP+63x2fxvfoT7JrAXcRkE2DHFp/jDkfg=
+
+Name: themes/slate/graphics/icons/ctool/whatsnew-select.gif
+SHA-256-Digest: hBg4yMJpKU2WgVF2qoxSbVJ/pFRADsF1dUgcMle8uxA=
+
+Name: themes/slate/graphics/icons/ctool/webresources.png
+SHA-256-Digest: aD6UaNi/1BD2oPtkCcaURH3K+zB76xoviDqW4GnFvJc=
+
+Name: themes/circles/graphics/standby/ov_standby.gif
+SHA-256-Digest: yqI1Sl2TUcHpyKQdad59szStDNdomC9S5k+JsvRXetU=
+
+Name: themes/slate/graphics/standby/wn_standbyhov.gif
+SHA-256-Digest: /3JNpaLI7V56w4x+JY3R74eO7pv7wwmLhD0+FBqJ0B8=
+
+Name: themes/purpleMesh/swt/whatsnew.properties
+SHA-256-Digest: 5gUsiC9ELN5mp+OHVqMLwfijw3ZnzOd0PUnPIhNMv10=
+
+Name: themes/purpleMesh/graphics/contentpage/samples_wtr.jpg
+SHA-256-Digest: mrYmX4YL2uWvfq6clRQNbb8SI1iC7Oyr0VufPWwRLJw=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a.class
+SHA-256-Digest: us+Ko1SCSgJG7+CdifOPTWomrMQETFtuZestD2tw/LA=
+
+Name: themes/purpleMesh/graphics/contentpage/backgroundcurve.gif
+SHA-256-Digest: SEX8crf8db6VkzxG2xzbUKXsTlDlDP79aP4Yjpyd578=
+
+Name: themes/circles/swt/tutorials.properties
+SHA-256-Digest: rZq2mB2ciO2HDBWyNVcQElst3tK/yQamPxoazAeRJ1w=
+
+Name: themes/purpleMesh/swt/standby.properties
+SHA-256-Digest: yGfsmjCVxO2oWDyZJiO0tSsbiok/AwikD/DF4hdinYY=
+
+Name: themes/circles/graphics/icons/ctool/root_midhov2.gif
+SHA-256-Digest: E2NbYeueHOGEYUf4iS7pLDWXJBEg/IBv3c17TmuQc0w=
+
+Name: org/eclipse/ui/internal/intro/universal/UniversalIntroConfigurer
+ .class
+SHA-256-Digest: TTWE3tkbCpM5J26W2sw0tNdFkKDmBqdRNO18G6MW6iY=
+
+Name: themes/slate/graphics/standby/mi_standby.gif
+SHA-256-Digest: 7cQzUdWY5KLlONoUF1/Xnkzh2C88xScCoc82o7N1PHE=
+
+Name: themes/slate/html/migrate.css
+SHA-256-Digest: 3zmJ3QGjjrgsE4mdqi0uxoc8xIvUtwSpjebc2WMHmAo=
+
+Name: themes/slate/graphics/icons/ctool/migrate-select.gif
+SHA-256-Digest: X83JUjhJs/r52CUYD3j0tmtytfi/tX+tRbTUzmmIGZc=
+
+Name: org/eclipse/ui/internal/intro/universal/ExtensionDataTransfer.cl
+ ass
+SHA-256-Digest: ngGnUoRcuhZ4EuwI+3wF7jzmVvVKGx559jIUnUG3Xk0=
+
+Name: themes/purpleMesh/graphics/icons/ctool/whatsnew16.png
+SHA-256-Digest: rx+bPee3YQPAErxPSvB8mj93OnxQ3IdXzbOl2rJoUs8=
+
+Name: themes/purpleMesh/graphics/icons/ctool/whatsnew48sel.gif
+SHA-256-Digest: 7lIRwJy/0nbfVUY0SzpIuseOncSbi/7FHmpCkc9OsfM=
+
+Name: themes/slate/html/font-relative.css
+SHA-256-Digest: mnwmolm0khTaIYcd0OEU/6Q7MpLAiJG11TyyHkqp/M4=
+
+Name: themes/purpleMesh/graphics/icons/ctool/samples48.gif
+SHA-256-Digest: Pk6FCDtOQrM0XhQQmMo9EEdGmWwDKdjpJOPD8Aw4uPk=
+
+Name: org/eclipse/ui/internal/intro/universal/CustomizationContentsAre
+ a$IntroTheme.class
+SHA-256-Digest: CqDOwGqYkTEV2JSMdigsSaIU+e8SR5IOnIpLMi65eW0=
+
+Name: themes/shared/graphics/contentpage/ov_high.gif
+SHA-256-Digest: XN+Yf2XSg5SF7iwIv7c8JO6BGvBgUUhZG1+PmSpMuyI=
+
+Name: themes/solstice/graphics/icons/ctool/mi_nav.png
+SHA-256-Digest: FJyKeNa4+jyt23FysComRN2ld3UFB26jvisurZfwmjc=
+
+Name: themes/slate/graphics/rootpage/workbench48.png
+SHA-256-Digest: afBFB3L/scNKecK7ltr1k8HQ5v9tQmNSoGgKH0ki+vk=
+
+Name: org/eclipse/ui/internal/intro/universal/util/PreferenceArbiter.c
+ lass
+SHA-256-Digest: XdZ9emo+fLNjiqmuie5VzHHMGgKCBUZz0I5qw5keNA8=
+
+Name: org/eclipse/ui/internal/intro/universal/IUniversalIntroConstants
+ .class
+SHA-256-Digest: k0F0926vKt6wfZzvOCZ0IWRA7+jVqXc7alo6Vq4RhlU=
+
+Name: themes/slate/swt/overview.properties
+SHA-256-Digest: 7f5HGHJn1mxQfHdCkNYOTJ68A5Ams3jVbNqhnYcAzKs=
+
+Name: themes/slate/graphics/icons/ctool/overview-select.gif
+SHA-256-Digest: aet6GEdTNYJCxFEkW9bb/ad+bLtXux7wHRRk7intb9Y=
+
+Name: themes/circles/graphics/icons/obj48/new_obj.gif
+SHA-256-Digest: nimMGZ+E5kU5iI4XCujyCkG3fm81YRFAlQOYgB1MGQ8=
+
+Name: themes/purpleMesh/graphics/contentpage/firsteps_wtr.jpg
+SHA-256-Digest: Squ2Uf0SPyhE8zaLrSneDPjJZPNP5nJGPUgG20L0gT8=
+
+Name: themes/circles/graphics/icons/ctool/tutorials_tophov.gif
+SHA-256-Digest: NQJ4Nui95oCZbZg/g8U0L1tOQnqSgJjkXCDk+sy4Evg=
+
+Name: themes/slate/graphics/contentpage/banner_extension.jpg
+SHA-256-Digest: sztbzocOPwW736AO2UuG6bgNi8Nf81I0jDnh94GoboY=
+
+Name: themes/slate/graphics/rootpage/webresources48.gif
+SHA-256-Digest: FK0sFv5ZercDhrqPrjlQz+KzGaZpIsbt1yVM1uyRea8=
+
+Name: themes/shared/graphics/icons/ctool/widget_closed.gif
+SHA-256-Digest: HRhkzuobhKjIlyVQFWyW1hwvLv4cVZ2Ub18TkTBYKmA=
+
+Name: themes/circles/graphics/standby/tu_standby.gif
+SHA-256-Digest: NKbsyzplKfJCnjOMW75Pj0kSNGIR0DwfA7KZcpbVrFo=
+
+Name: themes/purpleMesh/graphics/icons/etool/webrsrc48sel.gif
+SHA-256-Digest: 20xcvLbH0OEZAW5slj8PP/EvkkoFET9fynZT0Z63vZw=
+
+Name: themes/slate/graphics/launchbar/migrate16.png
+SHA-256-Digest: VZFlYmcrUlgP+63x2fxvfoT7JrAXcRkE2DHFp/jDkfg=
+
+Name: themes/circles/graphics/icons/ctool/wb_nav_hover.gif
+SHA-256-Digest: k3FfmRO/5WyeRrp8cCZk87cdfgqQfUTyXy2LtVKkZyM=
+
+Name: themes/circles/graphics/icons/ctool/whatsnew_tophov.gif
+SHA-256-Digest: KypyCSxKALSbY+lHZ3cQr8saEEm8POGT9iOaXCHM9+U=
+
+Name: themes/slate/graphics/icons/ctool/webresources-select.gif
+SHA-256-Digest: rVwp0miqD2y6xB4uARXA2ocvj5XgOQrg+JHrJiz0iDI=
+
+Name: themes/circles/graphics/icons/ctool/ov_nav_32.gif
+SHA-256-Digest: o1zB+RpbHKN1tdDfuJhqUCkphvfqOn0O0n8xUxIfqm8=
+
+Name: themes/circles/graphics/standby/ov_standbyhov.gif
+SHA-256-Digest: B4D2xmIHxKfMltoYCKtVZ/ZldSAylaHjHczJ61ASxnE=
+
+Name: themes/circles/graphics/icons/ctool/migrate_tophov.gif
+SHA-256-Digest: lU5uYM3l48GPhhD0FSeNl7ock1NqvE+DgAe2DpsS23Q=
+
+Name: themes/slate/graphics/icons/ctool/ov_nav_32.gif
+SHA-256-Digest: o1zB+RpbHKN1tdDfuJhqUCkphvfqOn0O0n8xUxIfqm8=
+
+Name: themes/slate/graphics/icons/ctool/samples-select.gif
+SHA-256-Digest: WblFwYImQWeu67TNdqvyW9xS5uB5diPWU7pe1NLNODM=
+
+Name: themes/slate/html/webresources.css
+SHA-256-Digest: wv/XkunsIthfKm4uGpDYqxQqs9p7G6dczYj4PswdrxI=
+
+Name: themes/shared/graphics/icons/ctool/widget_open.gif
+SHA-256-Digest: iNcvlsuCW4YaeOHsxxWwxJhvsZej2/0LtM7QlPyvN7s=
+
+Name: themes/circles/graphics/contentpage/ov_banner.jpg
+SHA-256-Digest: o0qUq59G10pXb26jjINxxwERFmFjJS9DmCjqf82b6SE=
+
+Name: themes/purpleMesh/graphics/icons/ctool/migrate48.gif
+SHA-256-Digest: soWbTKK6Y6ILcLhniIY3N8f3UUriQ8bBVxee8YmEaYs=
+
+Name: themes/circles/graphics/icons/ctool/overview_tophov.gif
+SHA-256-Digest: R4vKVMCiEhLgiSU/yCwl4pUbFztZb+8niBY0xYDtWuY=
+
+Name: org/eclipse/ui/internal/intro/universal/contentdetect/ContentDet
+ ectHelper.class
+SHA-256-Digest: 3jd1VeaDtMoW/chSuJ0MbmH1J8WmrARACIkxoXpVlo4=
+
+Name: themes/slate/graphics/icons/ctool/wr_nav.png
+SHA-256-Digest: ZvNqUcUT457DL4PDERiRsW8/0BEl+qTd4Pa4ozFRNRM=
+
+Name: themes/purpleMesh/graphics/contentpage/tutorials_wtr.jpg
+SHA-256-Digest: FNl+oQa8hYFZ8JsnUHh8ylAc5fCkA8Dp//G0j6z7ZE4=
+
+Name: themes/purpleMesh/graphics/icons/etool/whatsnew72.gif
+SHA-256-Digest: oud082JE+zUKUX1A+WBSbWizU27b+lPTGaOhTruzPPY=
+
+Name: themes/slate/graphics/rootpage/samples48_hov.gif
+SHA-256-Digest: UitoH5pyk8VfPXBOS3dZRngYrKEBLqOaBidQ49CjwD8=
+
+Name: themes/circles/graphics/icons/ctool/content_nav_bar.gif
+SHA-256-Digest: xUkTdelO57n+ubiXvbO4ha3SBRpRQuu7UM67/9bFn2Q=
+
+Name: themes/purpleMesh/graphics/icons/etool/samples72.gif
+SHA-256-Digest: QZviLMk1xWfGy4u8j5ur23+EOS5fp40BL953EbbAcy0=
+
+Name: themes/purpleMesh/html/overview.css
+SHA-256-Digest: OnWefWPtNzEhWxkIooDk72/aiJWHaEm0hB731pVjgAs=
+
+Name: themes/slate/graphics/rootpage/tutorials48.png
+SHA-256-Digest: sVr6Ffoe2Cz4sQ6JWeS1TFudfGQUGZk0pMkGHguoS20=
+
+Name: icons/welcome16.png
+SHA-256-Digest: xI5AmditPIFML4aXbZtLChXNeT/NAMj3aS9DLgPjpfU=
+
+Name: icons/full/obj16/ihigh_obj.png
+SHA-256-Digest: N3pOV4LNlL6+LtH/sGjPOOzuQx3vnsHtAKFSkoeL5G4=
+
+Name: themes/slate/graphics/rootpage/firststeps48_hov.gif
+SHA-256-Digest: ol8DXji/P4j4J7we96LRqDn9cULVzJG1dcstLPB4LYM=
+
+Name: themes/solstice/graphics/icons/ctool/egit-checkout.png
+SHA-256-Digest: KvdKf4MZojsDUt9+VW0t2ZGKwYFQW1PR8fuyG91Guks=
+
+Name: org/eclipse/ui/internal/intro/universal/SeparatorData.class
+SHA-256-Digest: vb78dL/TMUiH/cKvUfms3cgSBlVxyLMkZpJtzJ8x5s8=
+
+Name: themes/purpleMesh/graphics/contentpage/section4.gif
+SHA-256-Digest: cP+MasPrkp6G7KbNaMCjGR7zmBU9WavyLvn5ZCn+Xcs=
+
+Name: themes/slate/swt/whatsnew.properties
+SHA-256-Digest: cSl0blxEzaBkU1uYUpNL+8fHC5Wqb1ZGpOdoG19+dcw=
+
+Name: themes/purpleMesh/html/root.css
+SHA-256-Digest: K0B0QyojTGKVveiNUQ09vlKhIj1DYqiA6LLVY4mSJD4=
+
+Name: themes/circles/graphics/icons/obj48/newhov_obj.gif
+SHA-256-Digest: 5iJugPhHJamctb0JgIlR3mAM42pg3nBC2x2X9CAejJg=
+
+Name: icons/full/obj16/inew_obj.png
+SHA-256-Digest: 186ageglFIjfmzUUJMYc/5gYaGEWlv/Bl/Fvk7Egly4=
+
+Name: themes/solstice/html/font-absolute.css
+SHA-256-Digest: fZpQW1Ehu761JmvsV/zd7fEpQMgrZL7Zl1CWzaibVC4=
+
+Name: themes/circles/graphics/standby/fs_standby.gif
+SHA-256-Digest: 8Xi8Jy/uCGavrAaAqgCQkuQeyMrL2A5izDq7bFh8vUo=
+
+Name: themes/purpleMesh/html/tutorials.css
+SHA-256-Digest: YmlsP5n/zbV7NFfiPQqoyM+MLJNpCTKxL3ynsKfc2l0=
+
+Name: themes/circles/graphics/icons/ctool/webresources.gif
+SHA-256-Digest: arya40QKiq5w4IMCQZT11FyhgP/Rt6gNiulm34Gq4Us=
+
+Name: themes/purpleMesh/graphics/icons/ctool/overview72.gif
+SHA-256-Digest: MnYpezfNTlNUHOXfUkA83PPcugidnrcPKGJ+b/f3gJw=
+
+Name: themes/purpleMesh/graphics/icons/etool/migrate48.gif
+SHA-256-Digest: AQN0Po+aj4LFS0AlrWzrU0U1gfPhdgmsmEoAAEg3JqQ=
+
+Name: themes/purpleMesh/graphics/root/background.jpg
+SHA-256-Digest: uScGFlrqKFHSfFK/b1NS6lYP0Vg9DG3jKR8d2LlHC6o=
+
+Name: themes/solstice/swt/tutorials.properties
+SHA-256-Digest: wLvuPlORGT1vkyvd95HpUSHqopZ9YhPrZ8wT3SuF+QE=
+
+Name: themes/purpleMesh/graphics/icons/etool/overview72.gif
+SHA-256-Digest: SvvAjy69D04FXtnqpS6YFixQ8lCkL4EvPiRWboeoNrk=
+
+Name: themes/purpleMesh/graphics/icons/ctool/wb16.png
+SHA-256-Digest: klkZHcSqTAT82lVP2kArfmpn82+l2qxRXr2359MnmP4=
+
+Name: themes/solstice/html/samples.css
+SHA-256-Digest: tgMsyfM0IIG5UHTPs7LnC2lLJGxJXT1i8V2uHgDTFGw=
+
+Name: themes/circles/graphics/standby/wr_standbyhov.gif
+SHA-256-Digest: 92eR+OgX7zoEYT5Q3cdA/w5JcoDtn9ACJFfKlSOZdT8=
+
+Name: themes/purpleMesh/graphics/contentpage/webrsrc_wtr.jpg
+SHA-256-Digest: yfYbBf3uR2GQKhEQ6Dmk/tixQm7RqJph97qYEaWAmzQ=
+
+Name: themes/circles/swt/standby.properties
+SHA-256-Digest: Fyh9zK9CHKrpxQoF532Qh4i2TlugPVDE+XVCEGPEiAQ=
+
+Name: themes/circles/graphics/icons/ctool/sa_nav_64.gif
+SHA-256-Digest: BeG9m4LTi4UzEVee/NZHMMzcIVqssnGVmZmY3KRvOns=
+
+Name: themes/circles/graphics/icons/ctool/ov_nav.png
+SHA-256-Digest: 7RUmvMx2qsLtidUq/0NZ0btFzyOP7bPl7Dw4Fs/PUZ0=
+
+Name: themes/solstice/swt/standby.properties
+SHA-256-Digest: WeAxa3ruRf4NXrNtyHW+hRYE5qUhHLmT++VPZHQEh70=
+
+Name: themes/slate/graphics/icons/ctool/wb_nav_32.gif
+SHA-256-Digest: CDoLbEqu0g2xP/joQxgalHTbpDJ7lKcnWseMODiBsdo=
+
+Name: themes/solstice/graphics/icons/eclipse-icon-bw.png
+SHA-256-Digest: 7avoCu1Dd6OaX/4xfl7ki9vu0DTkjgRpd0if/PpzfLA=
+
+Name: plugin.properties
+SHA-256-Digest: 9zMKNULzRxWhgisP3NLsmK5sxqfgMMv1DCfgxFuwD7g=
+
+Name: themes/solstice/swt/root.properties
+SHA-256-Digest: O9lZNFN1svXIjf269OXxERNleSzrfTcssZJp79lZ0Aw=
+
+Name: themes/solstice/preview.png
+SHA-256-Digest: ClMjODHK1FI7YEnZNN8h+evlneWXsl7xJuumzWQcf+0=
+
+Name: themes/solstice/graphics/launchbar/overview16.png
+SHA-256-Digest: sw65KMEIJgRegcfhsuGbZUEA0qsAXt8D1gGsHhM8BPs=
+
+Name: themes/purpleMesh/graphics/launchbar/firststeps16.png
+SHA-256-Digest: 9LoIME2d0RLc1NnwJxfSPQETCTan094r3k9xcIX64Q0=
+
+Name: themes/slate/graphics/icons/ctool/arrow_rtl.gif
+SHA-256-Digest: oA6dsWBurOhmy0m9aUWrORZhSEKqYaMoxdlrwYsCK2s=
+
+Name: themes/purpleMesh/html/whatsnew.css
+SHA-256-Digest: yll6dN9TD2bIWDpcX1REx/8kqaBFZtj/EBkSs/H42y4=
+
+Name: themes/purpleMesh/graphics/icons/obj48/new_obj.gif
+SHA-256-Digest: nimMGZ+E5kU5iI4XCujyCkG3fm81YRFAlQOYgB1MGQ8=
+
+Name: themes/solstice/graphics/icons/ctool/workbench.png
+SHA-256-Digest: DkjkRPyBwUd4SnEOdW3pFEH/m1Or91KFD2cBuOStOjA=
+
+Name: themes/circles/swt/webresources.properties
+SHA-256-Digest: nFVXDhgtSUwh3U6fAu6w6al6ENQsNcPYFak6QX4nyWk=
+
+Name: themes/slate/html/samples.css
+SHA-256-Digest: CL1Hv8md80tPxZtPwRm8Wh91y3cP9kapX+RF1sWrHdc=
+
+Name: themes/circles/graphics/icons/ctool/tu_nav_32.gif
+SHA-256-Digest: VnBVnCBQCTTKIeaZwLAt1gKm4K5+0WyiN/mJTVmWVsM=
+
+Name: themes/circles/graphics/icons/ctool/firststeps.png
+SHA-256-Digest: qzs172NknNbbnLX59i0Me7c/IyXyRyX3BiKAi6WuudM=
+
+Name: themes/solstice/swt/samples.properties
+SHA-256-Digest: 22DRDF6hMcl4DyIIXdZ8tGlmWVjDWGSOeXczkbkkuLo=
+
+Name: themes/slate/graphics/icons/ctool/wb_nav.png
+SHA-256-Digest: oxAhaWZH/NSWyuf8oqmdl+/z4j6H7E/JdcK76weyXy0=
+
+Name: themes/purpleMesh/graphics/icons/ctool/wb48.gif
+SHA-256-Digest: gO61NeaTIZUvf6PRVii9dO9e9++QeTn6/IRMMPSbN8s=
+
+Name: themes/solstice/graphics/launchbar/tutorials16.png
+SHA-256-Digest: mnkps+hR0i+ILD3ID5PCW/9mpNYrfpIuXMOjVRCLnn0=
+
+Name: themes/circles/html/webresources.css
+SHA-256-Digest: z9Xig98EvaVWN1ddw312D04SUIMj44qrcgEUtRkn6mQ=
+
+Name: themes/purpleMesh/graphics/icons/etool/webrsrc48.gif
+SHA-256-Digest: AC9+Ep7OnpEK5k8iUXIxlqI9M7kLuX26Em6GoB1VT8M=
+
+Name: themes/purpleMesh/graphics/icons/ctool/home.gif
+SHA-256-Digest: i80tU/+2FGo/jIsRP9p+d4UJ3mFOqBGkn4AuChYvXxI=
+
+Name: themes/slate/graphics/launchbar/webresources16.png
+SHA-256-Digest: TJKRXp+38sWizrrWQjOelIeXZ5mecNte3m2JkzOMPuI=
+
+Name: themes/purpleMesh/graphics/contentpage/overview_wtr.jpg
+SHA-256-Digest: kBnzGHnWXcbvq9yE9cxohTkFIGuCMqwCx7fTb1ItIb8=
+
+Name: themes/slate/graphics/icons/ctool/overview.png
+SHA-256-Digest: xHI/UAygdpaT2tlsPn80Mjur6qFhBmxQ0riQDD4UzbI=
+
+Name: themes/solstice/graphics/icons/ctool/samples.png
+SHA-256-Digest: l9yQzHsmgIDB6LnqZHe48HMPUz5cI7yfvbKH4fP/oZQ=
+
+Name: themes/slate/graphics/icons/ctool/fs_nav.png
+SHA-256-Digest: aAryVtSBeAjaZdMmM4QdFzljFPTIbTpvUoyVlKWRpF4=
+
+Name: themes/circles/graphics/icons/ctool/mi_nav_32.gif
+SHA-256-Digest: raSgkp1gRc6uIrc6ljv4OrswtIh/MAYnAuWDNn9BU+g=
+
+Name: org/eclipse/ui/internal/intro/universal/Messages.class
+SHA-256-Digest: E+iFeN/SEK5thXem0M6MLPAep9M+d/11EO7wXXcLv4Y=
+
+Name: themes/solstice/graphics/rootpage/back-to-top.png
+SHA-256-Digest: KaEAP9aBe5st5csEfDdTpSd7M/eZB8XiqDXv2/CZUwI=
+
+Name: themes/slate/swt/migrate.properties
+SHA-256-Digest: XfRU1ki0sqTA5u+lmSJm9gxTilRlOAXNeuW5K6335wU=
+
+Name: themes/solstice/html/webresources.css
+SHA-256-Digest: 8OxTIdcktpFHRoumzwox+f0/nJc1gtYQ5UXpwKTHSOk=
+
+Name: themes/purpleMesh/graphics/launchbar/samples.gif
+SHA-256-Digest: aPvS2epWEbWxrirBH0fceWthMnD+z5VmteN/DwzofH4=
+
+Name: themes/purpleMesh/graphics/icons/etool/firsteps72.gif
+SHA-256-Digest: h3MdJEjfA5oBpSWupf0JtVmaZ39l+btDbjBK7OzuMJs=
+
+Name: themes/solstice/graphics/contentpage/breadcrumbs-large-bg.jpg
+SHA-256-Digest: C6UC54tXOePo4NgKfBevJrX3r61i3O8cqWdL0qwCRo8=
+
+Name: themes/purpleMesh/graphics/icons/ctool/firsteps72.gif
+SHA-256-Digest: ssEDU1WNwHZ3Z0gsw81CbeaELAjBgQhNRJp6hOIWzig=
+
+Name: about.html
+SHA-256-Digest: Soc6TEhlUG6bRx/AGDdixMoj9QVtFKaygTHt0KSQQgs=
+
+Name: themes/slate/graphics/rootpage/whatsnew48_hov.png
+SHA-256-Digest: pb+Lr5B3ViIWYZr2y3rr3P5mTsDxebXLh24gRq7yXUs=
+
+Name: themes/purpleMesh/graphics/icons/ctool/tutorials72.gif
+SHA-256-Digest: SqWRcODmWHfu+cDx/0sNnr5oQjqFesH2WRIK0Bwrcps=
+
+Name: themes/slate/graphics/rootpage/webresources48_hov.png
+SHA-256-Digest: 358RRXEivPiTd7N2dZxPLj+zLUFMvwypjv+v62aF23s=
+
+Name: themes/circles/graphics/icons/ctool/tutorials.gif
+SHA-256-Digest: 4ezWp2unVzJaiyUjxDw3jM3qR8heASuzF/gGh6v7etw=
+
+Name: themes/slate/graphics/rootpage/overview48.gif
+SHA-256-Digest: A/bKY2tYBZ+21HZ2iu44/jO7GyY9Vwt+ri5EvWzjh2I=
+
+Name: themes/purpleMesh/graphics/icons/etool/overview48sel.gif
+SHA-256-Digest: aehyAkYgcrDF0zs1zqPyFqK6ui/RO1KgWqLg4IiIAKo=
+
+Name: themes/shared/graphics/icons/ctool/widget_closed_hov.gif
+SHA-256-Digest: xpFvQRhve70VHUSJc9fp9fIp6HztwVgE6G/W8nJ7Nq8=
+
+Name: themes/solstice/graphics/launchbar/migrate16.png
+SHA-256-Digest: h8Wf+DWbWGq/GWYUgif1MPeNiS5/9GrQDNuUYz1hNlk=
+
+Name: themes/purpleMesh/swt/overview.properties
+SHA-256-Digest: 9A2kJPGwxYFRmUCybOE+ClUltUUiYrkeIoMinD5hDfs=
+
+Name: themes/circles/graphics/launchbar/overview16.png
+SHA-256-Digest: ancSJJK0WxOnVgXcMaWv60nSErOH6VeCsyrbDY20zsM=
+
+Name: themes/shared/graphics/icons/ctool/arrow_rtl.gif
+SHA-256-Digest: oA6dsWBurOhmy0m9aUWrORZhSEKqYaMoxdlrwYsCK2s=
+
