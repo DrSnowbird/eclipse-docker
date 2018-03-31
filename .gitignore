@@ -1,4 +1,7 @@
 workspace
+eclipse/*
+eclipse-workspace/*
+.meta*
 *.swp
 *.class
 *.log
