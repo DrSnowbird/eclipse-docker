@@ -1,5 +1,6 @@
 .eclipse
 workspace
+eclipse-workspace
 *.swp
 *.class
 *.log

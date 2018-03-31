@@ -6,13 +6,13 @@ services:
       context: ./Dockerfile
     container_name: eclipse-oxygen-docker
     environment:
-      - USER_ID=${USER_ID:-1100}
-      - GROUP_ID=${GROUP_ID:-1100}
-      - DISPLAY=$DISPLAY
+      - USER_ID=${USER_ID:-1000}
+      - GROUP_ID=${GROUP_ID:-1000}
+      - DISPLAY=${DISPLAY:-":0.0"}
     env_file:
       - ./docker.env
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ./workspace:/home/developer/workspace
+      - ./eclipse-workspace:/home/developer/eclipse-workspace
       - ./.eclipse:/home/developer/.eclipse
 
