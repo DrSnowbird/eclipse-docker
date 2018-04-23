@@ -25,7 +25,7 @@ $HOME/data_docker/eclipse-oxygen-docker/workspace
 ```
 The above configuration will ensure all your projects created in the container's "/workspace" being "persistent" in your local folder, "$HOME/data_docker/eclipse-oxygen-docker/workspace", for your repetitive restart docker container.
 
-## Other docker-based IDE
+# Other docker-based IDE
 * [openkbs/eclipse-oxygen-docker](https://hub.docker.com/r/openkbs/eclipse-oxygen-docker/)
 * [openkbs/netbeans](https://hub.docker.com/r/openkbs/netbeans/)
 * [openkbs/scala-ide-docker](https://hub.docker.com/r/openkbs/scala-ide-docker/)
@@ -40,7 +40,7 @@ More resource in X11 display of Eclipse on your host machine's OS, please see
 * [X11 Display with Xhost](http://www.ethicalhackx.com/fix-gtk-warning-cannot-open-display/)
 
 # Other possible Issues
-You might see the warning message in the launching xterm console like below, you can just ignore it. I googles around and some blogs just suggested to ignore since the Eclipse IDE still functional ok.
+You might see the warning message or something similar in the launching xterm console like below, you can just ignore it. I googles around and some blogs just suggested to ignore since the IDE still functional ok.
 ```
 ** (eclipse:1): WARNING **: Couldn't connect to accessibility bus: Failed to connect to socket /tmp/dbus-wrKH8o5rny: Connection refused
 
