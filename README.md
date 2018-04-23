@@ -1,7 +1,17 @@
 # eclipse-oxygen-docker
 [![](https://images.microbadger.com/badges/image/openkbs/eclipse-oxygen-docker.svg)](https://microbadger.com/images/openkbs/eclipse-oxygen-docker "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/openkbs/eclipse-oxygen-docker.svg)](https://microbadger.com/images/openkbs/eclipse-oxygen-docker "Get your own version badge on microbadger.com")
 
-* Eclipse-Oxygen + Java 8 (1.8.0_162) JDK + Maven 3.5.0 + Python 3.5.2 + X11 (display GUI)
+* Eclipse-Oxygen + Java 8 JDK + Maven 3.5 + Python 3.5 + X11 (display GUI)
+
+# Components
+* Eclipse-Oxygen
+* java version "1.8.0_172"
+  Java(TM) SE Runtime Environment (build 1.8.0_172-b11)
+  Java HotSpot(TM) 64-Bit Server VM (build 25.172-b11, mixed mode)
+* Apache Maven 3.5.3
+* Python 3.5.2
+* X11 display desktop
+* Other tools: git wget unzip vim python python-setuptools python-dev python-numpy 
 
 # Run (recommended for easy-start)
 Image is pulling from openkbs/eclipse-oxygen-docker
