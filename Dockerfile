@@ -7,12 +7,20 @@ ENV USER_NAME=${USER_NAME:-developer}
 ENV HOME=/home/${USER_NAME}
 ENV ECLIPSE_WORKSPACE=${HOME}/eclipse-workspace
 
-ARG ELCIPSE_TAR=${ELCIPSE_TAR:-eclipse-jee-oxygen-R-linux-gtk-x86_64.tar.gz}
+#ARG ECLIPSE_TAR=${ECLIPSE_TAR:-eclipse-jee-oxygen-R-linux-gtk-x86_64.tar.gz}
+ARG ECLIPSE_TAR=${ECLIPSE_TAR:-eclipse-jee-photon-R-linux-gtk-x86_64.tar.gz}
+
+#ARG ECLIPSE_URL=${ECLIPSE_URL:-"http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/photon/R/"}
+ARG ECLIPSE_URL=${ECLIPSE_URL:-"http://mirror.math.princeton.edu/pub/eclipse//technology/epp/downloads/release/photon/R"}
+
+## http://ftp.osuosl.org/pub/eclipse/technology/epp/downloads/release/photon/R/eclipse-jee-photon-R-linux-gtk-x86_64.tar.gz
+## http://mirror.math.princeton.edu/pub/eclipse//technology/epp/downloads/release/photon/R/eclipse-jee-photon-R-linux-gtk-x86_64.tar.gz
 
 WORKDIR /opt
-RUN wget -c http://mirror.math.princeton.edu/pub/eclipse//technology/epp/downloads/release/oxygen/R/${ELCIPSE_TAR} && \
-    tar xvf ${ELCIPSE_TAR} && \
-    rm ${ELCIPSE_TAR} 
+#RUN wget -c http://mirror.math.princeton.edu/pub/eclipse/technology/epp/downloads/release/oxygen/R/${ECLIPSE_TAR} && \
+RUN wget -c ${ECLIPSE_URL}/${ECLIPSE_TAR} && \
+    tar xvf ${ECLIPSE_TAR} && \
+    rm ${ECLIPSE_TAR} 
     
 VOLUME ${ECLIPSE_WORKSPACE}
 VOLUME ${HOME}/.eclipse 
