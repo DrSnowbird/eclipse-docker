@@ -23,8 +23,22 @@ Image is pulling from openkbs/eclipse-oxygen-docker
 
 # Build
 You can build your own image locally.
+Note that the default build docker is "photon" version. 
+If you want to build older Eclipse like "oxygen", you can following instruction in next section
 ```
 ./build.sh
+```
+
+## Build (Older Eclipse, e.g. Oxygen)
+* Way-1: Modify the line in Dockefile as below if you use Docker-compose or Openshift CI/CD. That is, you se this way if you are not using command line ./build.sh to build container image.
+```
+## -- Eclipse version: oxygen, photon, etc.: -- ##
+ENV ECLIPSE_VERSION=${ECLIPSE_VERSION:-oxygen}
+```
+* Way-2: If you use command line "./build.sh", you can modify "./docker.env" file and then, run "./build.sh" to build image
+```
+## -- Eclipse version: oxygen, photon, etc.: -- ##
+ECLIPSE_VERSION=photon
 ```
 
 # Configurations (Optional)
