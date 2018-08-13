@@ -1,4 +1,4 @@
-#!/bin/bash -x
+#!/bin/bash
 
 # Reference: 
 # - https://docs.docker.com/engine/userguide/containers/dockerimages/
@@ -17,13 +17,33 @@ MY_DIR=$(dirname "$(readlink -f "$0")")
 ORGANIZATION=openkbs
 
 ###################################################
+#### ---- Detect docker ----
+###################################################
+DOCKER_ENV_FILE="./.env"
+function detectDockerEnvFile() {
+    curr_dir=`pwd`
+    if [ -s "./.env" ]; then
+        echo "--- INFO: ./.env Docker Environment file (.env) FOUND!"
+        DOCKER_ENV_FILE="./.env"
+    else
+        echo "--- INFO: ./.env Docker Environment file (.env) NOT found!"
+        if [ -s "./docker.env" ]; then
+            DOCKER_ENV_FILE="./docker.env"
+        else
+            echo "*** WARNING: Docker Environment file (.env) or (docker.env) NOT found!"
+        fi
+    fi
+}
+detectDockerEnvFile
+
+
+###################################################
 #### ---- Generate build-arg arguments ----
 ###################################################
 BUILD_ARGS=""
-ARGS_DEFINITION_FILE="./docker.env"
 ## -- ignore entries start with "#" symbol --
 function generateBuildArgs() {
-    for r in `cat ${ARGS_DEFINITION_FILE} | grep -v '^#'`; do
+    for r in `cat ${DOCKER_ENV_FILE} | grep -v '^#'`; do
         echo "entry=$r"
         key=`echo $r | tr -d ' ' | cut -d'=' -f1`
         value=`echo $r | tr -d ' ' | cut -d'=' -f2`
