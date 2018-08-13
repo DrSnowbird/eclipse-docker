@@ -1,0 +1,1963 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.m2e.core.ui;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: genie.m2e
+Require-Bundle: org.eclipse.m2e.core;bundle-version="[1.8.0,1.9.0)",or
+ g.eclipse.core.resources;bundle-version="3.5.2",org.eclipse.core.runt
+ ime;bundle-version="3.5.0",org.eclipse.m2e.model.edit;bundle-version=
+ "[1.8.0,1.9.0)",org.eclipse.m2e.maven.runtime;bundle-version="[1.8.0,
+ 1.9.0)",org.eclipse.m2e.archetype.common;bundle-version="[1.8.0,1.9.0
+ )",com.ibm.icu;bundle-version="4.0.1",org.eclipse.m2e.maven.indexer;b
+ undle-version="[1.8.0,1.9.0)",org.eclipse.ui.console;bundle-version="
+ 3.4.0",org.eclipse.ui.ide;bundle-version="3.5.2",org.eclipse.core.fil
+ esystem;bundle-version="1.2.1",org.eclipse.core.expressions;bundle-ve
+ rsion="3.4.101",org.eclipse.ui.forms;bundle-version="3.4.1",org.eclip
+ se.jface.text,org.eclipse.ui
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: %Bundle-Vendor
+Import-Package: org.eclipse.compare.rangedifferencer,org.eclipse.ltk.c
+ ore.refactoring,org.slf4j;version="1.6.2"
+Export-Package: org.eclipse.m2e.core.ui.internal;x-internal:=true,org.
+ eclipse.m2e.core.ui.internal.actions;x-friends:="org.eclipse.m2e.edit
+ or,org.eclipse.m2e.editor.xml",org.eclipse.m2e.core.ui.internal.compo
+ nents;x-friends:="org.eclipse.m2e.editor,org.eclipse.m2e.editor.xml",
+ org.eclipse.m2e.core.ui.internal.console;x-internal:=true,org.eclipse
+ .m2e.core.ui.internal.dialogs;x-friends:="org.eclipse.m2e.editor",org
+ .eclipse.m2e.core.ui.internal.editing;x-friends:="org.eclipse.m2e.edi
+ tor.xml,org.eclipse.m2e.editor,org.eclipse.m2e.refactoring",org.eclip
+ se.m2e.core.ui.internal.lifecyclemapping;x-internal:=true,org.eclipse
+ .m2e.core.ui.internal.markers;x-internal:=true,org.eclipse.m2e.core.u
+ i.internal.preferences;x-internal:=true,org.eclipse.m2e.core.ui.inter
+ nal.search.util;x-friends:="org.eclipse.m2e.editor",org.eclipse.m2e.c
+ ore.ui.internal.util;x-friends:="org.eclipse.m2e.editor",org.eclipse.
+ m2e.core.ui.internal.views;x-internal:=true,org.eclipse.m2e.core.ui.i
+ nternal.views.nodes;x-internal:=true,org.eclipse.m2e.core.ui.internal
+ .wizards;x-friends:="org.eclipse.m2e.editor"
+Bundle-Version: 1.8.0.20170516-2043
+Bundle-Name: %Bundle-Name
+Bundle-Localization: plugin
+Bundle-Activator: org.eclipse.m2e.core.ui.internal.M2EUIPluginActivato
+ r
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_121
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/CollectionNode.clas
+ s
+SHA-256-Digest: IEap0WmxDaHIO0M/CCSFy1MR+LBtdg3xXE+17VGmypw=
+
+Name: icons/add_index.gif
+SHA-256-Digest: 3x98YIvcb7KLnmYBzoE+pFcemhNKcoDQ5teRp1abu/0=
+
+Name: org/eclipse/m2e/core/ui/internal/views/nodes/IndexedArtifactGrou
+ pNode.class
+SHA-256-Digest: uAbM7cZQq9mcH3N8EjqArdl0+/CoCCezIx8t8RY8jRM=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationWizardPage$3.class
+SHA-256-Digest: pvl4oGWucuYHFdgL+KdDj6btDMo+0TGivuFOFappytA=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/MavenPropertyDialog$2.c
+ lass
+SHA-256-Digest: tSuzkZa+aqpUrHLxtAQOddxx2Y9eixmACe1Ro4y42KY=
+
+Name: org/eclipse/m2e/core/ui/internal/views/nodes/GlobalRepositoriesN
+ ode.class
+SHA-256-Digest: AlsbPcse7XSMsVjJx182wzga5Zi6svooAIVV6b5cZKE=
+
+Name: org/eclipse/m2e/core/ui/internal/components/WorkingSetGroup$3.cl
+ ass
+SHA-256-Digest: N66coGL1xUsvdYlh0t8YEVTwM6jGM4JF0KgMzd9xO9o=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/AddPluginAction.class
+SHA-256-Digest: coMAgvwtfG2D9Q4AeOrCwW6zioyLzun7UYY0v/BuI+c=
+
+Name: org/eclipse/m2e/core/ui/internal/components/WorkingSetGroup.clas
+ s
+SHA-256-Digest: 5Y9QI5b8GaKWUS8Wq2vmT8HTAnEpYbb416+m4p390t4=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/UpdateMavenProjectComma
+ ndHandler.class
+SHA-256-Digest: q8EcXjse1dw01cF4+BrCcweFWLaB5iRBIvyw42Yp/wo=
+
+Name: org/eclipse/m2e/core/ui/internal/markers/MarkerResolutionGenerat
+ or.class
+SHA-256-Digest: PgUiSBOOMIO1tAwpJp93WlPBJb0AqVM2ik5ARxNdt9I=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typeParametersPage$9.class
+SHA-256-Digest: WB8/rEw6vsc6fPX5Wk1vlcTjWVkQNl8srP/dZDyYVXA=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/ModuleProjectWizardActi
+ on.class
+SHA-256-Digest: OJZUJpczLGS/4qv/w4hSeyzqr2uxvvaAFNGB6SNEWuQ=
+
+Name: icons/rebuild_index.gif
+SHA-256-Digest: CtetSitlYcxsVxNiyXGjCMNMXxDW+1vgXeLthNyOQvI=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/LifecycleMappingOperati
+ on.class
+SHA-256-Digest: 0TqvlYn9PT/PPEv+YNggIGEITgtCKtF27tGFVwQOyk8=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/ControlDecoration$3
+ .class
+SHA-256-Digest: JV7ytqFAhmw8JRltexY4YaiVGnByna/kRTlZvnLxcTA=
+
+Name: org/eclipse/m2e/core/ui/internal/markers/MavenProblemResolution.
+ class
+SHA-256-Digest: rs7BeStAGY11E38TGth+NbGPdEbo7SzsEvT7eIC4Cjk=
+
+Name: META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.core.ui/pom.xml
+SHA-256-Digest: aIRpKZNmYeUcL9jXDJqSeBJP67wpweOflfoW7k1PVwg=
+
+Name: org/eclipse/m2e/core/ui/internal/util/ParentGatherer$1.class
+SHA-256-Digest: QvTl7bzcdRYCdU73ZciMpL3bOywbMo5x67EZ5iG8yu8=
+
+Name: org/eclipse/m2e/core/ui/internal/WorkingSets.class
+SHA-256-Digest: ohSJK8fG4g3L6hX15T3vPqB7sn3DT1emw6s1NhQE+LE=
+
+Name: org/eclipse/m2e/core/ui/internal/console/ConsoleDocument.class
+SHA-256-Digest: nx3Y/ZvVNqdtx2/+G282U4+np5OsUFVVHc0s37eWDCY=
+
+Name: org/eclipse/m2e/core/ui/internal/util/Util$FileStoreEditorInputS
+ tub.class
+SHA-256-Digest: 01zy/q7KzKn1e5/BcvC5E0TIuPEIbQw4ETR/PUEy4kA=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/SearchEngine.class
+SHA-256-Digest: XCR+AS3kDkkznpzOrm95MBYxhN2cWbtzKLGN2EnMue4=
+
+Name: org/eclipse/m2e/core/ui/internal/views/nodes/AbstractRepositorie
+ sNode.class
+SHA-256-Digest: jkJqOj/MVzkpbFnI6l0RPjsNCdfWvnjJPeJKGXluGW8=
+
+Name: intro/css/whatsnew.css
+SHA-256-Digest: Wew+IeEP+6kMDcDNSNBjtFsmIx0AwnqljO/W2TplpfA=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizard$3.cla
+ ss
+SHA-256-Digest: bZiQxquyhafQ4IBS00iSh9spRb3i1Qbjay1c9tqOYbg=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/PomEdits$CompoundOperat
+ ion.class
+SHA-256-Digest: 2ES/S2AsuCL1jbPyZsUdk8gh3YFv3Shjf4DSXJFS5Gc=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingPre
+ ferencePage.class
+SHA-256-Digest: Gc1u06k3uDOdaxzpMJu83gl0tI9mu6sllL/Em43F8as=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenArtifactComponent.
+ class
+SHA-256-Digest: uG7ksopOn7icgqBbHLVH0STPmCmXuhrQ4D3KNfd6tew=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenLocationComponent.
+ class
+SHA-256-Digest: COc7Tsn6HPOdrlT6d9zEhoO2gwh9I353m6IxO9cYM10=
+
+Name: org/eclipse/m2e/core/ui/internal/views/nodes/IndexedArtifactFile
+ Node$AdapterFactory.class
+SHA-256-Digest: Ce3wrdyFX2ZK3ytQhr5RC2dyhjYuktjtEPDA9csNzNY=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/BuildDebugView$1.cl
+ ass
+SHA-256-Digest: QjoEWcYPvHyCBIW0wYuEfGj1Ws2Jw1PHCO5OpUPGJnI=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenSettingsPrefer
+ encePage$2.class
+SHA-256-Digest: H2anINS2kFpTrm8vziCyHIBJ26sa692u0ZE4L0bWbUQ=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$5
+ .class
+SHA-256-Digest: yLrGQA52qeHm3HwINYYkIx5Xp0pbFs2C7iuH6gutZLk=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationWizardPage$11.class
+SHA-256-Digest: tYgEDbnjT0JglK2QobgONxAB0AtdBgN1//ZQcy5wyzQ=
+
+Name: org/eclipse/m2e/core/ui/internal/console/MavenConsoleImpl$1.clas
+ s
+SHA-256-Digest: BfSe6gbWl/1+OyrCdfSdI655PulKLsEXFK6RDWr+SQM=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/MavenMessageDialog.clas
+ s
+SHA-256-Digest: x+J8RpVUKvKr6ih45f/am05hAm2QhAjNSVAx4B1TFIo=
+
+Name: org/eclipse/m2e/core/ui/internal/console/MavenConsolePagePartici
+ pant$ShowOnOutputAction.class
+SHA-256-Digest: JlaEmx0X4zKKrvya0tLAcF4hXqKs4a1N1axsKWX/9N8=
+
+Name: org/eclipse/m2e/core/ui/internal/util/M2EUIUtils.class
+SHA-256-Digest: qbudhxhINngXTm3VPZ+7gTKqQig3+qNT0qjRsECjWr8=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typeParametersPage$4.class
+SHA-256-Digest: VfOENJUairOBoNenmv4xqDqBAYRtAi8rm15tAwSIN8o=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/ResolverConfigurationCo
+ mponent.class
+SHA-256-Digest: RuCwXfqz2sMTd4n3suUzR/z1/FZBv6blo0X+IoTjtqQ=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/LifecycleMappingPage$2.
+ class
+SHA-256-Digest: kTPEleZAj7UAZkWTYl+tNOrqIbboXAS2joRiaZXsV7U=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/MavenDebugOutputAction.
+ class
+SHA-256-Digest: l/FCcAiRmgQF0C2+m9ksEOEDyPtxf5AKlxLkQu0wWIQ=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationWizardPage$8.class
+SHA-256-Digest: vi2mQ1H48dpGy9nQR61zcfhu3j8tJsKFiy0be0BdlPk=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$6.class
+SHA-256-Digest: 9xmVYRmy/8j3f6G4kkRjmfM9DWWQKkdHR2f9PTDxizs=
+
+Name: org/eclipse/m2e/core/ui/internal/lifecyclemapping/ILifecycleMapp
+ ingLabelProvider.class
+SHA-256-Digest: 0QmDI77u2PxW/sck8gvKSwn89W+k+KVzCGqQXLu7Dl0=
+
+Name: org/eclipse/m2e/core/ui/internal/views/RepositoryViewLabelProvid
+ er.class
+SHA-256-Digest: /juy/r6OTZilOOC9FCjTyAt6DljhmqGly+R7xwg82o0=
+
+Name: org/eclipse/m2e/core/ui/internal/views/nodes/LocalRepositoryNode
+ .class
+SHA-256-Digest: 405YMMWj7Ht9yk9JCXrQk1iZyjo46t0ScrwDJiW9ZPk=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/LifecycleMappingDiscove
+ ryHelper.class
+SHA-256-Digest: 32WyVTPWqKsNoDbbbaZu1LuhLgF3cHW8fawK+NCx/6M=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenInstallFileWizard.
+ class
+SHA-256-Digest: Zbo66rlTWOCQIGU2LGW1+EIqMM9WBUr7csNrnlADO0w=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/AssignWorkingSetDialog$
+ 5.class
+SHA-256-Digest: rsqXLzEgMBgR7qF9qWo851QzdBK47FAf7MclnuzCkbs=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/InputHistory$ControlWra
+ pper$1.class
+SHA-256-Digest: UTKAHpAxqaWKyjWKCZTW6n/SPbFbAYsmz84IJrBO+kA=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$9.cla
+ ss
+SHA-256-Digest: 0ituNh5qAz0YDVkcPBo/I+xM+A06h3V1KTTPhpZiXEY=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$2.cla
+ ss
+SHA-256-Digest: ZGJfpcyDAxU+fE9R9KdlBAsqZqcSVERVBsX3FnfwNzc=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationWizardPage$TreeLabelProvider.class
+SHA-256-Digest: yT30DVg48NJcoHcKK1XWfpb5P4Wh5WiwXAP60/CEOsI=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationsPreferencePage$RuntimesLabelProvider.class
+SHA-256-Digest: EH36+dXaTYvSpiJulerui0ULdlTmAfdzlmnZkYQowZ4=
+
+Name: org/eclipse/m2e/core/ui/internal/lifecyclemapping/MojoExecutionM
+ appingLabelProvider.class
+SHA-256-Digest: KiFPbWO0sTRvDdV3+CeC7g5AO+RAD4GwL5SaNoTU69M=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenProjectPrefere
+ ncePage.class
+SHA-256-Digest: a/zceXnNWA5co/efo8l6EoelaUgG9xAPHQXRxpaj8IM=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$1
+ 4.class
+SHA-256-Digest: F/X+fvXvfEJ5HqYPoL8ZZbSHVcvI9aZeu/uu2LdfDBE=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArtif
+ actPage$3.class
+SHA-256-Digest: lcOFpUTiv9tlgju2hNXTt2ygjK70xlWDWibQRggmiec=
+
+Name: icons/project_obj.gif
+SHA-256-Digest: uYYTjGiWNXEPdp9K6u/E5eelh78fRoI1kx0WL6vo41s=
+
+Name: icons/pom_obj.gif
+SHA-256-Digest: S0L9ufpgFOi7hPldqhOFloKIOAtQB9ZjsvYSUS79ZbI=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenSettingsPrefer
+ encePage$7.class
+SHA-256-Digest: JR4W+2tFMXTtT3oP0dVS1wdQoZE8uIwCybzfUA+wLc0=
+
+Name: org/eclipse/m2e/core/ui/internal/console/MavenConsolePagePartici
+ pant$ShowOnErrorAction.class
+SHA-256-Digest: gwpK6N+7wSi3B/1xCeXTR1f1Y0eYPgecyMPkdny98rQ=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenDependenciesWizard
+ Page$DependencySorter.class
+SHA-256-Digest: K0t0doSTarlh36yPEoea+kgcBqgDwMUCWBcc6FSEaZY=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/OpenPomAction$2.class
+SHA-256-Digest: n23hSWUgAR1boZogbv41X4MWOFrLPZ0aKY18Tu0K6n0=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$10.cl
+ ass
+SHA-256-Digest: kQWBLqAywsKgRp9lYBcTUE3Nl0DoLfCnRBFFaoiwO4w=
+
+Name: org/eclipse/m2e/core/ui/internal/util/ProposalUtil$2.class
+SHA-256-Digest: q0B09GQ8/zH171JDp25yDOIxfZJZZ5a8nIGcVJYN29Q=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$15.class
+SHA-256-Digest: y0QqVl8qz0TQAv4roc18t15mtvOtYGPrXgevhFZf6nk=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenInstallFileArtifac
+ tWizardPage$4.class
+SHA-256-Digest: Uioe4YisHsX336lqH/1LXDic7qKuapJq92g0xaf3vxM=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArtif
+ actPage$1.class
+SHA-256-Digest: oVjxuTg+FkCh/DpUSi9nJoFNeeNPucZ5nEcJF+eTx/0=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/LifecycleMappingPage$4.
+ class
+SHA-256-Digest: UE5BBko3NHgHI4yZq2Oi8OVgpinFXJXDztvKnv1QuRE=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenArchetypesPref
+ erencePage$7.class
+SHA-256-Digest: Jn8YYOorPsIezoYabN550nnXzbV/pe+SDydb9ucU7MM=
+
+Name: org/eclipse/m2e/core/ui/internal/util/ProposalUtil$5.class
+SHA-256-Digest: HTfNkcJHMQwrvqEmxHRBFSRgSzJHLT9PXZqcSn0FyvM=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/LifecycleMappingPage$7.
+ class
+SHA-256-Digest: m/5EMPIPniaYP4L/iQ3CV6fNqxuslm44iSYCq7S0z4s=
+
+Name: icons/collapseall.gif
+SHA-256-Digest: vrC8rRfWUvpPxc/e6IOk3TnYdzSj1h4PDqS+lxD3kEM=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizard$1.cl
+ ass
+SHA-256-Digest: 5FtQgrjNTkckckXBDDwtVPTU08HU/R0H75AHFTnQz7o=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$1
+ 6$1.class
+SHA-256-Digest: uaiUPcKNhWkWjPO68u76D0DVaXqVnexSCl8qb3mdTa0=
+
+Name: icons/dirty.gif
+SHA-256-Digest: DQMsi1H+LgjNCozLM7yngjDoakFC6aU18TZ0CEJr8WM=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typeParametersPage$2.class
+SHA-256-Digest: IuSWElfDjxZNKiWX0pvOMckNCj+n/tDCR09/RcXGs4M=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenDiscoveryProposalW
+ izard.class
+SHA-256-Digest: vWf2IOZ0ajU7s8t6EsUNXc3Eb63FQK2axDf838IWf8I=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$1
+ 2.class
+SHA-256-Digest: +846CvPTLD+HW8YmzMh/muio/uavAf2cZqdAiz3KYaQ=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenSettingsPrefer
+ encePage$9.class
+SHA-256-Digest: bTzUxW1b+99xJ287cMPFhJYckeqrTWdziRtYSHvkGxg=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingsVi
+ ewer$1.class
+SHA-256-Digest: INwjJvAdKbMJB9Wg62KHXNiioBYMZ/7hKiXDllw2kNk=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/AbstractMavenDialog.cla
+ ss
+SHA-256-Digest: rK3+FQqTXs1A5nYWowO9ZH7CadWcOBxQdeIGsWWi75c=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/SearchException.cla
+ ss
+SHA-256-Digest: MkFenbrAD0eEn4EKcpgRSi6CLJn7lRjmHnyI9FJoDPo=
+
+Name: icons/m2eclipse48.gif
+SHA-256-Digest: 3RKc8fLO9lGZiJ0J2+eexipxrl+LehqXq+DXeQKHwsU=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/OpenPomAction$4.class
+SHA-256-Digest: fw3M/bfNpbFGepspgDmBZcIR3uelC67pmkOrLPcpig4=
+
+Name: org/eclipse/m2e/core/ui/internal/components/NestedProjectsCompos
+ ite$6.class
+SHA-256-Digest: Z6xK61/jvLTrXOZ7dPh6u8oJmm0POg+c5eJdG7drU6c=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/LifecycleMappingPage$2$
+ 1.class
+SHA-256-Digest: prFRtye9YGuQaEGZ3kGYhtxbS5Pydor9vSu/IuMxVCc=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$8$1.c
+ lass
+SHA-256-Digest: bhomldmHUKHNaxExHiAd6rSklsVOozFK1hoAEtOCY74=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/PomEdits$3.class
+SHA-256-Digest: ebuaRl+dAHk+GPrzUXg9I/sGFi5ZSKIN3vZLK2G8SFk=
+
+Name: icons/jar_version.gif
+SHA-256-Digest: TBdX0MRu8tybO6b8ej3g5IsVKvCEzlb1tYamaRHXI/8=
+
+Name: org/eclipse/m2e/core/ui/internal/lifecyclemapping/ProjectLifecyc
+ leMappingElement.class
+SHA-256-Digest: QBml/qrVxjWE8gF+rNWsQKHBrv6HV5K9lTyhaDQUe7w=
+
+Name: org/eclipse/m2e/core/ui/internal/util/ProposalUtil.class
+SHA-256-Digest: 88QyaUtDpkXxwnWjXjYn4weQuhF5FLVdRSlrSeAy8eU=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/PomHelper.class
+SHA-256-Digest: 7acMzhmDNYaNQMXV0tzWHLJdwS3XBv0KjQ+cgdm+nm0=
+
+Name: org/eclipse/m2e/core/ui/internal/components/NestedProjectsCompos
+ ite$11.class
+SHA-256-Digest: xGAK15OizPK2dCT4cf85E76SofHHFW5SyunUHTQjKys=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/ControlDecoration$5
+ .class
+SHA-256-Digest: 1Sq9w/2KBdGMHHXabOoaB84t57pIO2mCgtPsGNdpbhA=
+
+Name: org/eclipse/m2e/core/ui/internal/console/MavenConsole.class
+SHA-256-Digest: 828lYTBkNWRLxXQQGYSK3DdqlS6iTKw/9YyYSgQWXIo=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizard$3.cl
+ ass
+SHA-256-Digest: zignDWoj/LMRMPnzaRs+LIRLHSd7M4WeKLm2+f+KAvI=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenInstallFileArtifac
+ tWizardPage$6.class
+SHA-256-Digest: LnClXSHeHxHxemmg79DqMNsXljcwwBJzefaxFiSCsEE=
+
+Name: org/eclipse/m2e/core/ui/internal/views/nodes/CustomRepositoriesN
+ ode.class
+SHA-256-Digest: IMiTrU//stBOERtR+teFy+l2p64GU1CN66tv/RJsW9s=
+
+Name: icons/stderr.gif
+SHA-256-Digest: nEFBJm19c367l+U5QNiLVn4iKVNlq3EOoujgSX3od7o=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/PomEdits$OperationTuple
+ .class
+SHA-256-Digest: 1QUiruVsEd73gJczubu/XDyCxLn8oJAOJDVj/LZB1PY=
+
+Name: org/eclipse/m2e/core/ui/internal/MavenImages.class
+SHA-256-Digest: mGOLeVaQ73q2/w/Ey55k5eqswMPbaPqUrobcKbZNU/w=
+
+Name: org/eclipse/m2e/core/ui/internal/lifecyclemapping/AggregateMappi
+ ngLabelProvider.class
+SHA-256-Digest: 55z44JxZpUR71PO45eNUuflV49OVv+F9sJJszaNQtTU=
+
+Name: org/eclipse/m2e/core/ui/internal/components/NestedProjectsCompos
+ ite$8.class
+SHA-256-Digest: hFcVLIOurbIlsVzOUlm4liaI/E3DQSjcs+BBC1SQCS0=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/EditDependencyDialog$1.
+ class
+SHA-256-Digest: UALmZd6OLslofJSM93qwSV8R/kF1B0SZSqRr0wx2sqs=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/ChangeNatureAction$Upda
+ teJob.class
+SHA-256-Digest: LRLe8Kl1cH5POoFqNxqF+rOzPBuItdR8YgUzEPaahaA=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizard$7$2.c
+ lass
+SHA-256-Digest: CEAAQqHcGcFOHL+jjWiq0l7zAfyNzU3IfU2d0xeeu7w=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/ControlDecoration$6
+ .class
+SHA-256-Digest: 2z/R62kFu8kMEgcvh680xDzaszrsJRFzh4EVUghSTR4=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardLocat
+ ionPage$2.class
+SHA-256-Digest: ylRCHzWnoVMT2dtbhOts1iW2KW8JEyWpqJ0kwAi13+o=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$9.class
+SHA-256-Digest: kaZ8TasODNwTA6mVEwpkVYYFW2zOPln/eg1uniTBcYs=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/IndexSearchEngine.c
+ lass
+SHA-256-Digest: JWRkcHXdX/rRNmN5XBoHvqQ+ls0Pdn7/svafEBkshdI=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$Disab
+ leIndexAction.class
+SHA-256-Digest: 28Jh4TzN5dG0fdz9GctqXkUXhALIGKeafeodf25SvqI=
+
+Name: org/eclipse/m2e/core/ui/internal/MavenVersionDecorator$1.class
+SHA-256-Digest: jqOB6h4C400Mg3nR0DXQ4QjesFaWGZxuHMa1jZ9QGFU=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typeParametersPage$RequiredPropertiesLoader.class
+SHA-256-Digest: f2VYqefBVdkG/4uF7K33gGYEUN48l32hMe7I+IyFWPQ=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$18.class
+SHA-256-Digest: hLDHzl4RhFrsj1keUgU88vJo8Mg22lmdWvzbLX627zg=
+
+Name: org/eclipse/m2e/core/ui/internal/components/TextComboBoxCellEdit
+ or.class
+SHA-256-Digest: uwHWTJmeQ+VKsK/R5JLea4MPXTHNYyPsqcP1j0gNUeQ=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$17$2.class
+SHA-256-Digest: JGhGsCRlDnOqQdy43GEUuMNrnHsvuQNVTIyyfjoTavI=
+
+Name: org/eclipse/m2e/core/ui/internal/util/Util$1.class
+SHA-256-Digest: DeREhQw5btiLwQtZgjnn3PHncP8MHynbRAgmW25bROw=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizard$1.cla
+ ss
+SHA-256-Digest: ZwhPZn9md82dXJKceaf8TLzGFruDDuMCMcm39T3Huqs=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$6$1.c
+ lass
+SHA-256-Digest: +naR6xt3r0jt77Zfdwn0n6Zwm6LSXN6rZUwdKs3/hHs=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/RemoteArchetypeCata
+ logDialog.class
+SHA-256-Digest: IvbsK2/YipUvVjptOEf6lVTuY5mGAHYkVRbMeM86fc0=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/UpdateMavenProjectActio
+ n.class
+SHA-256-Digest: iw9Qs+I+A8fndqnsk4QGYwZCHBC2/k1yHquVrhsjzGE=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenArchetypesPref
+ erencePage.class
+SHA-256-Digest: WjNANgiwg8vw/hd38A+ZlQDjO8aiw27cJN+X3v+Mv5k=
+
+Name: org/eclipse/m2e/core/ui/internal/components/NestedProjectsCompos
+ ite.class
+SHA-256-Digest: skjZewM4UKNJpEHs0SMvPYog+pU7mKLK1xotoOKX9n0=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationWizardPage$TreeContentProvider.class
+SHA-256-Digest: VwD7DLbDkRR8j4+Tmye2gdhFH4IU3vM15T2nwENm6bk=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/MojoExecutionNode.c
+ lass
+SHA-256-Digest: E09AEktIZs2MVmqYAKvOh4TFI3NkoaB/3fDKTh7RW78=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectSelectionDi
+ alog$1.class
+SHA-256-Digest: bJTWV9Kex64SL/8XjEvw+XrzhyYP/rwcy+FxMMi93Go=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/AssignWorkingSetDialog$
+ 3.class
+SHA-256-Digest: 5PinTRf0WH9sRhafq/0rk0navc3eV6zhNg2EeWw5h3I=
+
+Name: org/eclipse/m2e/core/ui/internal/MavenVersionDecorator.class
+SHA-256-Digest: 7haLBjN/sSDLYt/gFOpWS6A8XcY9158RElkgmXSrIPA=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$8$1$1
+ .class
+SHA-256-Digest: o1RkdQgKZvuoh4+NZgws2qp8HuRDS2/N5CUENvxCTfU=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/AddDependencyAction.cla
+ ss
+SHA-256-Digest: P8dlZKCh9BACXRt9HlBL3ad+riybrZ3/o0z8TdFD/Mk=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$6.cla
+ ss
+SHA-256-Digest: 7rFQKk1lLX4NxAKE057gSnhdEBXMhuNppYsJu9IULyI=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationWizardPage$6.class
+SHA-256-Digest: DpPZmURU+vixlbSrqUAhD+tu5yrhWc+X9X0C7gWU2DQ=
+
+Name: intro/overview.xml
+SHA-256-Digest: v/jjtgaATZnMvYOmTreLtnAqRwoRYEYsufsG9FDQLZY=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenLocationComponent$
+ 2.class
+SHA-256-Digest: 8JS+nBqpvnBwqLZk7xvt81XT09SKne2fCjSfZ4+RJJY=
+
+Name: org/eclipse/m2e/core/ui/internal/IMavenDiscovery.class
+SHA-256-Digest: lUVTEZ3y22iPBYMc7ysPnuFyCD4FnhbMZOXm2rcdNas=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenArchetypesPref
+ erencePage$6.class
+SHA-256-Digest: p7oLfhS5ROm3M+dhqz/TxZzpbUu9f7vWpuxDKABgnj0=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$17$1.class
+SHA-256-Digest: xK65NQtG0GhcRcmmqpGnbuJ0g77kHBz5bGryMn5Z2T8=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LocalArchetypeCatal
+ ogDialog$2.class
+SHA-256-Digest: F7cyspTTzZ1Xv1M/aBxY7un07Vav2F2QbNfsIWwyaYk=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenPomSelectionCompon
+ ent$3.class
+SHA-256-Digest: Asy8GhEfUg+KvYsyT/tT03YstoQd5dK9ydyHDEEbJJg=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenProjectPrefere
+ ncePage$1.class
+SHA-256-Digest: Pufq6KHmEfWyguHqmU5UIJ/zP0OaxUKH2a3T2HNF26w=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/AbstractMavenProjectWiz
+ ard.class
+SHA-256-Digest: 6gF3OpQnqcf57Ps3Awcw2aCwchWw57UEwJuV3p4JTQM=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/BuildDebugView$4.cl
+ ass
+SHA-256-Digest: JPE/rujNNiddIG7aKnQ6P4DHSK1Z4bdPE+mqOuQVtdU=
+
+Name: org/eclipse/m2e/core/ui/internal/markers/EditorAwareMavenProblem
+ Resolution.class
+SHA-256-Digest: d/A9I7kNa1MkqMsCZ11ON2ywDoZfWoIWP7c1z0iTrgg=
+
+Name: icons/jar_obj.gif
+SHA-256-Digest: 4mZbRvBJ5a89XjcrEovD+Hp95mcpbzcy4cT2f44AijA=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/ChangeNatureAction.clas
+ s
+SHA-256-Digest: FCYZPC0JXDyOx/CGn+WYEMp1BLsa5+CULCRIIUPiQxw=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/BuildDebugView.clas
+ s
+SHA-256-Digest: uLKFVL+qvmFQ/0VWPDqVPLmtf+6MRucGcthaMwEItqE=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenSettingsPrefer
+ encePage$5.class
+SHA-256-Digest: fj7qnrQCicsw7hd07/n+XwLH5KPyfYofSpl90EjeulU=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/MenuDetectListener.
+ class
+SHA-256-Digest: gCEe8VNLAAEt2cHfEyXGutuY5QpQdq85qHp5USUMklU=
+
+Name: org/eclipse/m2e/core/ui/internal/components/PomHierarchyComposit
+ e.class
+SHA-256-Digest: AX9I/CHoZ5ymSsfAwQ+Fm6CXLc85XO4ZI+O1F0gh6B0=
+
+Name: org/eclipse/m2e/core/ui/internal/console/ConsoleDocument$Console
+ Line.class
+SHA-256-Digest: eeaJhPjHGDd+I0h2IEwjdDsMaEjKCBNTNFA5KiqzzOE=
+
+Name: icons/passed.png
+SHA-256-Digest: nVZ4IG52BDecZxIpdGfen1oE4B2XMC4or4jHr39BgD0=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/MavenActionSupport.clas
+ s
+SHA-256-Digest: xZbclG7eAQ597UYGED0KwK+v9zmqJeXExCD55jVq6LI=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typeParametersPage.class
+SHA-256-Digest: 8jGZZ9mOSM8Axkf+Ov43bzZz5TiOY03zEI6A7uNFvYU=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$1.cla
+ ss
+SHA-256-Digest: q00Uas9GY9YeLZBIt7qeTsumLlNgnbEu08N2L9fjc0s=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenSettingsPrefer
+ encePage$6.class
+SHA-256-Digest: mztS+Ktf9LHYT/y2jFQFWqRbDyWdiGmaQ655tl41lfI=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/Packaging.class
+SHA-256-Digest: 48lYzyZqGw+JVYvekGXHgUqk3vOcDHG6KYL+nO4Hia0=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationWizardPage$1.class
+SHA-256-Digest: EkQPjFRos/caV1JtTii+tpBRkT9yIyqzvnt/M0Vbc2E=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenArchetypesPref
+ erencePage$1.class
+SHA-256-Digest: LD9QCRrJEL1OYt3cm9AY7y5r9mneCiOP9KsXmWDFyv4=
+
+Name: icons/expandall.gif
+SHA-256-Digest: +j1I96wTow/LB//yzFnctzfsJeguQl8CDw1EWNw/AUk=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizard.class
+SHA-256-Digest: FTwgA/mGv338g9ynWgJckadIprClqYKSqcqz6uSfIVQ=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/ControlDecoration$1
+ .class
+SHA-256-Digest: HYNLYSeduKQ0nJnXDzWdiuRVCcaU9H7Ok5OYXAbDMT4=
+
+Name: org/eclipse/m2e/core/ui/internal/views/nodes/AbstractIndexedRepo
+ sitoryNode.class
+SHA-256-Digest: quTWZLpEN46St1YUSPR630uolrqfxFONm6dUqn5vawc=
+
+Name: org/eclipse/m2e/core/ui/internal/components/WorkingSetGroup$1.cl
+ ass
+SHA-256-Digest: LAPD24fbZ6sUqbL1cZj1nT91rr3wYhzgVpQefICb0ZU=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizardParent
+ Page.class
+SHA-256-Digest: 8F+h6zcBRAdW5c/4JyuK1XW4WIFWClkttQOt9f8mF/I=
+
+Name: icons/new_m2_project.gif
+SHA-256-Digest: dr8vOZa/ql3fxbueJkdKIDoVI5TdBWUH9q9kZreHoo0=
+
+Name: org/eclipse/m2e/core/ui/internal/console/MavenConsoleImpl$MavenC
+ onsoleLifecycle.class
+SHA-256-Digest: 8LT9EA8jcxaO6z+xbRMLS/+K7aGAholxsArtOar0wr0=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/AssignWorkingSetDialog$
+ 4.class
+SHA-256-Digest: 2Q28w2z3Zq6cxS+1PFc90/wtbHR3ppILT7wKxxHzi1o=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/ImportMavenProjectsJob$
+ 1.class
+SHA-256-Digest: Drm1w4bJakW82Vb4Mqr8kRtHFMtQ91HWBFx+MdjTNOA=
+
+Name: org/eclipse/m2e/core/ui/internal/views/RepositoryViewContentProv
+ ider.class
+SHA-256-Digest: AS2kvtNJ/U4zsrCg2Bp9FQquQJVRwrVEKuQS4QfRQUU=
+
+Name: schema/discoveryLaunch.exsd
+SHA-256-Digest: 2xrw+d8Nd8wY6m+SiPjwCivvZOc8sAQiPckw2bsIRMY=
+
+Name: org/eclipse/m2e/core/ui/internal/project/MavenUpdateConfiguratio
+ nChangeListener.class
+SHA-256-Digest: OUkXiTtl1oUM2z3mEd3LfYJTi305FiO5eqas/PQaqR8=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/BuildDebugView$9.cl
+ ass
+SHA-256-Digest: A9DgbQZyfxY8Hg1ltzULsbl27dKguHTKyLWNoKA/iik=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/BuildDebugView$3.cl
+ ass
+SHA-256-Digest: gZgoOATr04Mf0MdTt9vLf7Ki9wgQWsbRs/HMA346m98=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/UpdateMavenProjectsDial
+ og.class
+SHA-256-Digest: N2Q96NvcIaU+gjlz+EswCeVI7t8/Ppx3Lzui3l6LyJk=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/UserInterfacePrefer
+ encePage.class
+SHA-256-Digest: 93m48l+XU6zRHiyKRPWBFN/Gk5hdJllQxTgKxUauLJk=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenPomSelectionCompon
+ ent$4.class
+SHA-256-Digest: uWBkLi9ityYZXLFoAlf0t+tEXn4QstamFVOQUxnyKfQ=
+
+Name: org/eclipse/m2e/core/ui/internal/util/ProposalUtil$Searcher.clas
+ s
+SHA-256-Digest: 52yuC0lYxGxIV9CVa5CvLVTUzkWEqLevMHlaZjLlxMc=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizard$5.cl
+ ass
+SHA-256-Digest: 8/8E1Oylyr3isgOq/aDstBh26Z39R9h9Acq0rdYVde0=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/Node.class
+SHA-256-Digest: J59r7AXn8ENRG6R/Lm2lWIft9DXS1dbFfkt7dmORFl0=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectSelectionDi
+ alog$MavenContainerContentProvider.class
+SHA-256-Digest: pAZqQz99nndZHyvw5AnynYGvjpWk7QinK+xnX3eEIls=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$4
+ $1.class
+SHA-256-Digest: J6kBnjscPMIvwU2k4r6mDfKq3WVTmx0KBgpF2UImYSE=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/BuildDebugView$5.cl
+ ass
+SHA-256-Digest: 9F5uGm/wJ7BpTo8sks0V148LhUhltlaRBDcpqKwlCCg=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LocalArchetypeCatal
+ ogDialog$1.class
+SHA-256-Digest: z276Cjpm5ApDuOq5QAjtAzhA1EnnfkXmJTDYr7L6nrY=
+
+Name: org/eclipse/m2e/core/ui/internal/project/OutOfDateConfigurationD
+ eltaVisitor.class
+SHA-256-Digest: 1SEnOLm3WpCRcV3Sw1JP4650UtUciUxP8oRPMHP+Vdo=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenPomSelectionCompon
+ ent$SearchJob$1.class
+SHA-256-Digest: sofdFia+OhOR6dsDsZN8JNEkClWMKTpAyXU9CqJKq4g=
+
+Name: org/eclipse/m2e/core/ui/internal/Messages.class
+SHA-256-Digest: ZGxhV2RrRBvFaIigCx+HBcD7hLHJTpDe7hNnHWAEyxI=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenPomSelectionCompon
+ ent$2.class
+SHA-256-Digest: jcIu5vnESwNxodrxmHlGiS/IdbQOCjJ3ZXpcPl9LWN0=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/SelectionUtil$1.class
+SHA-256-Digest: PK/lSXj9ErCilZxGLKw2NaOZbH6hW/r2bxgLiQfGXTA=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/ChangeCreator$LineCompa
+ rator.class
+SHA-256-Digest: Tlj6RAOyrP+xilPidOJdM0sz10t8MbLK/pVPJRBbgFs=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/CustomArchetypeDialog.c
+ lass
+SHA-256-Digest: yc5fTPz83VGZGJycZlUwrFFZYm6Wkf2ZC5FV9duf0pg=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingsVi
+ ewer$8$1.class
+SHA-256-Digest: rFBeHTu89SqjzzuuDomiy2bukBVVegD2Cio5drWlWxA=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizard.clas
+ s
+SHA-256-Digest: jytDktX/7E+htXC9QJBZh1GGWHXLff7kaJ5cunFpDvk=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenSettingsPrefer
+ encePage$1.class
+SHA-256-Digest: UCUvyb7ZudGV01bByjZzODRDcx6KZ8DvH7VrMDaMglM=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/ChangeCreator.class
+SHA-256-Digest: SaTFa2KF2tAE8/5BnjH7aB9pNfwq0BIk878TlM13A4k=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenInstallFileArtifac
+ tWizardPage$3.class
+SHA-256-Digest: zF/QwvPhmIYOQVcWh7uB+iruGN7qnkryGnu2uw09WGk=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizard$6.cl
+ ass
+SHA-256-Digest: pF74gVEijnKCxHrIkNzeEBX3L5MgtdSxcPyqIeVQJW8=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/AssignWorkingSetDialog.
+ class
+SHA-256-Digest: 62ktfChyXsVcaN26HsbptGKONzKdz+04QqVqUPp8aOU=
+
+Name: org/eclipse/m2e/core/ui/internal/components/WorkingSetGroup$2.cl
+ ass
+SHA-256-Digest: jooG85UB3mJXD7yWV98Qjio1EkhT61QouipQDwLcw7I=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWorkspaceAs
+ signer.class
+SHA-256-Digest: 76J8bh1g15Ephf+O0DWVrFN6/Afa164p4SfrxUBVX2E=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationWizardPage$7.class
+SHA-256-Digest: THkbTaHvx4E6drCCILgyr1+oAgqe1XDzXXHDI0K3E80=
+
+Name: icons/new_m2_project_wizard.gif
+SHA-256-Digest: +gFMbXiO4ud4fHF9cqO/skw6wII+W96ZeQH40iEKl6E=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/AssignWorkingSetDialog$
+ 2.class
+SHA-256-Digest: ZJ37+6xvEtVWTvHj2Y/H8ig3VLDjcSzjlgSkOq6Pl4c=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/BuildDebugView$8.cl
+ ass
+SHA-256-Digest: 4a77dcAQmz/GxE3zZ5vRUzysSECFKqhiNwhGS9ny8mQ=
+
+Name: org/eclipse/m2e/core/ui/internal/components/WorkingSetGroup$5.cl
+ ass
+SHA-256-Digest: G2JVXfVUx/LxszRDZxt9cWc0IiFWRxmSSD08Y2qDAf8=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenArchetypesPref
+ erencePage$2.class
+SHA-256-Digest: kbfXwgMTBy/P2Hlbkr1HYrVr9gI9kIWSU0/dep21V+g=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$7.cla
+ ss
+SHA-256-Digest: DyKxNoF5W/cVItj+bg6IITJM3RZDXVJZn5guazuWnIU=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$4.cla
+ ss
+SHA-256-Digest: WxdkLRWgd0/6GlzahQGU+K9Hz7MjmZLbuMbfY9SAKas=
+
+Name: org/eclipse/m2e/core/ui/internal/util/ParentGatherer.class
+SHA-256-Digest: Venw2z+paJGAR8OZPVpTLj0o/u5YpB/NaQ0UfIJPsrU=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$QuickViewerFilter.class
+SHA-256-Digest: UISrbRRgUn4HtEI01KWR1ZIskVuBtBI4440K1IERczY=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/LifecycleMappingPage$1.
+ class
+SHA-256-Digest: 2ycXNt+BjB/K2kKCRCIjQ7/zt38y/ylUfI0w4yz9xDY=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArtif
+ actPage.class
+SHA-256-Digest: gxqRJ7rjsqVzRHZo544TQ9Us+1tv+cbet6jRLwZtfBQ=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenSettingsPrefer
+ encePage$3.class
+SHA-256-Digest: Cltm5+E/9H91T9XhjM5jGIgoUlizoKXXB3CXEyXVMtk=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView.class
+SHA-256-Digest: fULPlZA6F5o8nDttiAVjt1iCq/zdEhJ7PbOm82U4XA0=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/IMavenDiscoveryUI.class
+SHA-256-Digest: ncFNOkZ1Wq8BzaLpTvm3kVzlvDrC4ItFcpwC+8c7Elk=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenArchetypesPref
+ erencePage$5.class
+SHA-256-Digest: mZuAWd77KjFrOwj5cQd/TqmZA5iH0Ba8fmR+vuhpy2k=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenInstallFileArtifac
+ tWizardPage$2.class
+SHA-256-Digest: ijqAHfs6lbwE9vCS3y6LJNH0n9PyEhsiVw0awr/e9bo=
+
+Name: icons/debug.gif
+SHA-256-Digest: Tx0wdypZQhglxbc6fzU3CEQ/wKttT2PmJqeSyy/Zxwk=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/AddDependencyAction$1.c
+ lass
+SHA-256-Digest: QwvoKb7uLEe9S2V1lDYvJlKjxMkNAI9StNQLvI46oVM=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$5.cla
+ ss
+SHA-256-Digest: o0CfwuqpIwxeUo7L0d6E6VLNtFGBUFy2wGKvhMkpSI4=
+
+Name: META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.core.ui/pom.prope
+ rties
+SHA-256-Digest: GECL37p4nbiwZPNRm0u6QehmuV7Wtl7IpoInUnmBPuI=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/MenuDetectEvent.cla
+ ss
+SHA-256-Digest: xnvVJgbHrOT74hKyw9ZmQ7elNLL9dwSjJAslaRJn7Jo=
+
+Name: icons/update_index.gif
+SHA-256-Digest: bycQPwDr6ecrgexWs+cQ+YDM3Yy6gTcgzQ77uEDbKbs=
+
+Name: org/eclipse/m2e/core/ui/internal/components/WorkingSetGroup$4.cl
+ ass
+SHA-256-Digest: jaiLjL1Xz4UavizzIet5hs9Yhgxe+8K1Q1CW8lbbNds=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/BuildDebugView$7.cl
+ ass
+SHA-256-Digest: BrEP/+TfuFxHPVPAmnv824kXgxuLStBbSfaZZ1JwMXE=
+
+Name: icons/import_project.png
+SHA-256-Digest: ahZA+lSWb7b6m2FMo7HIiBPFfq3ZR9lwK16GOFTxchA=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationWizardPage$4.class
+SHA-256-Digest: PlgCYA0jgSK3kipy6T8GrI3ZuZlcPc4cY4ThddDjaVk=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/MavenRepositorySearchDi
+ alog.class
+SHA-256-Digest: HQ8O2zQhiu//lFuq54EarlF8wDM9uKwA6BXev18ee7Y=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenArchetypesPref
+ erencePage$4.class
+SHA-256-Digest: HIZ//9HOAGT9VGTJYyFVCHWE6SRtY9tBTeNQKuEWo8A=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MappingDiscoveryJob.cla
+ ss
+SHA-256-Digest: FZC5mkrX88009ZQPqBNKq2Nei8aZ7141qpYxP2sMnoc=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenInstallFileArtifac
+ tWizardPage$1.class
+SHA-256-Digest: qSa6wGsJW+Gaas8sGY3CHc6bgXeJOFhEJloXaaD2SL0=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationsPreferencePage.class
+SHA-256-Digest: 0k/0VVNlWQ0RVEFWbLUd2unRyZAef7zXY6+p6aCCFXQ=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenSettingsPrefer
+ encePage$4.class
+SHA-256-Digest: EvPfKvzC+Cqzc9ss3sKP95JhRuOMYdqW4z/gvTKxfwQ=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenInstallFileArtifac
+ tWizardPage.class
+SHA-256-Digest: edZgaOcn1v3OZKE04+tE4aO84NnxclmX22mb7YZHu2M=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/AddPluginAction$1.class
+SHA-256-Digest: Vwc0KtqT43dWsK1IzdcIXlm/GxjD3GSp3gXXjmLxQLc=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingsVi
+ ewer.class
+SHA-256-Digest: HnHEpriIceP2Tt+3Hncv8a749SxalcnBp12HA9hKYR8=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/AssignWorkingSetDialog$
+ 1.class
+SHA-256-Digest: GlbufSuEcj4dfuuFEYMoft5D+sQuMUaRl+qIbzDSXd8=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/RemoteArchetypeCata
+ logDialog$2$1$1.class
+SHA-256-Digest: +OXZuDl5ZjJcL3cBhiGZbPgmHQj8v4yvo2yRAhR98jM=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenPomSelectionCompon
+ ent$1.class
+SHA-256-Digest: b78NfrttOy98kE0tDuqr1A39/Mk/au+WfVwQiiy+GZQ=
+
+Name: org/eclipse/m2e/core/ui/internal/lifecyclemapping/PackagingTypeM
+ appingLabelProvider.class
+SHA-256-Digest: XiGKbaAoVlpvbno0jpWSZ0xSMgEE0sk00H6szu9hVMU=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenArchetypesPref
+ erencePage$CatalogsLabelProvider.class
+SHA-256-Digest: xNGaQAS+41AcGaPccyHI7pFD0+oOIQQyRuWFJ59Ljc8=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/CComboContentAdapte
+ r.class
+SHA-256-Digest: ue1uJZw3TL+xGlyM/Yw4vZMkvdU5NcUH7xeJG0896S0=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationWizardPage$5.class
+SHA-256-Digest: cHxeGiwqYHRTW717ecQw0TDmMVKratWDgxmLXoVDXWM=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenSettingsPrefer
+ encePage.class
+SHA-256-Digest: AXc2dYragWlrU5yJp2PAqhthNR00ZLwUUr3rYvwUFqo=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/BuildDebugView$6.cl
+ ass
+SHA-256-Digest: PpwtNgLuIaqIsc/IXqtYIq0Gm0+BaFIWFYjHUemTf6M=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/OpenPomAction$MavenStor
+ ageEditorInput.class
+SHA-256-Digest: leWO17Uxy3LjlEiRbBTs/t12ADF/s7i26sYIyquYa2c=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenDependenciesWizard
+ Page.class
+SHA-256-Digest: sGhNZe7U26j6H0XBj3s7ZHn1P6M4DKXiSrdAmWUBwoo=
+
+Name: plugin.xml
+SHA-256-Digest: qgH8WmrbhI8FiKI5jrVjD2mbIKoFrbr2GyPxtbx31vU=
+
+Name: org/eclipse/m2e/core/ui/internal/components/NestedProjectsCompos
+ ite$10.class
+SHA-256-Digest: wA0FWuOV236LByOSJQs/9ucHwRD1uHI8pMjJqpH9AIs=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/EnableNatureAction.clas
+ s
+SHA-256-Digest: Xh7GNW0H+XNTTzQ/K0isHlMMZm4ft3iKDQ4B0Hiw0f8=
+
+Name: org/eclipse/m2e/core/ui/internal/components/NestedProjectsCompos
+ ite$2.class
+SHA-256-Digest: Q25d2BBX3BRurc5c9gup/l1fN2j38vY9aDxL5vXZeD4=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenInstallFileWizard$
+ 1.class
+SHA-256-Digest: FKubcqcmiMQC2NZvGxYaGao8Imv/hx7xwwow5ETZSfE=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/SelectionUtil.class
+SHA-256-Digest: TKafyKwiKHWiTD+F4kde3MfMNe3y0Sapx7Bz9lNuGDo=
+
+Name: icons/import_m2_project.gif
+SHA-256-Digest: hpozvcO8+xpWw1dSb8pnI9qZnwBp0Ul+esi27wlMyHM=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenSettingsPrefer
+ encePage$8.class
+SHA-256-Digest: g3yaX5ElSRkimcS4/54hfY+sT7zGa75bzYrpi15t4BM=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$11.cl
+ ass
+SHA-256-Digest: uhiBLA1d/XdrP4SlvkjqouXamh8FV+IeCv1sFUrNoAc=
+
+Name: org/eclipse/m2e/core/ui/internal/util/ProposalUtil$1.class
+SHA-256-Digest: duwN9kqcqVNow5PyrXSOIBSmsKvE3QiqK6+svSzhkV4=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage.class
+SHA-256-Digest: t799ZH4A3W6VR9wJyr56Fptj+7knbFt2A6v98kisFjE=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$5.class
+SHA-256-Digest: zDdfyFHUqN6asHDXJyISpffcWF6FBSEGbNukwZCaOBE=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenDiscoveryProposalW
+ izard$1.class
+SHA-256-Digest: ezm7IP6hv2V9Mq3372fiaAfO7+gSfH5eEGwk/VYeqkE=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenArchetypesPref
+ erencePage$3.class
+SHA-256-Digest: j/XVUFfC1dlOQq5FeN3ckLtpE9tgEjPCzmFElSYckS4=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingPre
+ ferencePage$4.class
+SHA-256-Digest: kl4vb09r7Ws8hfHLA75WixrZNgaYbHwW+nxt1kDJiZI=
+
+Name: org/eclipse/m2e/core/ui/internal/views/nodes/ProjectRepositories
+ Node.class
+SHA-256-Digest: 50IJm3BUjg0nO3hSzvf1RNnTsyZzaetByGaq6yBSz3M=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/OpenPomAction$3.class
+SHA-256-Digest: Sb1mlnVFsB5ne++tbKSAgRD3Mep01yNo8PDLf6rLCsQ=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$3.cla
+ ss
+SHA-256-Digest: H8jnK6uy1DYk3LqP0f6olHL25cv4S00ndhhU6f+8y0E=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationWizardPage$9.class
+SHA-256-Digest: hruBm8de7TqMRgvQVZO0t78sWfFSOAC1YT76SAlYhZ4=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/PomEdits$4.class
+SHA-256-Digest: AkmRKsB9y/l4wEBaiEUGvwggfArNbe671YjzB5Tc4Ag=
+
+Name: icons/import_jar.gif
+SHA-256-Digest: N/0ukvB6cg6PIesZ31ujYKiXQpSl9VzXThUYk5n77Hc=
+
+Name: org/eclipse/m2e/core/ui/internal/util/Util.class
+SHA-256-Digest: jiSCDlV5DVBQAaaAbFQhiYOVMEvH8fH7wMFgD8L5Mfw=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$14.class
+SHA-256-Digest: yq+8tYOtdpIP3aUOOnV7mNTe5k67aKsR8HTOg5m1nds=
+
+Name: intro/css/overview.css
+SHA-256-Digest: 86BpC4nla/3aToLLrk7LcrCgHOXFkx+nJFGNge9QeGY=
+
+Name: org/eclipse/m2e/core/ui/internal/console/MavenConsoleImpl$2.clas
+ s
+SHA-256-Digest: yieUiYQZ1donj6vb0Cll6kZNwKWvPTcM9wfErocpW40=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizard.class
+SHA-256-Digest: uqz/DRGKiIeWVh1SBzTv4xIXOcZAQCEO80pXxDS8nts=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationsPreferencePage$2.class
+SHA-256-Digest: IeHbiO3sC2SFL6y+aFNqEBfnv5by4Ss2wjdmjT8C0j8=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/LifecycleMappingPage$8.
+ class
+SHA-256-Digest: DIQMULpTdGX665ZW8V+vvr70zzfL5h+WaEHJU4s4dGU=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationWizard.class
+SHA-256-Digest: lpvGTW+RucfU9yNblA1KrOum2ja0GDb3tnDcFYDhtUY=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenPomSelectionCompon
+ ent.class
+SHA-256-Digest: rZyEm83uC7M1qEMePqGRjzBNJi+SxYBeLu7Y6eBmHI0=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenSettingsPrefer
+ encePage$7$1.class
+SHA-256-Digest: nMUP5pHHj+mzP+0JMMbe3auhrIoBulGRgHwSL5/8mJ8=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/OpenPomAction$MavenPath
+ StorageEditorInput.class
+SHA-256-Digest: jUdYhlWJPNEsNl/TQHQEc2Fo9pxL8Oe9o0vE60HLz9E=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizardParent
+ Page$1.class
+SHA-256-Digest: YZYjqcfPv9yn/Su1pXxQaSZ3Ns+E7RK3HRnbxBlxX+o=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/AssignWorkingSetDialog$
+ 6.class
+SHA-256-Digest: UJgoDVzaBsfUYEuNJbYAQqJ9niKAVVW3JOETVcrpUxM=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizard$7$1.c
+ lass
+SHA-256-Digest: vsCMMsUk6HLB5dgNJzm9FKQ4K8dHzUUDQ9mntJRWCfM=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage.c
+ lass
+SHA-256-Digest: eXdXSErkG70MDx6LBX1HHcMMscetDCpoiILsbTD869k=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/AddDependencyOperation.
+ class
+SHA-256-Digest: PisBaOVwQ/KJsTJo3Z/ORB+AK1etgfVNeQznSj7BSD8=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$1
+ 3.class
+SHA-256-Digest: 7fOSjd54YAGPU9AmUSMe/EVfqvqHXXp6lZVlh5a2T7o=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/MavenPreferencePage
+ .class
+SHA-256-Digest: v6tT9hw5T+/nRUJYU/3/LJWD5IbfVFQqL/h3harbTr4=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/CustomArchetypeDialog$1
+ .class
+SHA-256-Digest: f8GzY4fxyo8QBC11lrLYvgl7+KN2NBD3guRGLrYop1U=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingPro
+ pertyPage.class
+SHA-256-Digest: gOAuVMUX/Ft72zzc8P2Dceb6SLY6NZ/tI6lfn9Lt2Lk=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/AbstractCreateMavenProj
+ ectJob$1.class
+SHA-256-Digest: H7ARh2dWA3JCb+XpbSD9QVG38TP4SJdSDZM+evKd7K8=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/ControlDecoration$H
+ over$1.class
+SHA-256-Digest: +vo6pLKDxuSIR9GsXif5DCL3VDy8vIE0UxjgGqikLII=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenInstallFileArtifac
+ tWizardPage$5.class
+SHA-256-Digest: 2XmucYweQ0GPk+kWrPvevFHs55ukhma80HxIY9OEx68=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArtif
+ actPage$2.class
+SHA-256-Digest: 3SpHyYMW7eIkPcGI5EfjgBUDDZ+ylf91cOrh7FbJYDA=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$8.cla
+ ss
+SHA-256-Digest: F0rz87VJ0qtmGVTvfwqjzUseLkyvWWWwywhYJF4lhtM=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/LifecycleMappingPage$3.
+ class
+SHA-256-Digest: jT/N4Gf8+DjP0J/unRp/076X+JByGuW3WVfm/8Vadc8=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationWizardPage$2.class
+SHA-256-Digest: G8qDyMQnQfSpSHhDVGbse2niYPR3nWowxms+emRiPXY=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$15$2.class
+SHA-256-Digest: uc//n66xd999bgWDRGidlx7FFvDBcPHN4yjCMCgjlbU=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$4
+ .class
+SHA-256-Digest: YR7ypYGmSBRn8nCTOf9+ALfSe1t4fkXVqq77fEGwh3c=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenParentComponent$1.
+ class
+SHA-256-Digest: IjYykOK/Mv2fhyKt7QtVN1/Zm6rNGobnl34L/ocgpEA=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/ResourceNode.class
+SHA-256-Digest: yncdoxpCFzMMtGi2CmfLVyYuUhejsIEchZMi8gNJJVw=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/MavenRepositorySearchDi
+ alog$5.class
+SHA-256-Digest: SiVjfx7g6hfMdS3YaRziihfxhqHAPeVhe9fJr0CQ/9E=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizard$4.cla
+ ss
+SHA-256-Digest: Tqn+7kwr5883RHnjCq9GF3O2LyvjRpMUtXHWkpaL+ZU=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typeParametersPage$3.class
+SHA-256-Digest: YLo7vEeF6Aw3y+rw9iKyVdaXREnNoSic+E50xrB5MRI=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/ControlDecoration$2
+ .class
+SHA-256-Digest: eAFE+L+OQCLtZKARnrgA0iv/6icyh/tsBH9jbgMZz10=
+
+Name: icons/m2.gif
+SHA-256-Digest: +74pxIA2/ZjIeFJDVXahaFG7MhNYdLoIYWMQCfmK43Y=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenDependenciesWizard
+ Page$ArtifactLabelProvider.class
+SHA-256-Digest: n50QeURMSEGNoVTbH6Srcth0SHHTJr5lYcPhp25YCbk=
+
+Name: icons/refresh.gif
+SHA-256-Digest: lK3PYkVLOp2+k/8XtInMStq6VyXAavJ71Y8wpnMdJiA=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardLocat
+ ionPage$3.class
+SHA-256-Digest: jBCZdtnFvF44Yf5i7ugVY+/WxDaItt3zZgJD2oy2oa8=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/InputHistory$ComboWrapp
+ er.class
+SHA-256-Digest: ABz6Jmr4NRIKj2uqvDoShUKOBH/wQryuGvT8s5ZDj9s=
+
+Name: helpContext.xml
+SHA-256-Digest: j5DExBzTobTJAafJ4aVr0vyHS8+ekJMDe6+JQJLI+Pw=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/BuildDebugView$2.cl
+ ass
+SHA-256-Digest: Qt5yjm49QKgjvKeFXQdXvNuz5C8nicnFSUNR1eAyNrw=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$Enabl
+ eMinIndexAction.class
+SHA-256-Digest: DzEH3JdtZvV4qh6ZiitQmSdWBQX7nwRA2eqsdzKlOoY=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/AbstractCreateMavenProj
+ ectsOperation.class
+SHA-256-Digest: UieT+Oe9l9t1W07/DUsiHE/6SQVLseoBLt7NN/G4VIM=
+
+Name: org/eclipse/m2e/core/ui/internal/views/nodes/WorkspaceRepository
+ Node.class
+SHA-256-Digest: I7wE4iCkA/bbsr38TLiKQeZnHYuzjGuvSxhiINZ/NA8=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/OpenPomAction.class
+SHA-256-Digest: go97PPQGaT2QmuVCMDO1je1pQOLIE2sHi7LieEltWjk=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$1
+ .class
+SHA-256-Digest: zZbppUMDzB+2lyEPEPszezGLy84PQANficU1ZVU+LCU=
+
+Name: org/eclipse/m2e/core/ui/internal/views/nodes/RepositoryNode.clas
+ s
+SHA-256-Digest: rMYwg6YZETUpz1Tk/Ls9M/wXDdnaqj7xbd/q9X1UDbg=
+
+Name: icons/clear.gif
+SHA-256-Digest: XDJg87msQWxpF2z3XR27GECU0ag2lhLBVdImgAuE1+w=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$16.class
+SHA-256-Digest: 6dS8CUFS+xrlVOYAc8GYwDcrPb+mavjAlQe+Bs7YHQg=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizard$4.cl
+ ass
+SHA-256-Digest: bdmKyVcETpL1K56DYTo78rzap7whYOJ8m3h2UA6pB4s=
+
+Name: org/eclipse/m2e/core/ui/internal/components/PomHierarchyComposit
+ e$DepLabelProvider.class
+SHA-256-Digest: 39Dhr9gqeSk9ZeTwCeN7IRgq1pSfXBVZ5Md8DamFnkE=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/ControlDecoration$4
+ .class
+SHA-256-Digest: igHuc0eba1Of1UlzVAALBX55gksnmHr+6lAaBo6VXLo=
+
+Name: org/eclipse/m2e/core/ui/internal/console/MavenConsoleImpl.class
+SHA-256-Digest: blpvIRR4YrLbOqc9jkRMp69WLclhwd+27KVQMsianFc=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenLocationComponent$
+ 1.class
+SHA-256-Digest: InW14VTQ68GSMyg3iedqE5hkVVxsvVNu2d9nvEyposI=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$7.class
+SHA-256-Digest: 09S8Yd9Wj8paKzpE0tFJW24Ms+c71DrMpO+8e/4I6Y0=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/MavenPropertyDialog$1.c
+ lass
+SHA-256-Digest: BD0OFKILeOg+//5zWts97SmbRnnM0AWYt5TrWnUon2U=
+
+Name: org/eclipse/m2e/core/ui/internal/components/NestedProjectsCompos
+ ite$9.class
+SHA-256-Digest: IzGX7J/a0xmH65CNf+5SRmfHvGOs6pMztKIl1fuZv+c=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationWizardPage$10.class
+SHA-256-Digest: xp9dgbus/ss/JGyrZUlhxRXu+zB7IU6xcOMpn5UyizY=
+
+Name: org/eclipse/m2e/core/ui/internal/views/nodes/IArtifactNode.class
+SHA-256-Digest: W55fqG7uiFUUmJrB+zjoaCMfrS1e+GPnAS+fw+gvUdE=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$3$1.c
+ lass
+SHA-256-Digest: Tq6rgqwLDBIJv2IoGgv6Rz0TdyeavjUP98OmXtB99yY=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/OpenPomAction$5.class
+SHA-256-Digest: TkLMMUHkat5QWUoXoOaCJtO9ImHFmKuk9X4aRUQVM40=
+
+Name: org/eclipse/m2e/core/ui/internal/components/NestedProjectsCompos
+ ite$7.class
+SHA-256-Digest: YJDCauxYdlWokTskxNb1IjW9e0EtVxnLIyXo5rQrAgk=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/PomEdits$2.class
+SHA-256-Digest: sRYJPL5BSdpZ/tNgYfXfJaAwzXjjCzDyBkwDrtctZH4=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/PomEdits.class
+SHA-256-Digest: Euy8giXOcp3jFo3Bkyw8VCqVP8m2WBUMEzdvcPxFsEk=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizard$2.cla
+ ss
+SHA-256-Digest: BGlikOsTCziEeU90y2is7YqwaB5TeaPIEY+ZKnYinJg=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/WarningsPreferenceP
+ age.class
+SHA-256-Digest: vLQHtjgYtYoF+3d94UsQu/uyqHibnQwXxutAWuYAh9A=
+
+Name: org/eclipse/m2e/core/ui/internal/console/MavenShowConsoleAction.
+ class
+SHA-256-Digest: u83OMEMj60kg4kKsSnKnkbchZ/42eEAordvZyHzDZEU=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/LifecycleMappingPage$5.
+ class
+SHA-256-Digest: 40jgqwgIolc1KjBTkcanF07vQivEtEYcG5y7DSi2sro=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$P
+ rojectLabelProvider.class
+SHA-256-Digest: 24bBtVEWwQwPBrkEdHoB0YLmiaPQlxA7Jomv7NDp0gU=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/MavenPropertyDialog.cla
+ ss
+SHA-256-Digest: 7/yh8/d94ZxuMZi6mcmKEHhPkrsn1ngGH7BV284NbgM=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/ControlDecoration.c
+ lass
+SHA-256-Digest: tgXAa5dUaczXZ0cMS6hSo+BtDVXFY1mXUBQ26eC/JE0=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$1
+ 0.class
+SHA-256-Digest: iTyOTqzbSDwBpwaFkjyoptPJDdK+E7I2l4L+wAIKkeE=
+
+Name: m2eclipse.gif
+SHA-256-Digest: 6USKyBZiN/laI0JBCIDjJebb0qJVDMkdiInfr7mWmFg=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/LifecycleMappingPage$6.
+ class
+SHA-256-Digest: xyF7MDnrUCbdhtjGE7im3+NoJ8qemK4hWfF4XpwCDNM=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizard$2.cl
+ ass
+SHA-256-Digest: UDRHpBwBXZK87tPCSDJF5JiQOOc71QdIgdCSeUxLy18=
+
+Name: org/eclipse/m2e/core/ui/internal/components/PomHierarchyComposit
+ e$1.class
+SHA-256-Digest: gJUVIwD4kDfFqCeSa4tbhk++HAye70gB0uPEUdEDV+I=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectSelectionDi
+ alog.class
+SHA-256-Digest: rKP9mgImG1M/m9nKS58igM/WAWV3P/3RwmrHC3VPqKg=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$8
+ .class
+SHA-256-Digest: 3J+v6kMOZ5XZdtRRNjz1rXrqx+wu52oU/2rFDKh6+Z8=
+
+Name: org/eclipse/m2e/core/ui/internal/messages.properties
+SHA-256-Digest: CBHFLPFRhnoZHnen8GFBZngIpkiY2RetiJ+wDkDfIrU=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizard$6$1.
+ class
+SHA-256-Digest: WYSCSmbXaoOZRArjdIgtFKwIT4/NkrV9zPFCeiK0YVY=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenDependenciesWizard
+ Page$2.class
+SHA-256-Digest: smpj+yiWCO6VuvMA84uCHo8+dEyHdf67EPAwEzFqs48=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$17.class
+SHA-256-Digest: nLiDIA8aq/0ecFLfzNyG1KnP5JtmV7NlRB0VydZdzms=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$ArchetypeLabelProvider.class
+SHA-256-Digest: TLRbBotS40dHNQ+rxb972PisiPsiNLqy+jC0Kh7eK2Y=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenPomSelectionCompon
+ ent$SearchJob.class
+SHA-256-Digest: iNyUL1x0E8M6rIUmKZJt80hAadfkxY2X2i63XuupAFQ=
+
+Name: org/eclipse/m2e/core/ui/internal/components/MavenProjectLabelPro
+ vider.class
+SHA-256-Digest: DvuTDYNk6Y4doYYLqYE0PjWAp+ThD16cNnDUVCkJgWE=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArtif
+ actPage$ProjectFolder.class
+SHA-256-Digest: O5St/yxVA1ITEgpihBFnvwakgP940MmGRgKHwQ8E08I=
+
+Name: org/eclipse/m2e/core/ui/internal/UpdateMavenProjectJob.class
+SHA-256-Digest: ZO9xMQflpzYyZhO0vPHj4W2K10M3ChFa4zJWaumMAc8=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenPomWizard$2.class
+SHA-256-Digest: 8NABULPYJyp0uuwkjOjC/0oIbpeitsp1PvnonatWTJU=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/DisableNatureAction.cla
+ ss
+SHA-256-Digest: /w8dHUyqzP8hbuZydsWJOc6AMNTwkI2LsGZwKv3GRJU=
+
+Name: org/eclipse/m2e/core/ui/internal/util/ParentHierarchyEntry.class
+SHA-256-Digest: qdDF9mX/h5nzNM/7Hh12CcLglMB8yefV46khpt04GRA=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/PomEdits$1.class
+SHA-256-Digest: DsEItsPR8thJDzC/1YQwC3ti3LWgKJSdME+H0T8rtio=
+
+Name: org/eclipse/m2e/core/ui/internal/components/NestedProjectsCompos
+ ite$5.class
+SHA-256-Digest: qqgPtsqx3xnle46iAfYxDzl68chWdBIiqCkqnPsYbLg=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$1
+ 1.class
+SHA-256-Digest: YuVke6z5Gq4KUsyLVZ4d4aBIEmxxJJgbVl3AcBAMSpo=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingPre
+ ferencePage$1.class
+SHA-256-Digest: RzU6xXn644o34nMqxFnGDV1arXn+UmZHa9n5vSWJCxA=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/PomEdits$Operation.clas
+ s
+SHA-256-Digest: 0HHFowSpwm1GFDKvzyDPYG03OAXHifDlDdNU+I2U30I=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$8.class
+SHA-256-Digest: zxeozctee40OyWeVHOx4BIuCl3h6mCxk0RUdY0P2vRE=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/ProjectNode.class
+SHA-256-Digest: T7b2UndApNkdP44KLgNU8gxMH9snwSAKj9M5ZCzcKC8=
+
+Name: org/eclipse/m2e/core/ui/internal/util/ProposalUtil$4.class
+SHA-256-Digest: X8HC7i9TD/U4DulvIP9UDlqHdeL8L9GSpASFW4U4QYE=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizard$6.cla
+ ss
+SHA-256-Digest: o8Z1SLfhhsZIXdqiNBUTsFUJv5rSBr2Es5+cNcmAjf0=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$2
+ .class
+SHA-256-Digest: +KCH6y2E+pv/KIppBSOOKUBtPr8kjjFPFAzUgegkFRE=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/RemoteArchetypeCata
+ logDialog$2.class
+SHA-256-Digest: D0LY8/auh5N9HplQ8MK6ZqVtnr2taqtIMhPPhexBB4U=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$Enabl
+ eFullIndexAction.class
+SHA-256-Digest: bEmTliDoAr2IMZfm/n0arelluqup7eR1oxntjmOhZh0=
+
+Name: org/eclipse/m2e/core/ui/internal/util/ProposalUtil$TextProposal.
+ class
+SHA-256-Digest: x+MGCGEhvUCfRc8ME/6AU1OfPmLADU/5a3kbV1yvXj4=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenParentComponent.cl
+ ass
+SHA-256-Digest: 0WhV+RYS/V2UoyOeeZDQxTAsEvquH0EqCCIvlhLnTQc=
+
+Name: icons/error_st_obj.gif
+SHA-256-Digest: iiyTDHy3r4F6/pRQ4NF8TlV4o7C1RGg/nKSpfDc7vKw=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/LifecycleMappingPage.cl
+ ass
+SHA-256-Digest: EBx+cSlIMUPAuw1yGfh450r59KTZnPFy84R2LVR3OnE=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/MavenDebugOutputAction$
+ 1.class
+SHA-256-Digest: hRqtiP4GG3L+8kHb7FdNRJsRi78ja0F8tYytPsHPGG4=
+
+Name: icons/suspend.gif
+SHA-256-Digest: pWn1uGVCapQrCIh0L+F9e943YiE3q0YhRmN62v3SFDw=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typeParametersPage$1.class
+SHA-256-Digest: m0Fzttm/vWXv79fOhW5iPztxAI369gYsT0o9u5gEV1k=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/BuildDebugView$3$1.
+ class
+SHA-256-Digest: Q62kBejPvn5yzYi5qLtPiquUH/BqaHP75u1A794VXTs=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/ResolverConfigurationCo
+ mponent$1.class
+SHA-256-Digest: awxtLVQgaZNl5Sd1jpj3sQXyCyDtnI/5mr2Av1YXTC4=
+
+Name: org/eclipse/m2e/core/ui/internal/views/nodes/IMavenRepositoryNod
+ e.class
+SHA-256-Digest: 4cEi07XP6zNkJk+p6Dk1FPZdLILir+BudKJfUe5cUNE=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationsPreferencePage$5.class
+SHA-256-Digest: CzS3JDNhcBSWxor+sX50VjnvyQQ4LpnFfuCor0zpSDo=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenPomWizardPage$1.cl
+ ass
+SHA-256-Digest: CVm04uJSe6Eyt1T4bfa3ldmBMvvffaZU981IClIF11I=
+
+Name: icons/maven_indexes.gif
+SHA-256-Digest: kVxgP6zQchaHf3zxsJ9u/gFQFfZjK+dYPJorIetI0PM=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/AbstractCreateMavenProj
+ ectJob.class
+SHA-256-Digest: 0J9+VBDorfMVd6rbF6aMUZNECPofvDzAdwuz1yG4Lyc=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$VersionsFilter.class
+SHA-256-Digest: B8acEtbesQ+odDrdt4Hg5St5sCQnHNqGVvsNN+EXTwg=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenPomWizardPage.clas
+ s
+SHA-256-Digest: Cv6hOqfGa3nlWLdUUzniVzrrFc012PqVB0O36PgLOJw=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardLocat
+ ionPage$1.class
+SHA-256-Digest: HlUUuS+Dk2XtAoDyD4l4VYn2WvZTIC8SS8PfZc9bQ6s=
+
+Name: org/eclipse/m2e/core/ui/internal/views/nodes/LocalRepositoryRoot
+ Node.class
+SHA-256-Digest: GuG0w2CpE/GpMUe3yGqxcEPDX4a5Uwz9ux5T3NyJFVI=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationWizardPage.class
+SHA-256-Digest: q1TupKGlseje9A0nLErr3RdP4CiEFPqsSGEwbqafr6g=
+
+Name: intro/whatsnew.xml
+SHA-256-Digest: hho3boOR+Xd+i3QNp5RYCDSNO9H0cjex6FCejsf4b44=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/RemoteArchetypeCata
+ logDialog$1.class
+SHA-256-Digest: Q1DVPSfzMUl8tUnfyd0/v624OB9BXKe7l8Fp+26QmA4=
+
+Name: org/eclipse/m2e/core/ui/internal/components/NestedProjectsCompos
+ ite$4.class
+SHA-256-Digest: 6ABuCnpBlQEBI4MpQhpIGzWMIR82T7Y9tWkFX224B7g=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationsPreferencePage$6.class
+SHA-256-Digest: tfFkY+b7MX8eJbKjLeg3/SMrF23ZNHIwSP1LdwLlZ1U=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingsVi
+ ewer$7.class
+SHA-256-Digest: I4eXmWMIce7yu85UJseQuinktz/PkFfJgo3VJLPyI+I=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizardParent
+ Page$3.class
+SHA-256-Digest: oI7HSQXlXvA2rVYFBDhUmYcnfO06Ew3K+XdXBEPD2Rg=
+
+Name: icons/main_tab.gif
+SHA-256-Digest: 9RMhX54lJr2BLrk80HoCWEhc+rTXbZiHNQb4w6aKF0Y=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$3
+ .class
+SHA-256-Digest: XpTzmm/EgQ+ybmrTiDd484u57C2wlSbJPS/p5GbHWk4=
+
+Name: org/eclipse/m2e/core/ui/internal/views/nodes/IndexedArtifactNode
+ .class
+SHA-256-Digest: H+Te1iPXWVM6elhCQxe3gvspcrVXejEDXbFI/h2JjwY=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingsVi
+ ewer$3.class
+SHA-256-Digest: OZ9J5B4nOOpXWvGWloZxKWb5GANALqx/i3aJ/W8C/lk=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LocalArchetypeCatal
+ ogDialog.class
+SHA-256-Digest: 0LqmA/WTafZiGyslrpc5uwR46mjHkJdt1MjIcFfnra8=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizard$5.cla
+ ss
+SHA-256-Digest: niqEmNEUcQEc803/1BGhPm0V48iSbuMFWmT6JHV/4qg=
+
+Name: org/eclipse/m2e/core/ui/internal/util/ProposalUtil$3.class
+SHA-256-Digest: Bq4f63r8JYJkGA0C9gOsRiNyPYvAyPE68UU82EbN7Q4=
+
+Name: org/eclipse/m2e/core/ui/internal/util/M2EErrorDialog$ErrorTableC
+ ontentProvider.class
+SHA-256-Digest: TISuGmc4KGgMcOF4xZT/kCnIJHHa57xGjMqCWNpeaPg=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/AbstractMavenWizardPage
+ .class
+SHA-256-Digest: WjeqjKlBBh3u95IotU4BH4HJ5aIzz0Z7FnNPT/tDAd0=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenPomSelectionCompon
+ ent$SearchResultContentProvider.class
+SHA-256-Digest: 3j3nBFJmQNk+9r59mR9JlHGGgr63k/tR5pae+Ki4mDA=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/InputHistory.class
+SHA-256-Digest: TWcqCyNFHzNI9pPoWMRmFE7QiERx4uwnB3OczVQI6is=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingsVi
+ ewer$8.class
+SHA-256-Digest: TC/qNjx0emZi8a2pDPV3cTqKdivEaXIXHRxzQfD0iuI=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/AssignWorkingSetAction.
+ class
+SHA-256-Digest: qTus5p4nHjo/Jt/2FPshJtD3x4kKbTkEum0KRhZhSgg=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/EnableNatureAction$1.cl
+ ass
+SHA-256-Digest: /NYsZMdLn1pGqaDEkqYutZev3UoqBPzP9gTLoDNQkrk=
+
+Name: icons/stdout.gif
+SHA-256-Digest: AAHbJ4AhP30sINe9IRGptdMCExeRzB1TC5Kry1HpP2Q=
+
+Name: icons/jar_src_version.gif
+SHA-256-Digest: m9eoUpcBDxzgqd/kpJ8QBCGTrTW0B33b2g3l2sgw/g4=
+
+Name: org/eclipse/m2e/core/ui/internal/util/M2EUIUtils$1.class
+SHA-256-Digest: dapOfgtOPO4pXb31ADFi70DquXJd2b67hiM2UaKhTJE=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenDependenciesWizard
+ Page$1.class
+SHA-256-Digest: YbPOsmhQTdaj+i2bIQgnS/UaFw1iUVmcq2f799bMptM=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/ImportMavenProjectsJob.
+ class
+SHA-256-Digest: 1I+JBp5tSbLSmHRWpi2ssQYzykxL67y6SAi+WU9ATbk=
+
+Name: icons/lock_ovr.gif
+SHA-256-Digest: td9rGE8cvLQ3PVK1yeXlaiDh8mu/Xe3mxGs2VZCrnoQ=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingsVi
+ ewer$2.class
+SHA-256-Digest: LEHZjAoveVJGQ7JagrA+a5HaybReIeZKhnBAwSQ39qo=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/ControlDecoration$H
+ over$2.class
+SHA-256-Digest: cQDtLwQShtQ3hkqYXR2YoPkYFSdrhsUPxJxXe/2eJ44=
+
+Name: icons/update_dependencies.gif
+SHA-256-Digest: u1GH5UoGknPl7MUoILvhjEFyWJzB3u590HCcdSV9KSE=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$1
+ 8.class
+SHA-256-Digest: fBnNachKZ6y/bxHDpMsty0fuXFwd1BGdGSN/kLQNXvQ=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$15$1.class
+SHA-256-Digest: lPz05+bMBopZK9XI9t6d4tHsxFVUhXHc9p1+hp8vgyI=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizard$7.cla
+ ss
+SHA-256-Digest: Bzt9rgx3/G20J0oLXOHHa69M/NB3HQG5GeMz5N/vr8w=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$13.class
+SHA-256-Digest: aNM08X/oKZmCh/35ghGVxStq0CcRwgawW6awNAikQik=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$1.class
+SHA-256-Digest: D5o0nn0Ss3EI2ctep2/3pHTyYMYPWjGH02d49taeFhE=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardLocat
+ ionPage.class
+SHA-256-Digest: ZXzoAJkykfpQ0g/DshcXZQYF4gUsf7QxlE9E6dJpBhE=
+
+Name: org/eclipse/m2e/core/ui/internal/markers/MarkerResolutionGenerat
+ or$RefreshResolution.class
+SHA-256-Digest: TsFWjJXW9zFKb+7BvDWjD+3YD8IPZYUAyXYs0bMFjLY=
+
+Name: org/eclipse/m2e/core/ui/internal/console/MavenConsoleImpl$3.clas
+ s
+SHA-256-Digest: FGCRmjjctnsCUd6iLwX+QYbcJQGV4yEruTw7tYWHoTk=
+
+Name: org/eclipse/m2e/core/ui/internal/console/MavenConsolePagePartici
+ pant.class
+SHA-256-Digest: xJgKjlnKb5Otm7d4s2UmwHPchblFK+LyVH6m1n2fzOE=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenPomSelectionCompon
+ ent$SearchResultLabelProvider.class
+SHA-256-Digest: SKuCGG55TnjZa6bRYC+EX7mi57biab1Bg0ZC+/oncIY=
+
+Name: org/eclipse/m2e/core/ui/internal/components/PomHierarchyComposit
+ e$PomHeirarchyContentProvider.class
+SHA-256-Digest: WG2xECKZ6z0+AnYljaLUoZctpX6KZfRy/V6OuXUPxMc=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationsPreferencePage$4.class
+SHA-256-Digest: zqGuZAEyrzbHAAlcDGliKKBA8GXVGznbBuSkK88CBVE=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/ControlDecoration$H
+ over.class
+SHA-256-Digest: 7FKcvCG1hJOe0xUS+tJC/LtQhh1RC+zqJz6OVk61wwU=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/MavenRepositorySearchDi
+ alog$1.class
+SHA-256-Digest: Eu+dPiGS1bTOCupSw592oSsXxNnsRlDpaU6f625ZgbE=
+
+Name: plugin.properties
+SHA-256-Digest: C/Dlllj7xDd3FbNam+uyl3gzHqt5rCJaEJMWxxU9cG4=
+
+Name: org/eclipse/m2e/core/ui/internal/components/TextComboBoxCellEdit
+ or$2.class
+SHA-256-Digest: Cp2ogwd2j0IAmjCC90eS03iW+gFKDL/mFwDw6CyUlJ0=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenModuleWizardParent
+ Page$2.class
+SHA-256-Digest: V24bx4j6fAQJwX5exL+MPe8Rs/d3gqKm8A8VFcluWIk=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationsPreferencePage$1.class
+SHA-256-Digest: 2hG9dGoKO2v7cy/U9grcgCrgn4Pcvmc5D46qCHQCAxQ=
+
+Name: org/eclipse/m2e/core/ui/internal/views/nodes/IndexedArtifactFile
+ Node.class
+SHA-256-Digest: Ce4NcimDKpCOfKBpptJ8U5RTpsZW3J9nmo1Ea9la3aI=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/ResolverConfigurationCo
+ mponent$2.class
+SHA-256-Digest: FNjPjii3muQYOuuxmssa0FhsTvjcNz7jJWmiARyZwgI=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingsVi
+ ewer$6.class
+SHA-256-Digest: TJciQRr7BBoLBcS5uNJacSqL2hSLxlKwe9nLEgMcLEw=
+
+Name: org/eclipse/m2e/core/ui/internal/UpdateMavenProjectJob$1.class
+SHA-256-Digest: pkmZgs0lemOWsaETAPMWhfU1oY9R3eQ1RSFLtKG8Pso=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/OpenPomAction$1.class
+SHA-256-Digest: wU4dQed6htuPqfessa6btEjB2OMUlalm5qMXGOJhXyk=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenPomWizard.class
+SHA-256-Digest: GFiB4gq/EhAYYu4MWD/CmaQlvcsTjh7LMl6fcyRRyL8=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typeParametersPage$5.class
+SHA-256-Digest: wXc9COzs7AMGeQQU7Jwt+kFrf0Y7ExpXUXlJXhba3JI=
+
+Name: org/eclipse/m2e/core/ui/internal/components/NestedProjectsCompos
+ ite$3.class
+SHA-256-Digest: QbXNN34CjKlzJUGYzk7P/HMoaUdmNa1esegYVve8xD0=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$9
+ .class
+SHA-256-Digest: 291lyz64NN7hsfTTbilIul89W9dEiWsYZnEhAXUByUQ=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MappingDiscoveryJob$1.c
+ lass
+SHA-256-Digest: HQ3XJI8TS3NgiHdcq75P8Ajk6fulq7RI/cFSoKlkYls=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/MavenRepositorySearchDi
+ alog$4.class
+SHA-256-Digest: Mx3jI2RWeUmY7doZ7HcZagmxETjZF2MfXSYkbdjhJCU=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenDependenciesWizard
+ Page$3.class
+SHA-256-Digest: H/Enkyn8UVdtZL7X+wIEWwQhz9yrrtni0h//pJKTr9A=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingsVi
+ ewer$4.class
+SHA-256-Digest: xIL+pAcm2LJEpiYS/IaT//SrXSQRnZ6GZEkkyMVDzxg=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenPomWizard$1.class
+SHA-256-Digest: Z82hEiPEhlrUcRHfIwcc74hlbZafNd2VBh/xv4ftbY4=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/MavenConsoleRemoveActio
+ n.class
+SHA-256-Digest: f1C7SR/FGft2hILcJooQirZuTpQRWXGxUVbSJ1l3ipQ=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/MavenPropertyTester.cla
+ ss
+SHA-256-Digest: mSd8rbz7QupXvnc+J14/NhkNo6169tKR2igIWOcnCPc=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typeParametersPage$8.class
+SHA-256-Digest: +M0C+rXwCiEexT9/lP1rq+Lg72glIWYxNrr62hhg2jE=
+
+Name: org/eclipse/m2e/core/ui/internal/console/IMavenConsoleListener.c
+ lass
+SHA-256-Digest: M8nGytU01vDJGAJKHQ8ZbzRFfyEe8vVLTyYv08rCcmA=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$1
+ 5.class
+SHA-256-Digest: V/jgfxn+FwrLKJlD+9oZW3xrxZgwYo7mLJpJ2GC2Cto=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$10.class
+SHA-256-Digest: Zt7MM3l5Oha6rpVk7ZU+rp6W5+Y+ckV+MKrzjuMlVsk=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$4.class
+SHA-256-Digest: z1Zp2fX7fIiI2pPg5Kia8zg1Ry/FIjtS+nurvbQzWvg=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizard$1$1.
+ class
+SHA-256-Digest: KZvMs8pAsCdqJWo8BVYmDOZbTCImDwFoT9SnZG58HEQ=
+
+Name: org/eclipse/m2e/core/ui/internal/search/util/ArtifactInfo.class
+SHA-256-Digest: m/b2sLzfUqyMgCeQmY8vbeZVZX6UeEVA3E/k7LcE698=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/PomEdits$Matcher.class
+SHA-256-Digest: HSTtmXhhfXK1xrXJGdoBgtBQlhnsqw44syoU9hrBPS4=
+
+Name: org/eclipse/m2e/core/ui/internal/M2EUIPluginActivator.class
+SHA-256-Digest: zb6/kRMc2D0uhzBNesxCgQ9kFQz+x76RgsmVnzsXk+g=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/MavenProjectActionSuppo
+ rt.class
+SHA-256-Digest: Ztw9Z0ybvePAGXxW0/CVBeKpLelTUraec1tCInq8j6g=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/InputHistory$ControlWra
+ pper.class
+SHA-256-Digest: BcZiZi170EgtK5dbt5qUP54AxoOuIJwCdoKncg7H5yU=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/MavenRepositorySearchDi
+ alog$3.class
+SHA-256-Digest: Khs4KkCcmfCjBjxA/zzLd3IXAEeF3GFK2LzM77MBFKE=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$3.class
+SHA-256-Digest: A4vZUIMBju8AMp6j/yT7651dnQeLVbBZcryYv0N6/co=
+
+Name: icons/maven_index.gif
+SHA-256-Digest: Y/7m5pZZXzC70vlv66mDWrEHG59OLNW/3HJiFfoF8XE=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/OpenPomAction$MavenStor
+ age.class
+SHA-256-Digest: Qf7aNaK6x5mVtKOO8L3EdKVpTsNhu6T98Z5AQC9w/2c=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingPre
+ ferencePage$2.class
+SHA-256-Digest: fUbkMYQDc3yfTFL3LZX7XW/zDTmQN0wICVUgCX5y6N8=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/ResolverConfigurationCo
+ mponent$4.class
+SHA-256-Digest: 3qPtdbKbbmhfQOeRmdOiH/AnNkaPE+Um5+kaT+/YdAg=
+
+Name: org/eclipse/m2e/core/ui/internal/console/MavenConsoleFactory.cla
+ ss
+SHA-256-Digest: L4sAkILsOB04e+Bogb0Tw9BwzoqR7DqHNWa2JE1HECY=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/launch/MavenInstall
+ ationsPreferencePage$3.class
+SHA-256-Digest: IzDyZNYE7B1atM9v6SoarA6lFdOxkMXPDRxfzMdcSas=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/RemoteArchetypeCata
+ logDialog$2$1.class
+SHA-256-Digest: iqCfD2PK5MFZu/8oogG5iv8hj8D3EFGVY9fAJkUxUZU=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$6
+ .class
+SHA-256-Digest: dqibw1hbwgfhpPXAjLFYxobI5n6nDVIyHUQcK/rPq9c=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$11.class
+SHA-256-Digest: III/Y6Pui6eEKXp4wG1ZpMMK8dz6pQU5wP0CAxwTiKY=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/AddExclusionOperation.c
+ lass
+SHA-256-Digest: vIcz78e2EL6IZ4SIzig0Y9eFkv/4kPRdzws1LH9Gu28=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/InputHistory$CComboWrap
+ per.class
+SHA-256-Digest: oVq65eZqditteXq/oXtHMc98YeRYfUvRcvZyC0YGz2A=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/WidthGroup.class
+SHA-256-Digest: 4LtU8YEz+6rif0dFETVNbr4DJonGkz7FxrYWdafmuRM=
+
+Name: org/eclipse/m2e/core/ui/internal/views/MavenRepositoryView$Abstr
+ actIndexAction.class
+SHA-256-Digest: mRvxXPvd9mB35/IKhF7T7yR8XZOBBxc6upTfAhAOXRo=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$1
+ 6.class
+SHA-256-Digest: ZTqiQ/miW5HU3CR7tWWmzbjLiS3KZ+6ZYzsaYSdBOgA=
+
+Name: org/eclipse/m2e/core/ui/internal/actions/OpenMavenConsoleAction.
+ class
+SHA-256-Digest: LFQqmhLJAZWfftzeXc7blOEHrHI70IBhDfs8j/r7qmU=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typeParametersPage$7.class
+SHA-256-Digest: 9F2GaXBUoXvenw3lI1SS7katnieIoTT5FuYDPySNwOw=
+
+Name: org/eclipse/m2e/core/ui/internal/editing/RemoveDependencyOperati
+ on.class
+SHA-256-Digest: z5UfL8iFOl9xvAKOGMxDMxeyGmzgPwNwG2IgQNjuT5c=
+
+Name: help/LifecycleMappingPage.html
+SHA-256-Digest: 0lpn6PWhy2f98mmEeJP/otaqG8FcSLmk5rhM7hiZwVQ=
+
+Name: about.html
+SHA-256-Digest: JN1FhTLmDF7gWzI3czmBLDyM+OmK92OMg4i9wGf9xF0=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$2.class
+SHA-256-Digest: 9sLCh/e+a7pZHW+LLs05sXP9fRuF7bIR9u5oI+B6u6c=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/EditDependencyDialog.cl
+ ass
+SHA-256-Digest: 5i56kxbpfS3mBjg7yV6WXUbcAf03y0xkhiTlKNypw2Q=
+
+Name: org/eclipse/m2e/core/ui/internal/views/build/ContainerNode.class
+SHA-256-Digest: 4pVUcYeTnUwGrv1TI7MeDfTtbuj2QT6vECjpy1kxA5o=
+
+Name: org/eclipse/m2e/core/ui/internal/dialogs/MavenRepositorySearchDi
+ alog$2.class
+SHA-256-Digest: jsgYSZyFaQAhJYLY8gzZ07zS0yAuPBxEdkvl3Ja+DpA=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/ResolverConfigurationCo
+ mponent$3.class
+SHA-256-Digest: n13VCPChjINoCZtiqccdRobhQwRWddNQS+mil7muXPw=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingPre
+ ferencePage$3.class
+SHA-256-Digest: vMNhCnrGCJu6ozLd7qdnngUMtgFOcMSZQlm/8H3okHo=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$7
+ .class
+SHA-256-Digest: xppCP118mhhgvJ96dXgQr8tGChMQPSm0qjrCrJZe6wo=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$RetrievingArchetypesJob.class
+SHA-256-Digest: K2SsfDjnyDlAMUsBLUSeTH16bFGLxXgTNlGZAvuv03o=
+
+Name: org/eclipse/m2e/core/ui/internal/util/M2EErrorDialog$ErrorTableL
+ abelProvider.class
+SHA-256-Digest: AwDk8V+PifKSMWPyErV191Q2OiWr4w28/APQ8DA4t2g=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typePage$12.class
+SHA-256-Digest: b2vBteFkEmbSljfYURKiup0SDfQxcTjUFOifSsSr9w8=
+
+Name: org/eclipse/m2e/core/ui/internal/util/M2EErrorDialog.class
+SHA-256-Digest: bILYyjbDZnxRQ8z89dbpguryo0Hs++aR7LGI/j/FK1Q=
+
+Name: org/eclipse/m2e/core/ui/internal/components/NestedProjectsCompos
+ ite$1.class
+SHA-256-Digest: mXIp1IMDlg9OSW1GHoIWgpdFXivsNowcQEqXA2Ix5Q0=
+
+Name: org/eclipse/m2e/core/ui/internal/components/TextComboBoxCellEdit
+ or$1.class
+SHA-256-Digest: tjY4924kfV2O5wERNQN4/nYD7nlDwmGQLqTh9aW5Drc=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenDiscoveryProposalW
+ izard$2.class
+SHA-256-Digest: Mmt3r+1p5x+nYEIpxSgcZ7oFnX65mxSYP8JtfV73pQk=
+
+Name: org/eclipse/m2e/core/ui/internal/preferences/LifecycleMappingsVi
+ ewer$5.class
+SHA-256-Digest: Ay0Fq08L8pHAXr+eeQGDWfKRV2ioQkVYMGpQ7t4JdPQ=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenProjectWizardArche
+ typeParametersPage$6.class
+SHA-256-Digest: wbe8g+qU3LEa7W//GUxD3s1qTbxhxCzVWQAj1jD/bLg=
+
+Name: org/eclipse/m2e/core/ui/internal/wizards/MavenImportWizardPage$1
+ 7.class
+SHA-256-Digest: PgfUSbvIT5n8VdS0kDmnJRjPMqIzdXFgLuqq4b/Dbo4=
+
+Name: icons/mlabel.gif
+SHA-256-Digest: vla8KwEHzst8T/CwlMf5WMJCblD2ZmCa34sq7M9g2vs=
+

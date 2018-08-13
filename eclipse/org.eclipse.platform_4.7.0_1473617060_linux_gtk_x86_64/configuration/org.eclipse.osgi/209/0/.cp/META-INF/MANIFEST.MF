@@ -1,0 +1,78 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.datatools.intro; singleton:=true
+Bundle-Name: %pluginName
+Bundle-Version: 1.7.0.v201005281800
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Vendor: %providerName
+Created-By: 1.4.2_09-b05 (Sun Microsystems Inc.)
+
+Name: about.properties
+SHA-256-Digest: gqijctmrQ0Ik3OYYFVYbc7LaCh0O5nL9j1lnMLMn2h4=
+
+Name: about.html
+SHA-256-Digest: 9T2Pe49u5SQVkZRUN2AUcizwTjgMeh52dI1gzZWRvGo=
+
+Name: plugin.xml
+SHA-256-Digest: SvUkrXXiFqF0pb7lEP/e1slOjkNr1+x1rtiF3Z0viTM=
+
+Name: intro/css/graphics/obj_48/updateshov_obj.gif
+SHA-256-Digest: kb7oF1xlfjldhdDpTd9OZ/hskGY9ul9dtrceO4j1rWQ=
+
+Name: intro/css/graphics/obj_48/dtp_obj.gif
+SHA-256-Digest: XHIj6Dctese8y211XD7a+dsbFE1l2/IwcszeH8h9qu4=
+
+Name: intro/css/overview.css
+SHA-256-Digest: JVP5nIV8uIsRaQlhuMOq4AkSXa13psezaJbAt0j7D6M=
+
+Name: intro/css/graphics/obj_48/updates_obj.gif
+SHA-256-Digest: YdufntDgFfoH8y9Z267jvjKUfHApwkjh0KkNzyaJ4Zw=
+
+Name: intro/css/graphics/obj_48/samplepurp_obj.gif
+SHA-256-Digest: MCqfzh3OLT6T25uTwrOKliBe7byTgg9vzx1VkHg9qzU=
+
+Name: eclipse32.png
+SHA-256-Digest: OSRlXgvZ3i3wfVilJGmf0LCWkDaCVPWx7HaW9scdnSY=
+
+Name: intro/css/graphics/obj_48/sampleredhov_obj.gif
+SHA-256-Digest: GIJFPv2BjZXJTU55MJBQtK7ix2mPWzWJPQq2pStmK0I=
+
+Name: intro/css/graphics/obj_48/dtphov_obj.gif
+SHA-256-Digest: Dgg5dN6knEsBAee1qwHie9yNKbZONLotkyZUckthNgI=
+
+Name: about.mappings
+SHA-256-Digest: 5YrcTS1daIRufZ9uIwKQDPO9r+FdP7zzNbIrOzXH4Bk=
+
+Name: intro/css/whatsnew.css
+SHA-256-Digest: YD3x5cwZfciY/wkN/boaV01irLlAl0BIEjXriCQte8I=
+
+Name: intro/css/tutorials.css
+SHA-256-Digest: 4cVI2aRm3CcepnrOZLQyA5N83/NEsnFe41/CfIS74NQ=
+
+Name: intro/DTP_whatsnew.xml
+SHA-256-Digest: HhtzzVt5LwvSui7Zb7VjQMSOd28YDqtG3e8liZ9WuNo=
+
+Name: about.ini
+SHA-256-Digest: ZoW6zeskcvEqrE2GMAzxNuBM+Dujb29Fql/xyHd5kjc=
+
+Name: plugin.properties
+SHA-256-Digest: o556w43XkrHgnGkJVYnNy5WTBjUoR+PhJeZw/6KF6No=
+
+Name: intro/DTP_overview.xml
+SHA-256-Digest: 6HrtN6khHRXK6ygXlA4+59h0gLcO6EbRDrEXScfVC5Y=
+
+Name: intro/DTP_samples.xml
+SHA-256-Digest: 5pLEHtQYHCHxV5T11+mCb+QvwFOEbtgYFWgmE+jIciE=
+
+Name: intro/css/graphics/obj_48/samplepurphov_obj.gif
+SHA-256-Digest: cn18I6gUVsTiMmfpa69T1LsKYP+ge9DAJHqcG7axY1I=
+
+Name: intro/css/samples.css
+SHA-256-Digest: cJ3dDtAaRnWywxdFpfOu0bPtqQzCMpneA0r9mFh6dl4=
+
+Name: intro/DTP_tutorials.xml
+SHA-256-Digest: aIZ+3VUcxXFFSUC5tE9vSrk1gpyrpON/uwcZAM4BphY=
+
+Name: intro/css/graphics/obj_48/samplered_obj.gif
+SHA-256-Digest: PupGkxStFq1HLDChigAqMwFCGzcRYrcf/Wt49KdZfsY=
+

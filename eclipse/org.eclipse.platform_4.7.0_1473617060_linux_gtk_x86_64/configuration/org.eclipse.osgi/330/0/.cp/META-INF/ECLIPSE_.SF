@@ -1,0 +1,1277 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: lLlPxLsR6zRmiJlengOVVO3d9WxXp
+ i4hLR7mGWtxo20=
+SHA-256-Digest-Manifest: zwnnL1kUWI8wwRK1VZkXHN5aF6U9VeUekN3v3y4sRtE=
+Created-By: 1.8.0_121 (Oracle Corporation)
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/NewsViewer$ProgressRunna
+ ble$1.class
+SHA-256-Digest: 3Lji+5jDKgwqV/MfShcecPZREjJvpKsQs5AR2DGmmZA=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/ShowFileSupportProposa
+ lsJob.class
+SHA-256-Digest: CoGc/uFxanPRlEqjnrC9rGmptTE6/zMtaO0C8ZG4sKE=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalog$4.cla
+ ss
+SHA-256-Digest: z7lCKymUbrO+cJdaeC6JNQtJBW1N+YHNbWv3CHeA7bw=
+
+Name: plugin.xml
+SHA-256-Digest: nX4z5JFIkqdZTIMvCU/qcFVksP/C7hV0ZdLluUOBL7o=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/ShowNatureProposalsJob
+ .class
+SHA-256-Digest: +U+HiycNKSTAmr7YgxJFpfX9bBh8TsvmXTm1L6W+1uY=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/CatalogSwitcher$3.class
+SHA-256-Digest: FHflLWuRaI4w0QSiLR2tQM612WZvaFf11StNBDQCYnw=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ImportFavoritesPage$1.cl
+ ass
+SHA-256-Digest: dAs0Bk3sCEaHDTZ5o/BATvgGFCh8jkn9EqC08+ZUbwA=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/ShowNatureProposalsDia
+ log.class
+SHA-256-Digest: JatgOQVVnRrRDa81D8QDfItjkTIO7y79vrK0PtkUNUU=
+
+Name: org/eclipse/epp/internal/mpc/ui/operations/Messages.class
+SHA-256-Digest: sAbxPEFJzGB+DIS4kS224OLalRE1czLAxUCeyj07YZs=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalog$12.cl
+ ass
+SHA-256-Digest: i+dWZ/6yH6K6ps5uEnDfZkmg1NK2yeEkX1dVqOYCj2w=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ItemButtonController$1.c
+ lass
+SHA-256-Digest: FkwmZ/kqqz0m8zWLucnTAvg4QeKV/7fVy3tkNIOPexI=
+
+Name: org/eclipse/epp/internal/mpc/ui/operations/ProfileChangeOperatio
+ nComputer$5.class
+SHA-256-Digest: CeH8kzQnWZ72GvGJeeUr5DatL63iPlsTiAzCP3ZTn7M=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractTagFilter.class
+SHA-256-Digest: Xaxv7Me7z6zUZ/3dZtMP3SXr3VqxoXQxCBtZMsEADmY=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$QueryD
+ ata.class
+SHA-256-Digest: TlnGWmJA1KF4tRqskzw15TszxIArXewp0crgeyWot8I=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/NewsViewer$ProgressRunna
+ ble.class
+SHA-256-Digest: M2Cr2mVUvkBk6ah2TQOT4C2DeysFlXloidKAHsPaA7Y=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/NewsViewer$1.class
+SHA-256-Digest: 9K9htxnQ7ShDyvXBNDT3w8Hk+60gXBgC3ecop4QoYNM=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/MissingNatureDetector.
+ class
+SHA-256-Digest: zmNPvaGDEJ2wpgg3GEFaHf5oJWLdq7RHaw+/dSbEyr0=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceDiscoveryStra
+ tegy$3.class
+SHA-256-Digest: vXO3mZPd2M8PMXNZLWYmAXHJFO9aLnEGHrP7SYN80Xk=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplacePage$6.class
+SHA-256-Digest: 6VO1qKzDoWiGbV2+RURx2U/hMIw2EkuUwg8b54jOvGU=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizard$7.clas
+ s
+SHA-256-Digest: EeEhpq+DxgPLIdhNhA6L6sEu9w5FUNi4gpVECRZlg7w=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizard$1.clas
+ s
+SHA-256-Digest: 6PFDF7IvDgCGkIPNVhBhwJkJ20+flXEAqObAZEv1Ngo=
+
+Name: org/eclipse/epp/internal/mpc/ui/commands/ImportFavoritesWizardCo
+ mmand.class
+SHA-256-Digest: /4UGA3jBj7nmco8Qh6NydD4XzMTZ+6IgWG/JFqRrtk4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizard$8$1.cl
+ ass
+SHA-256-Digest: izEDMT2bS3Z3E/NqRJdL/PTyrGVnZ++1y7pK5l3u1mk=
+
+Name: org/eclipse/epp/internal/mpc/ui/operations/messages.properties
+SHA-256-Digest: P2oQzQg9OsT1TXwAqlTGdGYiAAoeEsqkj1OEEpGtDuk=
+
+Name: org/eclipse/epp/internal/mpc/ui/util/ConcurrentTaskManager.class
+SHA-256-Digest: HSdEMLQPfpREndRvjjr/ddnZ7hhFEjp1DwVAABMr1Jk=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/OverviewToolTip$3.class
+SHA-256-Digest: OQameu/ZEw0nHOI44a0hE44P6yJ7Qk/0xkovSItxVEc=
+
+Name: org/eclipse/epp/mpc/ui/MarketplaceUrlHandler$SolutionInstallatio
+ nInfo.class
+SHA-256-Digest: fJSDpmEHssWa520pU7rRXsw8cuUnYZkCne9wyOvTR5k=
+
+Name: about.ini
+SHA-256-Digest: VIzhUVqKiyGVsbOHF4B2e/BefqggZ/91wFlyT6nmMB4=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/ResourceProvider$Resourc
+ eReceiver.class
+SHA-256-Digest: j//iWsRa7HoESRNC5T1PliD3yH6eEHFDAf+73TJI7b4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/DiscoveryItem$6.class
+SHA-256-Digest: 6YvFV08ugPukvwAlj92WoW41wk/nWxeoM0o/qKz0ycw=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$3.clas
+ s
+SHA-256-Digest: abz6IHjdllcy5jVuMJMJIto84h6XbgvgXRH1PZbqJ1I=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ShareSolutionLink$6.clas
+ s
+SHA-256-Digest: e9zlOrMD0Og+UdgAbOocihgsi+fS9AJ7r62UR6jXavk=
+
+Name: org/eclipse/epp/internal/mpc/ui/actions/messages.properties
+SHA-256-Digest: 6ZXJxHdJNNSmF07ybu8emw3fX9eZ97vLrHGpaoBN+60=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceNodeInstallab
+ leUnitItem.class
+SHA-256-Digest: g30Gksa3kx7wzqNr0Y1Hog6KeFIn1q8kP0ta7zBcJPQ=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/DiscoveryItem$1.class
+SHA-256-Digest: NyO7moix/D1ZS5qdSrZ3xZCTYagChVnm+iG5tlhXOKE=
+
+Name: icons/share.png
+SHA-256-Digest: PuwiBeoIudPcgBU0ILiKx8mUSVD2/jsbGLETqrPX/x4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceDiscoveryReso
+ urces.class
+SHA-256-Digest: 9aILZhM/lPx5JWfiO1upECscBCAj5ZQyGbEvux55UqU=
+
+Name: icons/iu_uninstall_obj.gif
+SHA-256-Digest: NjTm2vcWv7CEqfrT5HL7VMYIpTTZlthNfJWiqoNuoPE=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/ShowNatureProposalsDia
+ log$3.class
+SHA-256-Digest: P1pupNRaR90hfvDEONEVdDk9GpVu6yFh98Rugshp6e8=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceWizar
+ dDialog$PageListener.class
+SHA-256-Digest: tij2s9xIwCausya2NVNzcBa94JnYqGE9IcdLaUpNI8M=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/ShowFileSupportProposa
+ lsDialog.class
+SHA-256-Digest: 3oZ/+KQop1251DwAo0gUrq8Iv6DTbfinhargGcD9VM8=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$3.class
+SHA-256-Digest: /Wz5B+MoWeFaP8xqYY9anHMzNf6WrKxr/Y1bFQ5X5RM=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$14.cla
+ ss
+SHA-256-Digest: Yh+t+MaYB/OCgS2fOX/kXz1JqagUwxRoCb6nujTkNNc=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizard$3$1.cl
+ ass
+SHA-256-Digest: EHw397zK053z2HsHiZc2qIQsi1ehFpMnJ5OMwPrGziQ=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizardDialog$
+ 3.class
+SHA-256-Digest: 6+LNsfwtpFoZdMlydXNyvSdfmO8X3CIkmHxAF68kw9Y=
+
+Name: org/eclipse/epp/internal/mpc/ui/commands/ShowFavoritesCommand.cl
+ ass
+SHA-256-Digest: KGxQwY1xTcRwX9DptXZ21Q7gxC1K6WJyGwMCsJldFmA=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalog$Disco
+ veryOperation.class
+SHA-256-Digest: yaem8q4uKXseQHtCV86oPtM08LtSk6QVrjAeQoiLa/w=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ProvisioningJobListener$
+ 1.class
+SHA-256-Digest: zE4L2M7KyVd/hWovpXNG6wdHDeoDKWyPgTO3mJxlsyU=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/CheckboxTagFilter$1.clas
+ s
+SHA-256-Digest: Dt4BUrA3mFbXOnh359MFNbp+6frYqzWeWOBuRhDHNFU=
+
+Name: org/eclipse/epp/internal/mpc/ui/operations/ProfileChangeOperatio
+ nComputer.class
+SHA-256-Digest: Gi3viSsiLPUkD8UOmwFXLagd2qCK0J0tVo/GMUmLtAI=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceCatalogConfig
+ uration.class
+SHA-256-Digest: 1sEaWT5A006YFPY/Wj78Mm6nh0mEzqDJQ9VTlTiVL1c=
+
+Name: org/eclipse/epp/internal/mpc/ui/commands/MarketplaceWizardComman
+ d.class
+SHA-256-Digest: bDx5USpRyVEgdAMfiXBo+uQvKykgR8yReo//eRWbvkc=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$2.clas
+ s
+SHA-256-Digest: sQDvfcyQAD7AOW+lnYJP0wHCwVOyf9iXlDMI/0M7KVA=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/NewsUrlHandler.class
+SHA-256-Digest: vssS7IDFaqODHL3i/1ee0GrWQMAmN92jRQDWiaDFbaA=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FeatureSelectionWizardPa
+ ge$1.class
+SHA-256-Digest: L66dZdhXMqy3jzq1L6JYWU9q/32BQh4X6i+cRwQIHJU=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceDiscoveryReso
+ urces$1$1.class
+SHA-256-Digest: zw1eEyGa7+0tOC/AhfapPnlPvDv/d3IltdjONA1Kao4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$13.cla
+ ss
+SHA-256-Digest: oorq9H/k5dVY9koXVWh/MgC+78ECS1w2+kr8yg7/Yjk=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$1$1.cl
+ ass
+SHA-256-Digest: XzRL06bnxYqnepAiXcTtXB/WBd4StgztUjA5kwEF3es=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$14.class
+SHA-256-Digest: 305LWmSxTPwNO7ZZ4odKfG0BfnVEEVkM1ioqbiaaxWk=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizard$2.clas
+ s
+SHA-256-Digest: jFjpL205P7dvNbfipNmstQPxncl/hd12C3ruanUYr44=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$2.class
+SHA-256-Digest: TAvbI4v4gpBjtWtSLQiQMbszq/+ubTQZgBMwFxNXqq8=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ImportFavoritesWizardDia
+ log.class
+SHA-256-Digest: Mor2/4KaaF12AEylRtKiNtOtBCPIbzdBdL5yPvrkkCA=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizardDialog$
+ 4.class
+SHA-256-Digest: bMpSaW/pDIvl4568oY+YFpArHQCn8vd02CmJWkVbRsw=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalogSource
+ .class
+SHA-256-Digest: TRt+u8XjdMxVpFfJ9x+qSFdGZrulIOhk9iycUPkmwK0=
+
+Name: org/eclipse/epp/internal/mpc/ui/MarketplaceClientUi$1.class
+SHA-256-Digest: a4e9K80zYABq96C5LINc9RzKk5uyJWYIx5+TFxEqbcc=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceDropAdapter$W
+ orkbenchListener$1.class
+SHA-256-Digest: hlPcWmXWaLlMy0tzFTUpz2aL9EhvMfFq3/zdpDaGifQ=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$9.class
+SHA-256-Digest: 8yyCJmJR1689Q7k8rvYwww/+xqOmgnfoobZHSYwLU8Y=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractSimpleDiscoveryI
+ tem$1.class
+SHA-256-Digest: mcpqjFM6eMFc0uOw6vVLOD6sdRssGBaEIMB9GV7bjmo=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$8.clas
+ s
+SHA-256-Digest: 5o+TadNbPuBZRv2UBcVQWE3+Hpw1A1gGL7FUA1O5Rbk=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/UserActionViewerItem.cla
+ ss
+SHA-256-Digest: cKgKKfUOqcQRFtnrDLbzervjz6zcKN9wo6oqBJg7atI=
+
+Name: icons/marketplace32.png
+SHA-256-Digest: lfnsrX4zpzc33oeQQ8j6SLgwf8fE0IGzGeKK0tk971w=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceDiscoveryStra
+ tegy.class
+SHA-256-Digest: ub73J8OrxrAArPWyFZkA0CHkHxqkbltcmHLQiuZzV4U=
+
+Name: icons/iu_install_obj.gif
+SHA-256-Digest: rCWw+S7JYoKDiGnJimKpYqJYfkd8LGuautIjo8zakrw=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/CatalogSwitcher.class
+SHA-256-Digest: 0AOSSmFbDvIpPjuOyiLxi3Fa3QfXm2xNbjmeatLKUoo=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/OverviewToolTip$2.class
+SHA-256-Digest: bRIKN/Ss0MY3kDRVNxrdA3VC/s0llWkQoHiY5KG/Pws=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ProvisioningJobListener.
+ class
+SHA-256-Digest: Yi90jBFVEDpPc6z3JOVU/PPxxP0XvccZ57xY06eJQQI=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/OpenFavoritesNotificatio
+ nItem.class
+SHA-256-Digest: BPkdIiUZzalTM7zrn8IA96UAvNQPCZY07zMY/5ANw+8=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/UserActionCatalogItem$Us
+ erAction.class
+SHA-256-Digest: DnLXUEpR61XMk+Cd21UcPV2Ia1IgbwppqBQqwilmeVI=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizard$8.clas
+ s
+SHA-256-Digest: 9MuIE/pQV9SVyv+ZsdOGVxaMPbCyMiR5SZEduw+cXEw=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/DiscoveryItem$5.class
+SHA-256-Digest: 93jMgeqnboGjpLLT3bmb2MGqlvNc4YKAazXs34/QvUk=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplacePage$5.class
+SHA-256-Digest: OOT1pZegQH7KiZOoIB3KuHcqsY/W5eu83Uu34uR/Bnk=
+
+Name: org/eclipse/epp/internal/mpc/ui/commands/messages.properties
+SHA-256-Digest: HNsPC9GrLj5rPTPi0OtdTj4dxHCrfoQX3UA4eLiVJs8=
+
+Name: org/eclipse/epp/mpc/ui/MarketplaceUrlHandler.class
+SHA-256-Digest: nx29gt6F6a895ylhScZND/wLqjnzDk90L7XrjHfT7ZM=
+
+Name: OSGI-INF/services/marketplace-client.xml
+SHA-256-Digest: YpkbBbbX6xz99V+K7FSFLUjPtV2825A3zrt9kUGunFY=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$9.clas
+ s
+SHA-256-Digest: PBkNokfNI5YIWG97VwEGTkr81a/T5xd9qtVSTeRZBfs=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$13.class
+SHA-256-Digest: 0s3HXHjBCIYNcf1nPSIXrorvV31H+0374VpYgFSfko8=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/ShowNatureProposalsDia
+ log$2.class
+SHA-256-Digest: 3WDbC6+fkSbiG1hKtMxn5GOeGJQ4/xi9b4qD267osdM=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceDropAdapter$W
+ orkbenchListener.class
+SHA-256-Digest: s+3hG0swwNDTTBY+H6haySzjM2lp8nW6cW1L+s3qJN0=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$8.class
+SHA-256-Digest: ZD3IzXchTb0wOr0vSMND7PuJZ1TdVnWzCnV89FXf3nU=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/ResourceProvider$Resourc
+ eFuture.class
+SHA-256-Digest: 7Pg9jiwZQHHz0arYc2RVSvWxsu21rb8oBmArj6ysEOM=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/DiscoveryItem$2.class
+SHA-256-Digest: 5hzurNd8aY8+XpQuJoIrLNsaIyKbL4N1jikBKN8lA24=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FeatureSelectionWizardPa
+ ge.class
+SHA-256-Digest: /gR+8JwEtwKzcKd2TKDkH0VyS01I1B/U+jMTsBkmdws=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$7.clas
+ s
+SHA-256-Digest: 8W81Ks116czXG3hZNqdJiuMMafDZyhFsLKgssOmIe6s=
+
+Name: intro/css/marketplace.png
+SHA-256-Digest: CZ7wtTcv3zFDiVmK6Nje2Qizm60Dq8rSS3wilDsT8F0=
+
+Name: org/eclipse/epp/internal/mpc/ui/actions/Messages.class
+SHA-256-Digest: 99nGqIQT2tqLcXReSi5tyB93ZnBhVNty83rOs7r5AYw=
+
+Name: icons/news_update.gif
+SHA-256-Digest: QAG7WULUaox9a7aZz77bmuVkVpNniRF+nPMV6Kembx4=
+
+Name: org/eclipse/epp/internal/mpc/ui/operations/ResolveFeatureNamesOp
+ eration.class
+SHA-256-Digest: P5RhRu+rVQKNLrTVXPa/zuYBJp4m9CL4waMwRQiR5x0=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$12.cla
+ ss
+SHA-256-Digest: 2FiPpbq1uj7n88YbvbY36EAhMlYuSfhzuuvxdPowwJs=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/DropDownButton.class
+SHA-256-Digest: ys1ED39BOaDJWOEzIRo/ygleRnFJD8TV96rxTGUU+WQ=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/FavoriteListCatalogItem.
+ class
+SHA-256-Digest: VSKi+UTI6QvxTLmgfpf78a5q6eoiJa5ySGqfCY6K0eU=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FavoriteListDiscoveryIte
+ m.class
+SHA-256-Digest: ODWGc+wcbvyF/6MLAAac5s/zrWeCXSHZMgXDKnLY8ok=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$1.class
+SHA-256-Digest: ixTVShIbJSfjj1FMCy/DuPft5xNXdzlI+UkXm+Ge1C8=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/ShowNatureProposalsDia
+ log$1.class
+SHA-256-Digest: fenhtkwPixHZZPl1Kog4glHhpFKKqbeBTQkp+vyoRVc=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/SelectionModel$CatalogIt
+ emEntry.class
+SHA-256-Digest: /1aHzHSVquMnusyc2wEvtH8HlzmRbKJRvZQG6Ztavqs=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizard$3$2.cl
+ ass
+SHA-256-Digest: OLfZB4GY/qQ0U97vqW79jNvzNB6+7E2vyWI3deB3nqk=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FavoritesDiscoveryItem$2
+ .class
+SHA-256-Digest: Eg4KyGw2OZ5uPQBwJlAreIvZj0SVkEwKo3gQIzd3mAU=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/DiscoverNatureSupportJ
+ ob.class
+SHA-256-Digest: vU9A5NQus4u+GVsVASmtpTAWOziP8E1OHUzUs/eS8IA=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ProvisioningJobListener$
+ 1$1$1.class
+SHA-256-Digest: 2jZ58M8jBTTyoNrXLEeiPlrtiU8KAafNdFEUX1YEO+0=
+
+Name: icons/action-item-favorites.png
+SHA-256-Digest: LtgL3IirY6DXDTk35wgtXlCbhO7//Myqk8u/k2TaLp4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/SelectionModelStateSeria
+ lizer.class
+SHA-256-Digest: ARtPWpqtN9iVq6G3UXQGQJltfyyJQ2QA9IMs6OcchGE=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceDiscoveryReso
+ urces$1.class
+SHA-256-Digest: KBS0xFv7jpsxJf5gAqvWzt6N0Bpyg0RtZelPlxt7prI=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceInfo$Registry
+ File.class
+SHA-256-Digest: yuJgYMy3drg1GKdvKMjPFvxHmU66tLfk3X6uieguW9k=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/DiscoveryItem$6$1.class
+SHA-256-Digest: toOzLU85NH6HMXTF8bsOTB7+UX3NmS7M3N6yW7bZsqQ=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FavoritesDiscoveryItem$2
+ $1.class
+SHA-256-Digest: dcDGNY1n842XNoALzC2+oQnkO0C7GNxOgDByNkbl6f4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/DropDownButton$DropDownS
+ electionListenerWrapper.class
+SHA-256-Digest: xJml0PuE1+DBJns4H9fEmM0DOZEpiAfNZLuN7++yjbA=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ShareSolutionLink$5.clas
+ s
+SHA-256-Digest: l0EGfi+7APerBDlvJbcDRLAiuS7vDeahNBtKGWcQibM=
+
+Name: icons/iu_disabled_obj.gif
+SHA-256-Digest: RGcv0zqh8FRG2fN4cPcfz/z8KvU/OL7W76R5b5uOz/M=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalog$11.cl
+ ass
+SHA-256-Digest: H0eldZIvI0MQ3ZdyW4a3HW2FpeKZ+jcl0GUu+xE+d5E=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplacePage$4.class
+SHA-256-Digest: hcQAY/7TachXpS2PBjQdt/tHvANRF3zedqlND0AFmUg=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizard$10.cla
+ ss
+SHA-256-Digest: NV0tXmoSqs6ISrvrGgZx70xOK785o+LKlPBcw7lloD4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$4.clas
+ s
+SHA-256-Digest: 7HNZbBw10dOKzrYbHQj1FmHWzFLa4AECfNkxmSjEPKU=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer.class
+SHA-256-Digest: f+3CBjnbFUDEqG8398RH3LB08INYsL123FRqAWC9DC4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ItemButtonController$3.c
+ lass
+SHA-256-Digest: dUZ3FvqtAYOWZ8Ei2HI0wvalGD1JCl1LckQyNM1GN50=
+
+Name: org/eclipse/epp/internal/mpc/ui/Messages.class
+SHA-256-Digest: rEhj/0yJ7wqOpRNGVv67hrRZelCRiAWlkmFsQlDHHjY=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceDiscoveryStra
+ tegy$2.class
+SHA-256-Digest: ixn6pM8XD2o0OnxHzngISgAa0/qMT4IIoZlWk3Bt/Io=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalog$8.cla
+ ss
+SHA-256-Digest: J3z/aHnZa/pxk9pHycix5+2EeQjzEKXq4ZD9/bnZ6Gs=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$Market
+ placeCatalogContentProvider.class
+SHA-256-Digest: 4xz0wm2uirjkjVfSO3dcrGZ78+YFEYYKER43NNEpiQk=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/Messages.class
+SHA-256-Digest: rsekYCoPLpaV4Qc1m76LJjECnWLlOKmFG19hBDVlFI4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizard$3.clas
+ s
+SHA-256-Digest: MalVvXM49qVaffDfGIedz6eiGRLkJ6bfbJmUzrphVpc=
+
+Name: org/eclipse/epp/internal/mpc/ui/messages.properties
+SHA-256-Digest: 7WLast49rrmftnbFhm5O6Pc+Ynh/6MXNx5V1i4rBRy0=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$5$1.class
+SHA-256-Digest: WfCWU+VZIWoUtBm1/TTmDSfJcQIKADCUpFjX8E0g6gM=
+
+Name: org/eclipse/epp/internal/mpc/ui/CatalogRegistry.class
+SHA-256-Digest: ELzC4aMJD3YUJeesHTz3NQQl/+4/76udcLXTfPRSqAE=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/CheckboxTagFilter.class
+SHA-256-Digest: f2zS+wv07H7TeqRQqr8S3nHoLheyHHR6ml81pzIr7DU=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceDropAdapter.c
+ lass
+SHA-256-Digest: tfAqekf5uKyq+rVMq85VxCyvj2BZiUGBmVsAF1If6Xc=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/CatalogSwitcher$2.class
+SHA-256-Digest: LJ1YmyevGKzw4pscAW2P8LCdG1h9mjjADQ9J7XTKAmk=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$10.cla
+ ss
+SHA-256-Digest: MlSs46CWt8681vfcKHVqXGMy2znyGk8u9fPHQjfGZU0=
+
+Name: org/eclipse/epp/mpc/ui/Operation.class
+SHA-256-Digest: iRw5SbSXv9Bku4vgm+xAYefOFfpNXq54vsf04dyoWQo=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizard$Wizard
+ State.class
+SHA-256-Digest: CJmJ9NfaRZa3OPMsp2JUUxB1VMXJGP4XCz8Xw453Zm8=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalog$9.cla
+ ss
+SHA-256-Digest: 6t6J2/fbuvL8bqP7OBJDxGdoueOldUFjqthVhD9tl78=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceInfo.class
+SHA-256-Digest: qseBm6rVmMheyWcey+IHS1neysLr/B/vb2aeYlSZqu4=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/ResourceProvider.class
+SHA-256-Digest: gg+2wBIeCe6FafFgQ4DxFM0sn0pJ1v8+iWqKCEzpPjE=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplacePage$11.class
+SHA-256-Digest: M8MvvRpYqSHveICo8bz942/kS1ZNR8IAl9gsx4zPinE=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizard$6.clas
+ s
+SHA-256-Digest: i05y8HWCcFGq6ZU2iYrVXVaxYPuF3l+5axj6zEqEhMk=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalog$13.cl
+ ass
+SHA-256-Digest: gdsezPKcViJzVKyXn4cc+e7PZOqMGUOyiwnygNhntcA=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceUrlHandler.cl
+ ass
+SHA-256-Digest: bjmBgpkb/xpv97HiZDvrELt1FRciGnT4NpVGT67VcWU=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ItemButtonController$2.c
+ lass
+SHA-256-Digest: 5el6iEkxarDHR2Y/tnaerbs0N400XbQwEI8LQV9bftY=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$5.clas
+ s
+SHA-256-Digest: Hst3KCIsvcemoeKx5tlAkWcH5R6UdbFR0OkDkHLuVm4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/InstallAllActionLink.cla
+ ss
+SHA-256-Digest: EE7wT81BHQlygGKAkfbCZ0P5cN6fpBmfP5M0+5D6x8M=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/DiscoverFavoritesUserAct
+ ionItem.class
+SHA-256-Digest: hJYuvJcYpdnbcSP8cLrR5dt/axyvN2V2p451TuMtHqM=
+
+Name: org/eclipse/epp/internal/mpc/ui/CatalogExtensionPointReader.clas
+ s
+SHA-256-Digest: +g3+tUnNBPvMw2Y1XokhwRKTDicP9pSwPcnQpopzPvs=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/CatalogSwitcher$1.class
+SHA-256-Digest: sfbf6SSxq7KRQmladjqL/vuJthEe1i6/DL480W4S9gw=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplacePage$1.class
+SHA-256-Digest: KcH/+1gJKDQRu5P5C0j+Mr7o1b6zy+rWKteYO057ezY=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/DiscoveryItem$3.class
+SHA-256-Digest: OP1NgWfZEu0Y8acg8BFvNnrPNZfIaQsVA/6Yophsa8Q=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/InstallProfile.class
+SHA-256-Digest: 7WNE31+bnQNCpi0ZbQsdSFDDImJM+u/xFAhUp/rSXlA=
+
+Name: org/eclipse/epp/internal/mpc/ui/util/messages.properties
+SHA-256-Digest: 0b0jkGRGrkE8rzYN1HtiE42Dg3zfUM4mlTWPPedf1yQ=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/DropDownButton$1.class
+SHA-256-Digest: 71LA51DjKwdNjY3CIb98foqPOb51WiPBzPV/wKQfEII=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplacePage$2.class
+SHA-256-Digest: IgRsaTelLBFXGZwFIHCU2y34XVpHa3G3WYzebmKtZKU=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizard$5.clas
+ s
+SHA-256-Digest: 576DdiYgZMTgfXYob/0I01TOwGLs2kBIZKDTio7uy34=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/NewsUrlHandler$1.class
+SHA-256-Digest: bQGz8Tal/hAxxgcoGTze3qEJtfPzf1CpLsz3cBnU0iU=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$6.clas
+ s
+SHA-256-Digest: z90l8Ag7jJaMAKSLAHvF+IS5hDNyWyhZk6Bo7xpogh8=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/IDiscoveryItemFactory.cl
+ ass
+SHA-256-Digest: tJ9D4tRSwtfR3ai7bplbzEUuns54+aOmurlPAxbh3NI=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/FavoritesDiscoveryStrate
+ gy.class
+SHA-256-Digest: Sg+4AZc99zRD9EiPwJnF9iBPEGqF9WF89Y9NLg6v2yM=
+
+Name: org/eclipse/epp/mpc/ui/CatalogDescriptor.class
+SHA-256-Digest: io5+VniTLzXTXYrjiJa7RS9Or7ppjZO6trM3a5dri+g=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ComboTagFilter.class
+SHA-256-Digest: WD58ZdSNF8vGdHZwW5/uWVHRuEz60oqWjvwy+9l+7J0=
+
+Name: org/eclipse/epp/mpc/ui/IMarketplaceClientConfiguration.class
+SHA-256-Digest: SDrMwWP+2/qtObhzmXcw/MoNAqRf90TFYXgEItBqVAY=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewerSorter.
+ class
+SHA-256-Digest: wHa8f82oRqGj3yT+ZOumTTX53KRHJ1kjZiU4V+dW7KY=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/UserActionCatalogItem.cl
+ ass
+SHA-256-Digest: iHd1ZrxNQIN1rWH2fs1+wjtzyS88oBkhxG3teHKaSo0=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/DiscoverFileSupportJob
+ .class
+SHA-256-Digest: NmDKO+unK/tj4MDbgUq7/5kYWoGG4swpeOfeL7GSD98=
+
+Name: org/eclipse/epp/internal/mpc/ui/operations/ProfileChangeOperatio
+ nComputer$OperationType.class
+SHA-256-Digest: DGuV2TpPQJ8hYEhYEn5E/WvR30jrSjswr1x27A12D2Y=
+
+Name: org/eclipse/epp/internal/mpc/ui/MarketplaceClientUi.class
+SHA-256-Digest: j67xRazsAaFcmBIEuRW71VFXVGI+b+GKk9awIO566KA=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplacePage$3.class
+SHA-256-Digest: FyMK69YBjNEQWQyJ+HAlHZpGUtZxeQ/Gid6wFm0uS3s=
+
+Name: org/eclipse/epp/internal/mpc/ui/preferences/MPCPreferenceInitial
+ izer.class
+SHA-256-Digest: cE0Q0j5dqHfUByJXiS1oWrk8xigE3wD3qfseueZ4K3M=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ComboTagFilter$1.class
+SHA-256-Digest: glGKI3diO4Htj/46kiMKh0LcG3MNCk2C3GplZXheseA=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ItemButtonController$But
+ tonState.class
+SHA-256-Digest: 9J5qTP0W7sVmu1EMoyXtnFJVthIAmwamzDEmAFCKONQ=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceDropAdapter$M
+ arketplaceDropTargetListener.class
+SHA-256-Digest: Ffg0pxQDhLXPs/XgJXXQKoAiO5x/7GuG3520GXzYvgM=
+
+Name: org/eclipse/epp/internal/mpc/ui/util/Messages.class
+SHA-256-Digest: HyuX95HUxZvhobu1r/5fzAs0Crd5V0fpYiu99LAQ9ww=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/OverviewToolTip$6.class
+SHA-256-Digest: ek6hy8Ll1SXWpuFS3BFy6RYkcYJIS7rH53YM3LxXXy4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceDropAdapter$M
+ arketplaceDropTargetListener$1.class
+SHA-256-Digest: ECTCGtK5qHtZfNmD3xRi9t3ymtBblRIxxPYLIbQE7F4=
+
+Name: org/eclipse/epp/mpc/ui/Messages.class
+SHA-256-Digest: 1iKafUISBFWkwgNT6VX9ndsSuSjb9XgC1+GiHNRc88U=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplacePage.class
+SHA-256-Digest: PGdggFlVbAvwqxpr0i12ZVXdW9OqMCb6xWen6mbE1eA=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$2$1.class
+SHA-256-Digest: BX6DHj5A/VQ4zO0pHROHV93JvUj7wlAE72IPPxY0LL8=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ImportFavoritesWizard.cl
+ ass
+SHA-256-Digest: yzp4rIzez3Jc+yyR3VzRyphiZy+M15B6N8F1x61wryk=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalog.class
+SHA-256-Digest: Ey4WBm8bXCkLIYMHTYkDv1rncmSF2yYaQQKKNt/7nEo=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FeatureSelectionWizardPa
+ ge$3.class
+SHA-256-Digest: wPtU+eIL2yauH2CfZnPKATlEnMQbr4gBoFKH3zBy+t0=
+
+Name: org/eclipse/epp/internal/mpc/ui/actions/WelcomeIntroAction.class
+SHA-256-Digest: F3kaAcGRAx7oCbHh7gV0z07z9ZXQasPSwaHsmIOe97c=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ShareSolutionLink$3.clas
+ s
+SHA-256-Digest: q9qVGE2tb06+AjVKhMKugNa0T8KFicpiuIsRhig2DQs=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/CollectMissingNaturesV
+ isitor.class
+SHA-256-Digest: Eca576rG/HFcluIta8YZhllf3nCAcsW3AN12/vVYG+0=
+
+Name: icons/iu_update_obj.gif
+SHA-256-Digest: vE/eu7nQRz4PO+OvwULO8e8wzQbGx0KmNZR4RwF8L6g=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizard$4.clas
+ s
+SHA-256-Digest: BqtV7TfvzHxY0E+zdBNPtzNig57m474Jcj1H3eMdDWY=
+
+Name: org/eclipse/epp/mpc/ui/IMarketplaceClientService.class
+SHA-256-Digest: S7MsWhjdG8+r6t2N5AcDPgrB9/ZldnF5cns3GBruoKk=
+
+Name: icons/action-item-warning.png
+SHA-256-Digest: lbSdrKDonLcw37y5PayTSkf7Ihq72iXCaAxiXDCcOHg=
+
+Name: intro/default.xml
+SHA-256-Digest: Lvb0v+hvKbzXTUsLib4bRjofRmzqiGfNOwFxNF/2QJU=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalog$7.cla
+ ss
+SHA-256-Digest: hBrwHfxoNqhDRV/bgfRHFE43oqidXGYY0+JwBkKmaoc=
+
+Name: org/eclipse/epp/internal/mpc/ui/operations/AbstractProvisioningO
+ peration.class
+SHA-256-Digest: p2EK03z1xBPXD0pJAWMr1q6bUQYAvjtlOCrGVCHAxsI=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplacePage$10.class
+SHA-256-Digest: 4xcAzwZe36pMpvvGaQbVfDtL+5fALFCcmiqMx1kgnig=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/UserFavoritesUnsupported
+ ActionItem.class
+SHA-256-Digest: OGVoUMi0eOlkMfBHw7u4i2zAyY2QSV5pc8FtXLJC34s=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceWizar
+ dDialog.class
+SHA-256-Digest: auPAxgyokqlOTFXNdv7c2NGf7JvN0IK/MXxR+K5TG4w=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ItemButtonController.cla
+ ss
+SHA-256-Digest: AQoa6+RnfPS0tASzXw3TsQi06VpAqk7i3Qm3opKgW6o=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/CatalogToolTip.class
+SHA-256-Digest: dymXI32TJCNTPICDrLK6YJwTtIlKDnbg5kDuw+TPKj8=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalog$1.cla
+ ss
+SHA-256-Digest: TeLfyh2KBzrFIwgGJzicxv+tovI/oginiPpF6aWiZA8=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FavoritesDiscoveryItem$1
+ .class
+SHA-256-Digest: 7TIrQU+O5CZMyLfi1QEBMSNpjLK1s8/t4IM4cc7JgAs=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/DiscoveryItem$4.class
+SHA-256-Digest: zVffOeFEtTqKLc/mNmWq3e8mRvgVCBXmmKxvjd/nWp8=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/UserActionViewerItem$1.c
+ lass
+SHA-256-Digest: 5nM3EZgnpILOXzdQCp0QlRs2rVtcooFnLU/qU9GPRMU=
+
+Name: icons/star.png
+SHA-256-Digest: rrHS7KaF2OW4+NJhci1481fsOgPEXuvuBXP2CwcHNHc=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FavoritesDiscoveryItem.c
+ lass
+SHA-256-Digest: Ov9slVtKjdZhl0brJHczma3bmcbtKKf6dy+Qkf5cIcU=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$11.cla
+ ss
+SHA-256-Digest: LFK8CXxRGLnySDKae7w6PZpNsIto7MRJRnsryUISypU=
+
+Name: org/eclipse/epp/internal/mpc/ui/commands/AbstractMarketplaceWiza
+ rdCommand$1.class
+SHA-256-Digest: jycHc/Ie0QVXdJySw8UjdlL/YJ/A+Ck9V4WJ7dolypU=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceFilter.class
+SHA-256-Digest: yRTq8HGGwabTmzD0rl+58yorI5b//p2IILOXDIxKWCA=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: wsEQoFXlJTt+jwxXQsYTWSZqrxrO0s9hHUnFYmYMk6c=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/ResourceProviderImageDes
+ criptor.class
+SHA-256-Digest: s8XnqBxBJZSrp18zl1QbU3I11LMfMe3kuWpBvVUeV+Q=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCategory.clas
+ s
+SHA-256-Digest: vuof76tpfxGsvAbDwCbpDJcrV7IlcdilWnJYlZMH/Gk=
+
+Name: org/eclipse/epp/internal/mpc/ui/commands/ImportFavoritesWizardCo
+ mmand$1.class
+SHA-256-Digest: pOVLccd68gr88UjsLsSU+ZUm+6NPBgG/mrPd0iEVH5w=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/Operation.class
+SHA-256-Digest: Yr8QF4e/yqGKwTa+GCLjBotHQBXX7obtAH4Z0WwKo4s=
+
+Name: org/eclipse/epp/internal/mpc/ui/commands/MarketplaceWizardComman
+ d$3.class
+SHA-256-Digest: hm4OW5g7wWPFlVTWgN618E5FGCC5P7Z9RepmxJuW3TE=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalog$10.cl
+ ass
+SHA-256-Digest: zNbq8Xp8k63KfqHJkHfnGgBchhV/4LchGwbrXZY6jaY=
+
+Name: icons/noiconprovided.png
+SHA-256-Digest: N9ckIhaVMwHz8bP4HCStSbbPu9IEzWACV1KSjM48f3k=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FeatureSelectionWizardPa
+ ge$ContentProvider.class
+SHA-256-Digest: n7F1VPNVDxnyR6mW0T501t77UiXjP6DggTnXAKo3Bnc=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FavoriteListDiscoveryIte
+ m$1.class
+SHA-256-Digest: 9j7xdGPwQAspll3NYroJARABVEAP3C1XQxQjat4js90=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/OverviewToolTip$1.class
+SHA-256-Digest: FKJAPN0oIyN5eOKkutL5Goznj62JLyD0Ss+qclRvhJ8=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizard.class
+SHA-256-Digest: 0BeKWcn6hWhEw2M87j9HojKjDabENzYT18RNrVAsOnw=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplacePage$10$1.cla
+ ss
+SHA-256-Digest: GHOxNPFrCv4i/cRbGPS4GkM7s4RZNPJKabzQBN+wFqg=
+
+Name: org/eclipse/epp/mpc/ui/messages.properties
+SHA-256-Digest: J5w3JUJyL3ObGrw4/tPeGA0HIQVMBFIsFSJPbfCXSr0=
+
+Name: intro/css/overview.properties
+SHA-256-Digest: gegbHLaRL/YMKTb8R7/lrOCKmK4AbDJxUrjtL4sEBk8=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ImportFavoritesWizardDia
+ log$1.class
+SHA-256-Digest: 28uH2U7yL19n8UDHZRXaeeVNbLvtjfAoW4wUqHsp0DI=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/AskMarketplaceForFileS
+ upportStrategy.class
+SHA-256-Digest: iB+ndIjxVIb+hAgMbLbTq4XHw4Y9ijdxUtT4Gy+LWT8=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$Conten
+ tType.class
+SHA-256-Digest: fQEy0IWRmKPXJssTsrddwEVjX//x5ClXELfyeqVlUqk=
+
+Name: .options
+SHA-256-Digest: nzgPbP9u2SvyQWkXASJJV8O6Ii/wauaQeh+SMBj6psA=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ImportFavoritesPage$2$1.
+ class
+SHA-256-Digest: tNaljK0iygc40XafSECXnRt+kIQJckwoT/cBv9jpFkg=
+
+Name: icons/action-item-login.png
+SHA-256-Digest: mAccZvjP6VXf8It2bilHH+mQcK+OQrjhCmpdrddwJ3k=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ShareSolutionLink$4.clas
+ s
+SHA-256-Digest: u8+WzQGA1mrSa+5S6koqNxdn6F9k1uAmLjGVSpefEm0=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/ResourceProvider$1.class
+SHA-256-Digest: yLVVFIOvFr4bUfyA9FwWee/KpLDmjfKXwD2m6PLDq30=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/ResourceProvider$Resourc
+ eFuture$1.class
+SHA-256-Digest: 6pmzLAukHtkwNgwyFB899Jq64m50Oh7eVHIFI53Nrfc=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ActionLink.class
+SHA-256-Digest: tMHEvo8vDOZsLemBXBeQ6Xnr2MNUS7yahi/2Jkoo3oM=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/NewsViewer.class
+SHA-256-Digest: 1IS+FX//r1O2b4RvJGtRTeMCW9LhncIZU8kgyCQhNfc=
+
+Name: org/eclipse/epp/internal/mpc/ui/operations/CompositeProfileChang
+ eOperation.class
+SHA-256-Digest: CIwEY1NY1chj0jEi+X5bg/N6AY/DqUl/yyglyt8pkLw=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/messages.properties
+SHA-256-Digest: XpyOdvGJJCyfXuTw3LsDgw1POBmBMR3VAVXHBcS2CeQ=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizard$9.clas
+ s
+SHA-256-Digest: rzNRsWhoFBTEmd50D/emE7KkU3ahM1x9n8KUlPbOqu8=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/SelectionModel$FeatureEn
+ try.class
+SHA-256-Digest: ve1USV8i09ArQDWgnBg9EQwd4YmOVObGMIjIamdM7M4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FavoritesViewer$1.class
+SHA-256-Digest: z/U9dj34m+StHaBs8HQIp6COnbiBRJ62tzYFJmhmVXQ=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/LinkListener.class
+SHA-256-Digest: RJ2VMfpy84YHtZB9eAV70nJapXYGijbNaBTJO9ZmI+g=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceDropAdapter$1
+ .class
+SHA-256-Digest: zU7aKf6hFjQmV8Uys/7nKahhNWf8iwIgeTb7dHztA74=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/StyledTextHelper.class
+SHA-256-Digest: Dn6rj6sIiSbppT4Vj5e3I35D9Dv0C/WXzTaGKc3wDOU=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceDiscoveryStra
+ tegy$1.class
+SHA-256-Digest: lVGqYky4WNhipabHXW8h+fxPdC2I0DG9nQoFIDkncbU=
+
+Name: icons/marketplace_banner.png
+SHA-256-Digest: JF8SpqwpWkYq0zSIufMAv85R1xvTHEVrj2MjPSEvITc=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/Messages.class
+SHA-256-Digest: l986WuiG588ccni0JyYlbFNCAk5EMizn1fC1ApOQ1FM=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/DiscoveryItem$6$1$1.clas
+ s
+SHA-256-Digest: oA2VTwWbOwn5XJzCPb+4r/TXLL3CkB+vbMzVBgf1mhw=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FeatureSelectionWizardPa
+ ge$LabelProvider.class
+SHA-256-Digest: mn+f1XkG3RJWzXMoFLm18Wqa/0ZRotWVmmZ8ZCnGF9Y=
+
+Name: icons/favorites-list.png
+SHA-256-Digest: 5yUsHlo50bUMfBAa79d2thuwBV7aUVI1xuzkXpH/A2g=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FeatureSelectionWizardPa
+ ge$2.class
+SHA-256-Digest: 7+pXx6vabf2/DbPXM8RNlqZ6gtbtDxhe2fVQxljt1AI=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCategory$Cont
+ ents.class
+SHA-256-Digest: yhVKTSakHH0VpHf9YHeMOv6arhuD2GYeUNxRWjUtcsA=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/DiscoveryItem.class
+SHA-256-Digest: LN8fksjpkrvpgNbQ6JrBbW46wLug066GxdWdSg/YF3M=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizardDialog.
+ class
+SHA-256-Digest: 5lk4YeeGA3qHbgL7jazJaeDCI8wS50ZkTcLRLgPVuso=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem.class
+SHA-256-Digest: icJndiAdTStv6Rq596N02sUY62nYwmlEXh4IJjzWiI8=
+
+Name: icons/noiconprovided32.png
+SHA-256-Digest: QOCkOE13I9PahUDWWbb7K6bMVRa1UgKXxEl721uynYE=
+
+Name: org/eclipse/epp/internal/mpc/ui/commands/AbstractMarketplaceWiza
+ rdCommand.class
+SHA-256-Digest: mIx4yX4F92z+OgZ4EsZtOxFKyEAbX9Fcu9dBvuy8Slg=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalog$6.cla
+ ss
+SHA-256-Digest: QX5H49Ts0TvDLEQDDUmN76Pol68ykPlQK1JibxqnSho=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceClientService
+ .class
+SHA-256-Digest: EMlRAXv5bX7T6LWlzVCqaOusrTN557D1O69lEmUptaQ=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ImportFavoritesPage.clas
+ s
+SHA-256-Digest: /4HfR8mKg18jkemXUrCRjFv6jiQxzZXXvpB91Ku454Y=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$4.class
+SHA-256-Digest: WmzUPF5RprrINnmFI3WZ8jA2Lnt98tb4TRcGsW//6Ug=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FavoritesViewer$2.class
+SHA-256-Digest: AhiJPAw8XN5nFZFL9zlDuQODhveWar8Z9YPu1dbDlJY=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ImportFavoritesActionLin
+ k.class
+SHA-256-Digest: 31xYhpS0LeMlAcP7G7LyLdQvvXCV0/G9DMlEvOIb/7o=
+
+Name: org/eclipse/epp/internal/mpc/ui/commands/MarketplaceWizardComman
+ d$1.class
+SHA-256-Digest: tf05S/IxOhni3VY8rwKBXvdxYvVncYJK9VrDKcDj+nA=
+
+Name: org/eclipse/epp/internal/mpc/ui/operations/ProfileChangeOperatio
+ nComputer$1.class
+SHA-256-Digest: x8g4mB0oqgd+2DSjLekJIZg2VLFW9H+xRagFSE6FhSk=
+
+Name: org/eclipse/epp/internal/mpc/ui/operations/ProfileChangeOperatio
+ nComputer$ResolutionStrategy.class
+SHA-256-Digest: eayYEDmKlgCSdE8ZYTQw7SR7POfYE7zqi384Z0NZ1dA=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceBrowserIntegr
+ ation.class
+SHA-256-Digest: mb7MZDD2iF9f1OL60S9heHjKUJgrAH85bVCDfVedClY=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/OverviewToolTip$6$1$1.cl
+ ass
+SHA-256-Digest: B6E/4fW4rW5W0Oq8TvOwXxxddQmSZivhbLNUwFNe0aI=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplacePatternFilter
+ .class
+SHA-256-Digest: 6nTG+Kpbq9JWidpAEL7njuicHCzQH+D2LMSzoHKt5pM=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$7.class
+SHA-256-Digest: Gj5yzCsQ7Xv3vfINc1D7/A/9TG8jn6uCTeG6bNzO8mk=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/RetryErrorActionItem.cla
+ ss
+SHA-256-Digest: 5b2Tw84yIWkgDU/xOEF3oeTWIqCf8QPx2t/i0e8upWI=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizardDialog$
+ 2.class
+SHA-256-Digest: /GQJD8sI87EEf8Cmk+e8DfzNsOGhiPCDkEBCEkzQwWk=
+
+Name: org/eclipse/epp/internal/mpc/ui/commands/MarketplaceWizardComman
+ d$4.class
+SHA-256-Digest: cQNw4xD2Qk/bO+NcIjhy9ZFydCo+BAoLZN1tDpgVG0Y=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$15.cla
+ ss
+SHA-256-Digest: 2rWaiCYdNNBOlrkTS8cU/qPqbYhICt86FugudpuX4Mk=
+
+Name: org/eclipse/epp/internal/mpc/ui/operations/ProfileChangeOperatio
+ nComputer$ProfileChangeOperationFactory.class
+SHA-256-Digest: vANcjLy1lDZ1YUxM/pmKOWIPtQ8gm5dWGsGglEiKhpw=
+
+Name: org/eclipse/epp/internal/mpc/ui/commands/ShowInstalledSolutionsC
+ ommand.class
+SHA-256-Digest: R24T3y7DWYV7LAgfH57Oc3ORX34ltjgxeJepYHESq5A=
+
+Name: intro/css/default.css
+SHA-256-Digest: zGqvElWEQ6qWomztvaJOgfKY/FGLpV78GfS8dJZimcg=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$1.clas
+ s
+SHA-256-Digest: pxOH3mY1bUfh5uFzoGkC20SdA8QG8w0mNwnMFwrCSH4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/NewsViewer$2.class
+SHA-256-Digest: F5Qw5mBxiPRoBwUoZjoqWStvl1FDDy4unh9AZetqiRM=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/IWizardPageAction.class
+SHA-256-Digest: YR0sJz1IQimO65Oe0FTkOvFJOk98HIUkFCL89fRnbec=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceDropAdapter$T
+ ransferDataTraceFormatter.class
+SHA-256-Digest: AdkQSwMk8aurebH/yESnWsIkD6omONRyFQF117fnliU=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/MissingNatureDetector$
+ 2.class
+SHA-256-Digest: yI0+jinjcCL0hqPEG8oQAx08jNv24GeaxmFXjtbwhEY=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplacePage$7.class
+SHA-256-Digest: 37M3Tve/nNyWQJLVNp2fu9t/dSibCuqVesyHAHyZZPk=
+
+Name: org/eclipse/epp/internal/mpc/ui/commands/Messages.class
+SHA-256-Digest: P1SvUJIFTAbZPY9iHDbyacowGRpWKGOdzYjJgk+leE4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$12.class
+SHA-256-Digest: 3kWI+YYul/gLZZXIi0nose1MZIeDTbAhOLBqFUjWQKI=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/BrowseCatalogItem.class
+SHA-256-Digest: FVJO65290sm73CwC7PVY23PoAyHYI5iPdSt8IopfUoo=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalog$5.cla
+ ss
+SHA-256-Digest: 7WI5Ki3awn34pEhGdhycuc6SCaSGMjqEnpSpgsOaAPU=
+
+Name: org/eclipse/epp/internal/mpc/ui/util/Util.class
+SHA-256-Digest: 6Si25h5Dpy0Re3OxY+HVWrajyg92N43DpV2Lj+8XGvA=
+
+Name: icons/iu_obj.gif
+SHA-256-Digest: wxVfKwOsxQMrie1+tnDuJc2NdtSEKSGGx/NKwyZaE64=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FavoritesViewer$5.class
+SHA-256-Digest: ZWgC55Vgm299Xre/Rp2F09fHJiJZnHPPtKgORNsfIMA=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FeatureSelectionWizardPa
+ ge$4.class
+SHA-256-Digest: cSjblNjnW43h4R3tUG57+mK/ZpuOtaaZcSiWOMygN/o=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceDropAdapter$M
+ arketplaceDropTargetListener$2.class
+SHA-256-Digest: IyD9aw27cPWGLIOMAvTLtl0GRZxMujHHCgNuYTPqqzI=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FavoritesViewer.class
+SHA-256-Digest: EOvcam5B6CvjCYVzOM2BtnPMC0cq5LwHkp1ld8l5LHo=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ProvisioningJobListener$
+ 1$1.class
+SHA-256-Digest: M7XXfitnDeUSQ5XPYn/WlarSbH/q2qaZSoaXBnnxXyY=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ShareSolutionLink$2.clas
+ s
+SHA-256-Digest: bp62LJwl+9DxwgLBadsWlpFzXBkGUXn7kk/3sK+hw/Q=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FeatureSelectionWizardPa
+ ge$4$1.class
+SHA-256-Digest: jvX1XG10CkFRcwg7i1FV7KXLV0cbpooGylNScvUqDhg=
+
+Name: org/eclipse/epp/mpc/ui/MarketplaceClient.class
+SHA-256-Digest: U2grRgEz4rea7LvhijUhvxZTaZ56Ric0Z0hCDV47Pyc=
+
+Name: org/eclipse/epp/internal/mpc/ui/operations/ProfileChangeOperatio
+ nComputer$4.class
+SHA-256-Digest: nLepvawe28AE4U7vwE8csVsawp1lPXa8cDIzu3cSLJ8=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/ResourceProvider$2.class
+SHA-256-Digest: 9kY+Swqb1iL7DCL/II8ki2pT6wrOjFSYgJoF4NMxo4o=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$9$1.cl
+ ass
+SHA-256-Digest: y/ZSzsIO9G3SNQw8iCo9JMrOy/AHlwhFF99AvweWkjA=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/ShowFileSupportProposa
+ lsDialog$3.class
+SHA-256-Digest: QsQSFe3nSCWfHySqc2IITelK2xWP+IgzLWzl/XZXiNg=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/OverviewToolTip$4.class
+SHA-256-Digest: fqFJmZ61FHVBYtQetqQPPnNzTnIZnl4t8gYGRbSk2ZQ=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/StyledTextHelper$1.class
+SHA-256-Digest: +GtJpnv8Baq52vl8pUFdBhnsreFmoxXB26ksRDcKcz8=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$11.class
+SHA-256-Digest: mSiET/61Mz9O4h0ZRNiMAFAITrClHC1ZToqDksEigTM=
+
+Name: org/eclipse/epp/internal/mpc/ui/operations/ProfileChangeOperatio
+ nComputer$3.class
+SHA-256-Digest: fB3Mn6YPotL0xYgtzkkUvntyM0SwfGwX/MzNi3VU2Fo=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceUrlHandler$So
+ lutionInstallationInfo.class
+SHA-256-Digest: HRghbA99gcHtoMZRHFf5VSRChw4XkF51AdwjyXx/+N0=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/MissingNatureDetector$
+ 1.class
+SHA-256-Digest: ALkJqQ898aga7DOxXma5DXskVfp2m8sdxA1kCqy1G7Y=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ShareSolutionLink$1.clas
+ s
+SHA-256-Digest: k1dZ/w1crmdykiZ4UTfkU8DvKPeTXddoqxqYNHjQ6TA=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$6.class
+SHA-256-Digest: Au/y23PCG0RfWHTS4J561HDxjjcw7Ognq+s64TdScfw=
+
+Name: icons/marketplace16.png
+SHA-256-Digest: ADSkTTLZwkxE3ML7Pv5E52GWVLOLB5GJ2PcyOhIpkXg=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplacePage$8.class
+SHA-256-Digest: MPKfaWURj2iKuhwthQppEYjGjhQ7vRVsKnRSCAWfGLk=
+
+Name: icons/star-selected.png
+SHA-256-Digest: 9o6ou+u78XUhNGRPfQuEu7ABzJIr/uI5aMpvt+2vu7Y=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceWizardDialog$
+ 1.class
+SHA-256-Digest: 2I5Sw5FHzg8Zhn1ap5NwhH9OQSG5G1bJRo+pIqxNUm8=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$17.cla
+ ss
+SHA-256-Digest: aoZP499Z7/0f26hBjobyBAnv4pUrPg5Vq8KeSc4TH6o=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$9$1.class
+SHA-256-Digest: R48td34E/ch/Vc3DWfkdY9zDTU29pogZig+LfudEB64=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/UserFavoritesSignInActio
+ nItem.class
+SHA-256-Digest: W6zT271p2dJPUFr7xO3mtk9U/OVx1WfPOx62hLNaVjg=
+
+Name: org/eclipse/epp/internal/mpc/ui/MarketplaceClientUiPlugin.class
+SHA-256-Digest: iwqxzubJNJOZ31v1Bkf0dUl8VPWZdZnh87epgvD7b5I=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractSimpleDiscoveryI
+ tem.class
+SHA-256-Digest: 1w0HGGcn2coPEm9T7CvTK2Fpcf0PmbAMUPb0POUGV1I=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalog$2.cla
+ ss
+SHA-256-Digest: k++wS/4G/mEM2B0U2VmvYQ/LRbIQLWq4lpCe4QThijY=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FavoritesViewer$4.class
+SHA-256-Digest: GwhnAKh3RtdFMBE5tMdt80uaCZns+th40m1VUyiOzjU=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/ShowFileSupportProposa
+ lsDialog$2.class
+SHA-256-Digest: NkqYLxkyK78osN76UibTBJSwLTY2iFiLE5C1jgJG9n4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/OverviewToolTip$5.class
+SHA-256-Digest: irI98tTZHYXqayHsK2LtZuslUP+NaqdE0dXqlmCQdYo=
+
+Name: org/eclipse/epp/internal/mpc/ui/operations/FeatureDescriptor.cla
+ ss
+SHA-256-Digest: RptLS5wqGffqjM6YVndKmDYFsbA43QBdu/AwI+XbPbU=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ShareSolutionLink.class
+SHA-256-Digest: Ng/exbTOxgZ+++sh1YtZXumAAkOTcnVkV2NH+quyh84=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ImportFavoritesWizard$1.
+ class
+SHA-256-Digest: 5RjA3+18qucxQ9nuJTlhaN749m6Nkbg3BTMunRvnr0A=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/ImportFavoritesPage$2.cl
+ ass
+SHA-256-Digest: XTTZ/rM4d9nLLE309AznHITaBtBwgu0Y69vtevTUNxc=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceViewer$16.cla
+ ss
+SHA-256-Digest: 0qEKPofRgjRg+WkW+wuYsjYGMiQzyF67w+JGFcKCkMc=
+
+Name: about.html
+SHA-256-Digest: N+kTz4iVhAKVUDpE9jQWaamtUlqIj7Ch6oqSM20dZa4=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/OverviewToolTip.class
+SHA-256-Digest: kHB67WBtNJaOK3jx4ky8EQqFN3BNeX6A7lIo5xkHB1M=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/FavoritesCatalog.class
+SHA-256-Digest: bk1EiNlijtkzcG1SNXuuWAbqtP0w9iRxjlqpIrogKKU=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$5.class
+SHA-256-Digest: 7MRiFiFcFDWFgYZEkGhx494zzb0CXpO/QCtbBmWJRso=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplacePage$9.class
+SHA-256-Digest: sJFiRZW52Wg32gjaNGyYry7NghF8vwZ/gFqS2K4zFYw=
+
+Name: org/eclipse/epp/internal/mpc/ui/commands/MarketplaceWizardComman
+ d$2.class
+SHA-256-Digest: shW5dE76ro7+SxJ5uxfToqYmWcDT6hGDbnlMSmuyASM=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/UserFavoritesFindFavorit
+ esActionItem.class
+SHA-256-Digest: PJllirEo3wPCdM+ZHdFufd395/EaysBNlS3HvAy0Ut4=
+
+Name: org/eclipse/epp/internal/mpc/ui/operations/ProfileChangeOperatio
+ nComputer$2.class
+SHA-256-Digest: 0a3v3bM1134vlyY8Elnpkf9/a8/yxqxWvUU8/YZXdig=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractUserActionItem.c
+ lass
+SHA-256-Digest: L3DFBN7D1LUcwYh23GPXhJBAxIgLAi5Nb2fplGvJJtQ=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/SelectionModel.class
+SHA-256-Digest: 73P9RQ7O7OJLAV6PdmZ8U4jy6J3LmyX7qAuHVmYkWiI=
+
+Name: org/eclipse/epp/internal/mpc/ui/MarketplaceClientUiPlugin$1.clas
+ s
+SHA-256-Digest: PKDH+s6WabbcScWfcsJL+kkc/LaKSRJWkl3QO+4YqBc=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/FavoritesViewer$3.class
+SHA-256-Digest: CRvT+ncc2qON5bmBbgt78ZHWaAlbUQgqdib5PmRVyuM=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceWizar
+ dDialog$1.class
+SHA-256-Digest: gcUznYbNXb1fTrlT6o0lWQC5F6PM0fUdo8qQauU/2ko=
+
+Name: org/eclipse/epp/internal/mpc/ui/discovery/ShowFileSupportProposa
+ lsDialog$1.class
+SHA-256-Digest: B7svt1yGQkChQdX4plVucZ5p9sZsf4g/nWTvJhtGoQg=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceNodeCatalogIt
+ em.class
+SHA-256-Digest: VuOvN7fmn1KbSxFro3YEIIugcvBmJks5QaQUsGOg3fQ=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/CatalogSwitcher$3$1.clas
+ s
+SHA-256-Digest: IlBPDD8MycVjgCqcvz1d2TltwWQUkhHbw8gLpsxsXHc=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/IWizardButtonLabelProvid
+ er.class
+SHA-256-Digest: R63cK9a87NybgjtM8WUTCfoii17utMHNvTKDBLXPjAM=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/IMarketplaceWebBrowser.c
+ lass
+SHA-256-Digest: RjR7nbRYNtCmTCt7e1L/AW74t60agUKXsaN6XobwKKo=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/MarketplaceCatalog$3.cla
+ ss
+SHA-256-Digest: XtU1sCUApzSQYwbKWhBiLiuSIAwEJc62+Vvecq2TeH8=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/OverviewToolTip$6$1.clas
+ s
+SHA-256-Digest: Gtf3/W+FDYDAzOU3WUh/Jc9XWlJJQ2/FfmFydQwuWgA=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/AbstractMarketplaceDisco
+ veryItem$10.class
+SHA-256-Digest: rtjRk1ebmDuGME+6LG/eb1vXSgDLI4RabnpR3Doe1mY=
+
+Name: org/eclipse/epp/internal/mpc/ui/preferences/ProjectNaturesPrefer
+ encePage.class
+SHA-256-Digest: s7w03cJpFWXQruna1J9aqbA6e/A4avz8R7wlXBA2rlc=
+
+Name: org/eclipse/epp/internal/mpc/ui/wizards/MarketplaceDiscoveryReso
+ urces$ImageReceiver.class
+SHA-256-Digest: FFQ4POYMCvxQkWcJVa2APnZDzoaSb5x4AdUVmkioogA=
+
+Name: org/eclipse/epp/internal/mpc/ui/catalog/messages.properties
+SHA-256-Digest: 023C8v6Z96jQFPdSxZhgOTKcUnduu7Thj20mskCrdB8=
+
