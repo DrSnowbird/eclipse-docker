@@ -1,4 +1,5 @@
 workspace
+eclipse
 .meta*
 *.swp
 *.class
