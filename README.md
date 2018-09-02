@@ -1,5 +1,5 @@
 # eclipse-photon-docker
-[![](https://images.microbadger.com/badges/image/openkbs/eclipse-oxygen-docker.svg)](https://microbadger.com/images/openkbs/eclipse-oxygen-docker "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/openkbs/eclipse-oxygen-docker.svg)](https://microbadger.com/images/openkbs/eclipse-oxygen-docker "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/openkbs/eclipse-photon-docker.svg)](https://microbadger.com/images/openkbs/eclipse-photon-docker "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/openkbs/eclipse-photon-docker.svg)](https://microbadger.com/images/openkbs/eclipse-photon-docker "Get your own version badge on microbadger.com")
 
 * Eclipse-Photon + Java 8 JDK + Maven 3.5 + Python 3.5 + X11 (display GUI)
 
@@ -20,7 +20,7 @@ This image contains [Oracle JDK 8](http://www.oracle.com/technetwork/java/javase
 * Other tools: git wget unzip vim python python-setuptools python-dev python-numpy 
 
 # Run (recommended for easy-start)
-Image is pulling from openkbs/eclipse-oxygen-docker
+Image is pulling from openkbs/eclipse-photon-docker
 ```
 ./run.sh
 ```
@@ -36,13 +36,17 @@ If you want to build older Eclipse like "oxygen", you can following instruction 
 ## Build (Older Eclipse, e.g. Oxygen)
 * Way-1: Modify the line in Dockefile as below if you use Docker-compose or Openshift CI/CD. That is, you se this way if you are not using command line ./build.sh to build container image.
 ```
-## -- Eclipse version: oxygen, photon, etc.: -- ##
+## -- Eclipse version: photon, oxygen, etc.: -- ##
+ENV ECLIPSE_VERSION=${ECLIPSE_VERSION:-photon}
+or
 ENV ECLIPSE_VERSION=${ECLIPSE_VERSION:-oxygen}
 ```
-* Way-2: If you use command line "./build.sh", you can modify "./docker.env" file and then, run "./build.sh" to build image
+* Way-2: If you use command line "./build.sh", you can modify ".env (old filename docker.env)" file and then, run "./build.sh" to build image
 ```
-## -- Eclipse version: oxygen, photon, etc.: -- ##
+## -- Eclipse version: photon, oxygen, photon, etc.: -- ##
 ECLIPSE_VERSION=photon
+or
+ECLIPSE_VERSION=oxygen
 ```
 
 # Configurations (Optional)
@@ -71,7 +75,7 @@ More resource in X11 display of Eclipse on your host machine's OS, please see
 * [X11 Display with Xhost](http://www.ethicalhackx.com/fix-gtk-warning-cannot-open-display/)
 
 # Other possible Issues
-You might see the warning message or something similar in the launching xterm console like below, you can just ignore it. I googles around and some blogs just suggested to ignore since the IDE still functional ok.
+You might see the warning message or something similar in the launching xterm console like below, you can just ignore it. I googled around and some blogs just suggested to ignore since the IDE is still functional ok.
 ```
 ** (eclipse:1): WARNING **: Couldn't connect to accessibility bus: Failed to connect to socket /tmp/dbus-wrKH8o5rny: Connection refused
 
