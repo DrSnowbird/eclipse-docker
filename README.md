@@ -55,12 +55,12 @@ If you run "./run.sh" instead of "docker-compose up", you don't have to do anyth
 * The container uses a default "/workspace" folder. 
 * The script "./run.sh" will re-use or create the local folder in your $HOME directory with the path below to map into the docker's internal "/workspace" folder.
 ```
-$HOME/data_docker/eclipse-oxygen-docker/workspace
+$HOME/data_docker/eclipse-phonto-docker/workspace
 ```
-The above configuration will ensure all your projects created in the container's "/workspace" being "persistent" in your local folder, "$HOME/data_docker/eclipse-oxygen-docker/workspace", for your repetitive restart docker container.
+The above configuration will ensure all your projects created in the container's "/workspace" being "persistent" in your local folder, "$HOME/data_docker/eclipse-phonto-docker/workspace", for your repetitive restart docker container.
 
 # Other docker-based IDE
-* [openkbs/eclipse-oxygen-docker](https://hub.docker.com/r/openkbs/eclipse-oxygen-docker/)
+* [openkbs/eclipse-phonto-docker](https://hub.docker.com/r/openkbs/eclipse-phonto-docker/)
 * [openkbs/papyrus-sysml-docker](https://hub.docker.com/r/openkbs/papyrus-sysml-docker/)
 * [openkbs/netbeans](https://hub.docker.com/r/openkbs/netbeans/)
 * [openkbs/scala-ide-docker](https://hub.docker.com/r/openkbs/scala-ide-docker/)
