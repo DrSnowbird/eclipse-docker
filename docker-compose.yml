@@ -10,7 +10,7 @@ services:
       - GROUP_ID=${GROUP_ID:-1000}
       - DISPLAY=${DISPLAY:-":0.0"}
     env_file:
-      - ./docker.env
+      - ./.env
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
       - ./.eclipse-workspace:/home/developer/eclipse-workspace
