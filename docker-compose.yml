@@ -1,10 +1,10 @@
 version: '3' 
 services:
   docker-eclipse-oxygen:
-    image: openkbs/eclipse-phonto-docker
+    image: openkbs/eclipse-photon-docker
     build:
       context: ./Dockerfile
-    container_name: eclipse-phonto-docker
+    container_name: eclipse-photon-docker
     environment:
       - USER_ID=${USER_ID:-1000}
       - GROUP_ID=${GROUP_ID:-1000}
