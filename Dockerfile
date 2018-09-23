@@ -21,18 +21,15 @@ ENV ECLIPSE_VERSION=${ECLIPSE_VERSION}
 ARG ECLIPSE_TYPE=${ECLIPSE_TYPE:-jee}
 #ARG ECLIPSE_TYPE=${ECLIPSE_TYPE:-modeling}
 
-## -- 4.) Eclipse Release: -- ##
+## -- 3.) Eclipse Release: -- ##
 ARG ECLIPSE_RELEASE=${ECLIPSE_RELEASE:-R}
 #ARG ECLIPSE_RELEASE=${ECLIPSE_RELEASE:-2}
 
-## -- 5.) Eclipse Download Mirror site: -- ##
-#http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-jee-photon-R-win32-x86_64.zip
-#http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-jee-photon-R-win32.zip
-#http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/photon/R/eclipse-jee-photon-R-linux-gtk-x86_64.tar.gz
+## -- 4.) Eclipse Download Mirror site: -- ##
 #ARG ECLIPSE_OS_BUILD=${ECLIPSE_OS_BUILD:-win32-x86_64}
 ARG ECLIPSE_OS_BUILD=${ECLIPSE_OS_BUILD:-linux-gtk-x86_64}
 
-## -- 4.) Eclipse Download Mirror site: -- ##
+## -- 5.) Eclipse Download Mirror site: -- ##
 #http://mirror.math.princeton.edu/pub/eclipse/technology/epp/downloads/release/photon/R/eclipse-jee-photon-R-linux-gtk-x86_64.tar.gz
 #http://mirror.math.princeton.edu/pub/eclipse/technology/epp/downloads/release/photon/R/eclipse-modeling-photon-R-linux-gtk-x86_64.tar.gz
 ARG ECLIPSE_MIRROR_SITE_URL=${ECLIPSE_MIRROR_SITE_URL:-http://mirror.math.princeton.edu}
