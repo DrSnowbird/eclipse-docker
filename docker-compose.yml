@@ -1,6 +1,6 @@
 version: '3' 
 services:
-  docker-eclipse-oxygen:
+  docker-eclipse-photon:
     image: openkbs/eclipse-photon-docker
     build:
       context: ./Dockerfile
