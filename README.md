@@ -72,6 +72,15 @@ The above configuration will ensure all your projects created in the container's
 * [openkbs/sublime-docker](https://hub.docker.com/r/openkbs/sublime-docker/)
 * [openkbs/webstorm-docker](https://hub.docker.com/r/openkbs/webstorm-docker/)
 
+# Resources - JBoss
+* [JBoss Tools Integration Stacks 4.6.0.Final](https://tools.jboss.org/downloads/jbosstools_is/photon/4.6.0.Final.html#update_site)
+- [Containerize Teiid linked with MariaDB](https://developer.jboss.org/wiki/QuickstartExampleWithDockerizedTeiid)
+- [Teiid Downloads](http://teiid.jboss.org/downloads/)
+- [Teiid Designer 11.1 with Eclipse Oxygen](http://teiiddesigner.jboss.org/designer_summary/downloads.html)
+- [Teiid Cloud - Data Virtualization Services](http://teiid.io/teiid_cloud/)
+- [Deploying Teiid VDB](http://teiid.github.io/teiid-documents/master/content/admin/Deploying_VDBs.html)
+- [JBoss Tools Integration Stack 4.6.0.Final](https://tools.jboss.org/downloads/jbosstools_is/photon/4.6.0.Final.html)
+
 # Display X11 Issue
 
 More resource in X11 display of Eclipse on your host machine's OS, please see

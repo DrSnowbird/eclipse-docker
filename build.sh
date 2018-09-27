@@ -6,10 +6,11 @@
 
 if [ $# -lt 1 ]; then
     echo "Usage: "
-    echo "  ${0} <image_tag>"
+    echo "  ${0} <Dockerfile>"
 fi
 MY_DIR=$(dirname "$(readlink -f "$0")")
 
+DOCKERFILE=${1:-Dockerfile}
 
 ###################################################
 #### ---- Change this only if want to use your own
@@ -61,7 +62,7 @@ imageTag=${1:-"${ORGANIZATION}/${DOCKER_IMAGE_REPO}"}
 
 docker build --rm -t ${imageTag} \
     ${BUILD_ARGS} \
-	-f Dockerfile .
+	-f `pwd`/${DOCKERFILE} .
 
 echo "----> Shell into the Container in interactive mode: "
 echo "  docker exec -it --name <some-name> /bin/bash"
