@@ -11,9 +11,9 @@ This image contains [Oracle JDK 8](http://www.oracle.com/technetwork/java/javase
 
 # Components
 * Eclipse Phonto JEE version (you can change if by change Dockerfile)
-* java version "1.8.0_181"
-  Java(TM) SE Runtime Environment (build 1.8.0_181-b13)
-  Java HotSpot(TM) 64-Bit Server VM (build 25.181-b13, mixed mode)
+* java version "1.8.0_191"
+  Java(TM) SE Runtime Environment (build 1.8.0_191-b12)
+  Java HotSpot(TM) 64-Bit Server VM (build 25.191-b12, mixed mode)
 * Apache Maven 3.5.3
 * Python 3.5.2
 * X11 display desktop
@@ -74,12 +74,12 @@ The above configuration will ensure all your projects created in the container's
 
 # Resources - JBoss
 * [JBoss Tools Integration Stacks 4.6.0.Final](https://tools.jboss.org/downloads/jbosstools_is/photon/4.6.0.Final.html#update_site)
-- [Containerize Teiid linked with MariaDB](https://developer.jboss.org/wiki/QuickstartExampleWithDockerizedTeiid)
-- [Teiid Downloads](http://teiid.jboss.org/downloads/)
-- [Teiid Designer 11.1 with Eclipse Oxygen](http://teiiddesigner.jboss.org/designer_summary/downloads.html)
-- [Teiid Cloud - Data Virtualization Services](http://teiid.io/teiid_cloud/)
-- [Deploying Teiid VDB](http://teiid.github.io/teiid-documents/master/content/admin/Deploying_VDBs.html)
-- [JBoss Tools Integration Stack 4.6.0.Final](https://tools.jboss.org/downloads/jbosstools_is/photon/4.6.0.Final.html)
+* [Containerize Teiid linked with MariaDB](https://developer.jboss.org/wiki/QuickstartExampleWithDockerizedTeiid)
+* [Teiid Downloads](http://teiid.jboss.org/downloads/)
+* [Teiid Designer 11.1 with Eclipse Oxygen](http://teiiddesigner.jboss.org/designer_summary/downloads.html)
+* [Teiid Cloud - Data Virtualization Services](http://teiid.io/teiid_cloud/)
+* [Deploying Teiid VDB](http://teiid.github.io/teiid-documents/master/content/admin/Deploying_VDBs.html)
+* [JBoss Tools Integration Stack 4.6.0.Final](https://tools.jboss.org/downloads/jbosstools_is/photon/4.6.0.Final.html)
 
 # Display X11 Issue
 
