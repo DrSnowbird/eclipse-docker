@@ -33,22 +33,32 @@ If you want to build older Eclipse like "oxygen", you can following instruction 
 ./build.sh
 ```
 
-## Build (Older Eclipse, e.g. Oxygen)
-* Way-1: Modify the line in Dockefile as below if you use Docker-compose or Openshift CI/CD. That is, you se this way if you are not using command line ./build.sh to build container image.
+# Build (Older Eclipse, e.g. Oxygen)
+Two ways (at least) to build:
+### Way-1 (**Recommended**):
+If you use command line "'**./build.sh**'", you can modify "'**./.env**' (old filename ./docker.env)" file and then, run "./build.sh" to build image
 ```
-## -- Eclipse version: photon, oxygen, etc.: -- ##
-ENV ECLIPSE_VERSION=${ECLIPSE_VERSION:-photon}
-or
-ENV ECLIPSE_VERSION=${ECLIPSE_VERSION:-oxygen}
-```
-* Way-2: If you use command line "./build.sh", you can modify ".env (old filename docker.env)" file and then, run "./build.sh" to build image
-```
-## -- Eclipse version: photon, oxygen, photon, etc.: -- ##
+## -- Eclipse versions: photon, oxygen, etc.: -- ##
 ECLIPSE_VERSION=photon
 or
 ECLIPSE_VERSION=oxygen
 ```
-
+Then, 
+```
+./build/sh
+```
+### Way-2: 
+Modify the line in '**./Dockefile**' as below if you use '**docker-compose**' or Openshift CI/CD. That is, you are not using command line '**./build.sh**' to build container image.
+```
+## -- Eclipse versions: photon, oxygen, etc.: -- ##
+ENV ECLIPSE_VERSION=${ECLIPSE_VERSION:-photon}
+or
+ENV ECLIPSE_VERSION=${ECLIPSE_VERSION:-oxygen}
+```
+Then, 
+```
+docker-compose up -d 
+```
 # Configurations (Optional)
 If you run "./run.sh" instead of "docker-compose up", you don't have to do anything as below.
 
@@ -59,6 +69,21 @@ $HOME/data_docker/eclipse-photon-docker/workspace
 ```
 The above configuration will ensure all your projects created in the container's "/workspace" being "persistent" in your local folder, "$HOME/data_docker/eclipse-photon-docker/workspace", for your repetitive restart docker container.
 
+### Create Customized Volume Mapping for "docker-compose"
+You can create your own customzied host file mapping, e.g.
+```
+mkdir -p <my_host_directory>/.eclipse 
+mkdir -p <my_host_directory>/eclipse-workspace
+```
+Then, run docker-comp
+```
+docker-compose up -d
+```
+# Distributed Storage
+This project provide simple host volumes. For using more advanced storage solutions, there are a few distributed cluster storage options available, e.g., Lustre (popular in HPC), GlusterFS, Ceph, etc.
+* [Dockerfiles (CentOS, Fedora, Red Hat) for GlusterFS ](https://github.com/gluster/gluster-containers)
+* [GlusterFS Quickstart](https://docs.gluster.org/en/latest/Quick-Start-Guide/Quickstart/)
+* [Two Days of Pain or How I Deployed GlusterFS Cluster to Kubernetes](https://blog.lwolf.org/post/how-i-deployed-glusterfs-cluster-to-kubernetes/)
 # See Also - Other docker-based IDE
 * [openkbs/docker-atom-editor](https://hub.docker.com/r/openkbs/docker-atom-editor/)
 * [openkbs/eclipse-photon-docker](https://hub.docker.com/r/openkbs/eclipse-photon-docker/)
