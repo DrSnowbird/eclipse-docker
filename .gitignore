@@ -1,5 +1,5 @@
-*workspace
 eclipse*
+!*workspace/dummy.txt
 .meta*
 *.swp
 *.class
