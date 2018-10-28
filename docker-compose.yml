@@ -13,6 +13,6 @@ services:
       - ./.env
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
-      - ./.eclipse-workspace:/home/developer/eclipse-workspace
+      - ./eclipse-workspace:/home/developer/eclipse-workspace
       - ./.eclipse:/home/developer/.eclipse
 
