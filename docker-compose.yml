@@ -3,7 +3,8 @@ services:
   docker-eclipse-photon:
     image: openkbs/eclipse-photon-docker
     build:
-      context: ./Dockerfile
+      context: .
+      dockerfile: Dockerfile
     container_name: eclipse-photon-docker
     environment:
       - USER_ID=${USER_ID:-1000}
