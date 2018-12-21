@@ -64,6 +64,8 @@ RUN sudo wget -c ${ECLIPSE_DOWNLOAD_URL}/${ECLIPSE_TAR} && \
 #################################
 # ... add Eclipse plugin - installation here (see example in https://github.com/DrSnowbird/papyrus-sysml-docker)
 
+RUN sudo apt-get update -y && sudo apt-get install -y libwebkitgtk-3.0-0
+
 ##################################
 #### Set up user environments ####
 ##################################
