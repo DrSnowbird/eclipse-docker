@@ -1,6 +1,6 @@
 version: '3' 
 services:
-  docker-eclipse-photon:
+  eclipse-photon-docker:
     image: openkbs/eclipse-photon-docker
     build:
       context: .
