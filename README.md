@@ -11,15 +11,13 @@ This image contains [Oracle JDK 8](http://www.oracle.com/technetwork/java/javase
 
 # Components
 * Eclipse Phonto JEE version (you can change if by change Dockerfile)
-* java version "1.8.0_191"
-  Java(TM) SE Runtime Environment (build 1.8.0_191-b12)
-  Java HotSpot(TM) 64-Bit Server VM (build 25.191-b12, mixed mode)
+* java version "1.8.0_202"
+  Java(TM) SE Runtime Environment (build 1.8.0_202-b08)
+  Java HotSpot(TM) 64-Bit Server VM (build 25.202-b08, mixed mode)
 * Apache Maven 3.6.0
-* Python 3.5.2
-* npm 3.5.2 + nodejs v4.2.6
+* Python 3.5.2 / Python 2.7.12 + pip 19.0.2
+* Node v11.9.0 + npm 6.5.0 (from NodeSource official Node Distribution)
 * Gradle 5.1
-* X11 display desktop
-* Other tools: git wget unzip vim python python-setuptools python-dev python-numpy 
 
 # Run (recommended for easy-start)
 Image is pulling from openkbs/eclipse-photon-docker

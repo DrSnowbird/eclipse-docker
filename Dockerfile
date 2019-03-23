@@ -55,7 +55,7 @@ ARG ECLIPSE_DOWNLOAD_URL=${ECLIPSE_DOWNLOAD_URL:-${ECLIPSE_MIRROR_SITE_URL}/${EC
 ## http://mirror.math.princeton.edu/pub/eclipse/technology/epp/downloads/release/photon/R/eclipse-jee-photon-R-linux-gtk-x86_64.tar.gz
 ## http://mirror.math.princeton.edu/pub/eclipse/technology/epp/downloads/release/photon/R/eclipse-modeling-photon-R-linux-gtk-x86_64.tar.gz
 WORKDIR /opt
-RUN sudo wget -c ${ECLIPSE_DOWNLOAD_URL}/${ECLIPSE_TAR} && \
+RUN sudo wget -q -c ${ECLIPSE_DOWNLOAD_URL}/${ECLIPSE_TAR} && \
     sudo tar xvf ${ECLIPSE_TAR} && \
     sudo rm ${ECLIPSE_TAR} 
 
