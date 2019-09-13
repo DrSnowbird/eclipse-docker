@@ -14,7 +14,8 @@ ENV ECLIPSE_WORKSPACE=${HOME}/eclipse-workspace
 ## ----------------------------------------------------------------------------
 
 ## -- 1.) Eclipse version: oxygen, photon, etc.: -- ##
-ARG ECLIPSE_VERSION=${ECLIPSE_VERSION:-photon}
+ARG ECLIPSE_VERSION=${ECLIPSE_VERSION:-2019-06}
+#ARG ECLIPSE_VERSION=${ECLIPSE_VERSION:-photon}
 ENV ECLIPSE_VERSION=${ECLIPSE_VERSION}
 
 ## -- 2.) Eclipse Type: -- ##
@@ -30,6 +31,7 @@ ARG ECLIPSE_RELEASE=${ECLIPSE_RELEASE:-R}
 ARG ECLIPSE_OS_BUILD=${ECLIPSE_OS_BUILD:-linux-gtk-x86_64}
 
 ## -- 5.) Eclipse Download Mirror site: -- ##
+#https://mirror.math.princeton.edu/pub/eclipse/technology/epp/downloads/release/2019-06/R/eclipse-jee-2019-06-R-linux-gtk-x86_64.tar.gz
 #http://mirror.math.princeton.edu/pub/eclipse/technology/epp/downloads/release/photon/R/eclipse-jee-photon-R-linux-gtk-x86_64.tar.gz
 #http://mirror.math.princeton.edu/pub/eclipse/technology/epp/downloads/release/photon/R/eclipse-modeling-photon-R-linux-gtk-x86_64.tar.gz
 ARG ECLIPSE_MIRROR_SITE_URL=${ECLIPSE_MIRROR_SITE_URL:-http://mirror.math.princeton.edu}
