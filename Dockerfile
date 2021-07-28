@@ -34,7 +34,7 @@ ARG ECLIPSE_OS_BUILD=${ECLIPSE_OS_BUILD:-linux-gtk-x86_64}
 #http://mirror.math.princeton.edu/pub/eclipse/technology/epp/downloads/release/photon/R/eclipse-modeling-photon-R-linux-gtk-x86_64.tar.gz
 ## https://mirror.umd.edu/eclipse/technology/epp/downloads/release/2021-03/R/eclipse-modeling-2021-03-R-linux-gtk-x86_64.tar.gz
 
-#ARG ECLIPSE_MIRROR_SITE_URL=${ECLIPSE_MIRROR_SITE_URL:-http://mirror.math.princeton.edu/pub/}
+#ARG ECLIPSE_MIRROR_SITE_URL=${ECLIPSE_MIRROR_SITE_URL:-https://mirror.math.princeton.edu/pub/}
 ARG ECLIPSE_MIRROR_SITE_URL=${ECLIPSE_MIRROR_SITE_URL:-https://mirror.umd.edu/}
 
 ## ----------------------------------------------------------------------------------- ##
@@ -43,6 +43,7 @@ ARG ECLIPSE_MIRROR_SITE_URL=${ECLIPSE_MIRROR_SITE_URL:-https://mirror.umd.edu/}
 ## ----------------------------------------------------------------------------------- ##
 ## ----------------------------------------------------------------------------------- ##
 ## -- Eclipse TAR/GZ filename: -- ##
+#ARG ECLIPSE_TAR=${ECLIPSE_TAR:-eclipse-jee-photon-R-linux-gtk-x86_64.tar.gz}
 ARG ECLIPSE_TAR=${ECLIPSE_TAR:-eclipse-${ECLIPSE_TYPE}-${ECLIPSE_VERSION}-${ECLIPSE_RELEASE}-${ECLIPSE_OS_BUILD}.tar.gz}
 
 ## -- Eclipse Download route: -- ##
@@ -67,6 +68,7 @@ RUN sudo wget -q -c --no-check-certificate ${ECLIPSE_DOWNLOAD_URL}/${ECLIPSE_TAR
 #### Install Eclipse Plugins ####
 #################################
 # ... add Eclipse plugin - installation here (see example in https://github.com/DrSnowbird/papyrus-sysml-docker)
+
 # (Ubutnu 20.0.04 having issue with this)
 #RUN sudo apt-get update -y && sudo apt-get install -y libwebkitgtk-3.0-0
 
@@ -79,7 +81,8 @@ VOLUME ${HOME}/.eclipse
 RUN mkdir -p ${HOME}/.eclipse ${ECLIPSE_WORKSPACE} &&\
     sudo chown -R ${USER_NAME}:${USER_NAME} ${ECLIPSE_WORKSPACE} ${HOME}/.eclipse
     
-USER ${USER_NAME}
+USER ${USER}
 WORKDIR ${ECLIPSE_WORKSPACE}
+
 CMD ["/opt/eclipse/eclipse"]
 
